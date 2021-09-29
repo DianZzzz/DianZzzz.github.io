@@ -42,6 +42,12 @@ plugins:
    - jemoji
    - jekyll-sitemap
    - jekyll-github-metadata
+   - jekyll-feed
+   - jekyll-paginate
+   - jekyll-seo-tag
+   - jekyll-sitemap
+paginate: 5
+paginate_path: "/:num/"
 collections:
    pages:
       output: true
