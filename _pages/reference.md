@@ -8,5 +8,7 @@ tags: reference
 # References
 
 ## Building this site
-enable github page: https://pages.github.com/
-theme forked from https://github.com/CaptainIRS/hacker-plus-theme
+
+Enable github page: https://pages.github.com/
+
+Theme forked from https://github.com/CaptainIRS/hacker-plus-theme
