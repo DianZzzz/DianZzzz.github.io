@@ -7,6 +7,8 @@ tags: reference
 
 # References
 
+Greatly appreciate all the tools and information online that help me build this website and assist me in my learning journey toward information security.
+
 ## Building this site
 
 Enable github page: https://pages.github.com/
