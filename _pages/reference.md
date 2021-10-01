@@ -7,11 +7,11 @@ tags: reference
 
 # References
 
-Greatly appreciate all the tools and knowledge generously shared online that helped me build this website :heart:
+Greatly appreciate all the tools and knowledge generously shared online that not only helped me build this website but also helped me build my knowledge in technology and information security :heart:
 
 ## Building this site
 
-Enable github page: https://pages.github.com/
+Enable github page: [https://pages.github.com/]
 
 Theme forked from https://github.com/CaptainIRS/hacker-plus-theme
 
