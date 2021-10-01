@@ -11,7 +11,7 @@ Greatly appreciate all the tools and knowledge generously shared online that not
 
 ## Building this site
 
-Enable github page: [https://pages.github.com/]
+Enable github page: [https://pages.github.com/](https://pages.github.com/)
 
 Theme forked from https://github.com/CaptainIRS/hacker-plus-theme
 
