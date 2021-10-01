@@ -7,7 +7,7 @@ tags: reference
 
 # References
 
-Greatly appreciate all the tools and information online that help me build this website and assist me in my learning journey :heart:
+Greatly appreciate all the tools and knowledge generously shared online that help me build this website and assist me in my learning journey :heart:
 
 ## Building this site
 
