@@ -18,3 +18,6 @@ Theme forked from [https://github.com/CaptainIRS/hacker-plus-theme](https://gith
 Using Emoji: [https://lyk6756.github.io/2016/11/30/emoji.html](https://lyk6756.github.io/2016/11/30/emoji.html)
 
 Emoji cheatsheet: [https://www.webfx.com/tools/emoji-cheat-sheet/](https://www.webfx.com/tools/emoji-cheat-sheet/)
+
+Google Analytics: [https://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages](https://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages) (Answer by Sahil Singh)
+
