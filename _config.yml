@@ -1,8 +1,9 @@
 remote_theme: CaptainIRS/hacker-plus-theme
 
 title: Dian Z
-author:
-description: From A Dark Knight to A White Hat
+author: Dian Z
+description: 
+url: "https://dianzzzz.github.io
 disqus_forum_shortname:
 google_site_verification_content: # The 'content' tag for site verification
 google_analytics: # Your Google Analytics Tracking ID
@@ -26,7 +27,7 @@ reddit:
 pinterest:
 telegram:
 steam:
-email: "aura-zhao@hotmail.com"
+email: 
 
 # -------DO NOT ALTER -------#
 markdown: kramdown
