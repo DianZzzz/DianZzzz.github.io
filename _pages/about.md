@@ -9,4 +9,4 @@ tags: false
 
 ## University of Texas at Austin, Master of Business Analytics
 
-{% include instagram.html username="jhvanderschee" %}
+{% include instagram.html username="d.zhao" %}
