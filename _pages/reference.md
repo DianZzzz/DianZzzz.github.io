@@ -21,3 +21,8 @@ Emoji cheatsheet: [https://www.webfx.com/tools/emoji-cheat-sheet/](https://www.w
 
 Google Analytics: [https://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages](https://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages) (Answer by Sahil Singh)
 
+Instagram Feed: 
+
+  Hosting provided by PPI:[https://profilepageimages.usecue.com/](https://profilepageimages.usecue.com/)
+  
+  Installation instructions for Jekyll: [https://jekyllcodex.org/without-plugin/instagram/](https://jekyllcodex.org/without-plugin/instagram/)
