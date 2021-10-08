@@ -8,7 +8,6 @@ layout: default
 
 * * *
 
-<br/><br/>
 ### Courses Completed
 
 #### Master in Business Analytics, University of Texas at Austin, Earned May 2021
