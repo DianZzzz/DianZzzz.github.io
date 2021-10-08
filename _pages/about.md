@@ -5,7 +5,9 @@ layout: default
 ### Courses Working in Progress
 * Introduction to Cybersecurity Tools & Cyber Attacks
 <br/><br/>
+
 * * *
+
 <br/><br/>
 ### Courses Completed
 <br/><br/>
