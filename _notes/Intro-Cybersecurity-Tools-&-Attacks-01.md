@@ -3,7 +3,7 @@ layout: blog
 title: IBM Introduction to Cybersecurity Tools & Cyber Attacks: XXX
 tags: IBM cyber cybersecurity course coursera
 comments: true
-date: 2021-10-07
+date: 2020-10-30
 ---
 
 # Test blog
