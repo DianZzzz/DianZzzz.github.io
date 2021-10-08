@@ -11,7 +11,14 @@ layout: default
 {% for category in postsByCategories %}
 {{ category.name }}
   <ul style="padding-top: 0.1em;">
+  <a href="{{ '/' | absolute_url }}writeups/{{ category.name }}">
+    {{ category.name | replace: '-', ' ' }}
+  </a>
+  <ul style="padding-top: 0.1em;">
     {% for post in category.items %}
+    {% assign postCategory = post.title | downcase %}
+    {% assign categoryName = category.name | replace: '-', ' ' | downcase %}
+    {% if categoryName !=  postCategory %}
     <li style="line-height: 1; padding-top: 0.4em;">
       <a href="{{ post.url | absolute_url }}"> {{ post.title }}</a>
       <br>
