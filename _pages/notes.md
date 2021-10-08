@@ -1,3 +1,3 @@
 ---
-layout: blog_toplevel
+layout: notes_toplevel
 ---
