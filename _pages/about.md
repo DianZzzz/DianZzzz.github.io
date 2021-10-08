@@ -7,10 +7,10 @@ layout: default
 <br/><br/>
 
 * * *
-<br/><br/>
 
-### Courses Completed
 <br/><br/>
+### Courses Completed
+
 #### Master in Business Analytics, University of Texas at Austin, Earned May 2021
 * Data Analytics Programming
 * Predictive Modeling
