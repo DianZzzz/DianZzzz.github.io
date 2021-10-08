@@ -7,27 +7,18 @@ layout: default
 
 {{ content }}
 
-{% assign postsByCategories = site.notes | group_by_exp:"post", "category" %}
-{% for category in postsByCategories %}
-{{ category.name }}
+{% assign courses = site.notes | group_by_exp:"course" %}
+{% for course in courses %}
+<a href="{{ '/' | absolute_url }}writeups/{{ category.name }}">
+  {{ course.name | replace: '-', ' ' }}
+</a>
   <ul style="padding-top: 0.1em;">
-  <a href="{{ '/' | absolute_url }}writeups/{{ category.name }}">
-    {{ category.name | replace: '-', ' ' }}
-  </a>
-  <ul style="padding-top: 0.1em;">
-    {% for post in category.items %}
+    {% for post in course.items %}
     {% assign postCategory = post.title | downcase %}
     {% assign categoryName = category.name | replace: '-', ' ' | downcase %}
-    {% if categoryName !=  postCategory %}
-    <li style="line-height: 1; padding-top: 0.4em;">
-      <a href="{{ post.url | absolute_url }}"> {{ post.title }}</a>
-      <br>
-      <span class="tag">
-        <small>
-          &lt;{{ post.tags | join: '/&gt; &lt;' }}/&gt;
-        </small>
-      </span>
-    </li>
+    {% if categoryName !=  postCategory %}  
+    
+ 
     {% endfor %}
   </ul>
   <br>
