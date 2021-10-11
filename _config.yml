@@ -58,3 +58,5 @@ collections:
       output: true
    blog:
       output: true
+   notes:
+      output: true
