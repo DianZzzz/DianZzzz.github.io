@@ -7,7 +7,7 @@ layout: default
 
 {{ content }}
 
-{% assign courses = site.notes | group_by:"category" %}
+{% assign courses = site.notes | group_by:"course" %}
 {% for course in courses %}
   <a href="{{ '/' | absolute_url }}notes/{{ course.name }}">
     {{ course.name | replace: '-', ' ' }}
