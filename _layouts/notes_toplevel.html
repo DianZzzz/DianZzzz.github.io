@@ -9,7 +9,7 @@ layout: default
 
 {% assign courses = site.notes | group_by:"category" %}
 {% for course in courses %}
-{{ course.name }}
+{{ course.title }}
 <ul style="padding-top: 0.3em;">
   {% for post in course.items %}
   {% assign postCategory = post.title | downcase %}
