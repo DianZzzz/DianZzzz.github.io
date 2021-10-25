@@ -7,9 +7,8 @@ layout: default
 
 {{ content }}
 
-{% assign courses = site.notes | group_by_exp: "item", "item.name" %}
-{% for course in courses %}
-{{ course.name }}
+{% assign courses = site.notes %}
+  {{ course.name }}
 <ul style="padding-top: 0.3em;">
   {% for post in course.items %}
   {% assign postCategory = post.title | downcase %}
