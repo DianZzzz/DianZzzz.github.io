@@ -9,9 +9,7 @@ layout: default
 
 {% assign courses = site.notes | group_by:"course" %}
   {% for course in courses %}
-  <a href="{{ '/' | absolute_url }}solutions/{{ course.name }}">
     {{ course.name | replace: '-', ' ' }}
-  </a>
 <ul style="padding-top: 0.3em;">
   {% for post in course.items %}
   {% assign postCategory = post.title | downcase %}
