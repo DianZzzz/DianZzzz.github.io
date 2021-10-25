@@ -7,7 +7,7 @@ layout: default
 
 {{ content }}
 
-{% assign courses = site.notes | group_by:"category" %}
+{% assign courses = site.notes | group_by_exp: "item", "item.name" %}
 {% for course in courses %}
 {{ course.name }}
 <ul style="padding-top: 0.3em;">
