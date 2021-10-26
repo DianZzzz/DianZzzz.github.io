@@ -29,4 +29,8 @@ Two teenage kids from California exploited a known vulnerability in the DoD oper
 ## Operation Moonlight Maze
 Supposedly and very likely launched by Russia, or at the time Soviet Union, which used proxy computers to start probably the first-ever cybersecurity warfare
 
-##
+## Operation Buckshoot Yankee
+A USB drive containing a virus was inserted into a computer that was connected to the DoD network, maybe by China. 
+
+## Operation Thunder Storm 
+US military hacked the radars used by Saddam Hussein and fed them false information
