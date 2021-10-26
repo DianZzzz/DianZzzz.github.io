@@ -23,7 +23,7 @@ date: 2021-10-24
 4. Risk: the likelihood of a vulnerability to be exploited
 
 ## Security Threats
-![Security Threats](https://github.com/DianZzzz/dianzzzz.github.io/blob/master/_notes/Intro-Cybersecurity-Tools-%26-Attacks/security-threat.PNG)
+<img src="https://github.com/DianZzzz/dianzzzz.github.io/blob/master/_notes/Intro-Cybersecurity-Tools-%26-Attacks/security-threat.PNG" alt="security threat" class="inline"/>
 
 ## Origin of National Cybersecurity Policy in the US
 
