@@ -24,3 +24,9 @@ date: 2021-10-24
 
 ## Security Threats
 ![Branching](https://github.com/DianZzzz/dianzzzz.github.io/blob/master/_notes/Intro-Cybersecurity-Tools-%26-Attacks/security_threat.PNG)
+
+## Origin of National Cybersecurity Policy in the US
+
+It all starts with President Ronald Reagan and the movie [WarGames](https://en.wikipedia.org/wiki/WarGames).
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KXzNo0vR_dU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
