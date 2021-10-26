@@ -27,4 +27,4 @@ Instagram Feed:
   
   Installation instructions for Jekyll: [https://jekyllcodex.org/without-plugin/instagram/](https://jekyllcodex.org/without-plugin/instagram/)
 
-Image Broken: [https://stackoverflow.com/questions/60858701/why-are-all-images-broken-on-my-github-pages](https://stackoverflow.com/questions/60858701/why-are-all-images-broken-on-my-github-pages)
+Embed Images: [https://jekyllrb.com/docs/posts/#including-images-and-resources](https://jekyllrb.com/docs/posts/#including-images-and-resources)
