@@ -23,3 +23,4 @@ date: 2021-10-24
 4. Risk: the likelihood of a vulnerability to be exploited
 
 ## Security Threats
+![Branching](https://github.com/DianZzzz/dianzzzz.github.io/blob/master/_notes/Intro-Cybersecurity-Tools-%26-Attacks/security_threat.PNG)
