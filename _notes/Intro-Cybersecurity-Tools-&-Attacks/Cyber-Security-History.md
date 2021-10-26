@@ -17,3 +17,16 @@ It all starts with President Ronald Reagan when he watched the movie [WarGames](
 <br>
 
 ## Operation Clipper Chip
+Developed by the NSA which allowed the government to put a chip like device on landlines to spy on communication
+
+## Operation Solar Sunrise
+Two teenage kids from California exploited a known vulnerability in the DoD operating system and launched a series of attacks which followed the classic pattern of 
+1. probing to determine if the vulnerability exists, 
+2. exploiting the vulnerability
+3. implanting a program (sniffer) to gather data
+4. returning later to retrieve the collected data.
+
+## Operation Moonlight Maze
+Supposedly and very likely launched by Russia, or at the time Soviet Union, which used proxy computers to start probably the first-ever cybersecurity warfare
+
+##
