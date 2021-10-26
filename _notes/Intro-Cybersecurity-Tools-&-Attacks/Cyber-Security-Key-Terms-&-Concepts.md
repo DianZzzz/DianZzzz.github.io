@@ -25,7 +25,7 @@ date: 2021-10-24
 ## Security Threats
 ![Security Threats](/assets/security-threat.PNG)
 
-
+<br>
 ## Origin of National Cybersecurity Policy in the US
 
 It all starts with President Ronald Reagan and the movie [WarGames](https://en.wikipedia.org/wiki/WarGames).
