@@ -23,3 +23,10 @@ date: 2021-10-24
 4. Risk: the likelihood of a vulnerability to be exploited
 
 ## Security Threats
+![Security Threats](https://github.com/DianZzzz/dianzzzz.github.io/blob/28568c92ab4d6484d575ceeefdb32463bed275bf/_notes/Intro-Cybersecurity-Tools-&-Attacks/security_threat.PNG)
+
+## Origin of National Cybersecurity Policy in the US
+
+It all starts with President Ronald Reagan and the movie [WarGames](https://en.wikipedia.org/wiki/WarGames).
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KXzNo0vR_dU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
