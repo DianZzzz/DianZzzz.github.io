@@ -12,8 +12,16 @@ date: 2021-11-22
 ## Attack Classficiation
 
 ### Passive Attacks
-*  Esentially, evesdropping 
+1. Evesdropping 
 *  Because it is not detected, it can go on for a long time and get the actual content of the message
 
-### Traffic Analysis
+2. Traffic Analysis
 *  Look at frequency and the size of the message
+
+Passive attacks are hard to detect becuase it is hard to prove that the message has been altered. 
+
+### Active Attacks
+1. Masquerade
+2. Replay
+3. Modification
+4. Denial of Service
