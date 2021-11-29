@@ -13,7 +13,7 @@ X.800 is a security architecture for open, interconnected systems. It was publis
 
 ![X800](/assets/X800.PNG)
 
-X.800 defines security service as **a service provided by a protocol layer of communicating open systems, which ensures adequate security of the systems or of data transfers**.
+X.800 defines security service as `a service provided by a protocol layer of communicating open systems, which ensures adequate security of the systems or of data transfers`.
 
 ## Key Concepts
 
