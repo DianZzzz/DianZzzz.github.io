@@ -1,7 +1,7 @@
 ---
 layout: blog
 course: Intro-Cybersecurity-Tools-&-Attacks
-title: Security Services: X.800
+title: Security Services X800
 tags: security cybersecurity service
 comments: true
 date: 2021-11-28
