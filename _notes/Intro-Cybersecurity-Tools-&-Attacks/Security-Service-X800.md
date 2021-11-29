@@ -36,6 +36,6 @@ X.800 defines security service as **a service provided by a protocol layer of co
 ### Nonrepudiation
 *   Protection against denial by one of the parties in a communication
 
-_Source: _
-_1. [https://www.coursera.org/learn/introduction-cybersecurity-cyber-attacks](https://www.coursera.org/learn/introduction-cybersecurity-cyber-attacks)_
-_2. [https://people.cs.vt.edu/~hamid/cs6204/slides/Security_2.pdf](https://people.cs.vt.edu/~hamid/cs6204/slides/Security_2.pdf)_
+_Source:
+_1. [https://www.coursera.org/learn/introduction-cybersecurity-cyber-attacks](https://www.coursera.org/learn/introduction-cybersecurity-cyber-attacks)
+_2. [https://people.cs.vt.edu/~hamid/cs6204/slides/Security_2.pdf](https://people.cs.vt.edu/~hamid/cs6204/slides/Security_2.pdf)
