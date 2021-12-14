@@ -11,6 +11,7 @@ layout: default
 {% for course in courses %}
   {{ course.name | replace: '-', ' ' }}
    <ul style="padding-top: 0.3em;">
+   </ul>
   {% for post in course.items %}
     <li style="line-height: 1; padding-top: 0.4em;">
     <a href="{{ post.url | absolute_url }}"> {{ post.title }}
