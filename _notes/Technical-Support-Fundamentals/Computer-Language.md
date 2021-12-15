@@ -17,6 +17,5 @@ date: 2021-12-13
 
 Each number, 0 or 1, is a `bit`; 8 bits is a `byte`; 1 byte can store one character
 
-| h in decimal = 104       | 128  64  32  16  8   4   2   1   |
-| h in binary = 01101000    | 0   1   1   0   1   0   0   0   |  64+32+8 = 104   |
+![Binary](/assets/Binary.PNG)
 
