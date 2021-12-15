@@ -19,8 +19,8 @@ Each number, 0 or 1, is a `bit`; 8 bits is a `byte`; 1 byte can store one charac
 
 # How to Count in Binary
 
-H in decimal = 104
-H in binary = 01101000
+H in decimal = 104.
+H in binary = 01101000.
 
 ![Binary](/assets/Binary.PNG)
 
