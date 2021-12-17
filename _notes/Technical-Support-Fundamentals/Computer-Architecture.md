@@ -26,7 +26,12 @@ Hardware - Opearting System - Software - User
 `Motherboard`: Body or the circulatory system of the computer that connects all the parts together
 
 ## Operating System
-`Kernel`: Core of the operating system, contains process manager, memory manager, file manager and I/O manager
+
+`Kernel`: Core of the operating system, contains process manager, memory manager, file manager and I/O manager; requires priviledged access
+
+`User Space`: Part of the operating system that is outside the kernel space
+
+`Virtual Memoery`: a OS scheme the copy the areas of RAM that have not been used recently into hard drive, which frees up the space in RAM to load new appplication
 
 `BIOS/UEFI`: Basic Input/Output System, a program stored on a chip that is used to set up a computer
 
