@@ -1,0 +1,27 @@
+---
+layout: blog
+course: Technical-Support-Fundamentals
+title: Computer Architecture
+tags: computer architecture
+comments: true
+date: 2021-12-14
+---
+
+# Computer Architecture
+
+Hardware - Opearting System - Software - User
+
+## Hardware
+
+`Ports`: Connection points that we can connect devices to the computer
+`CPU`: Central Processing Unit, the brain of the computer that does all the calculation and data processing
+`RAM`: Random Access Memory, short term memory
+`ROM`: Read Only Memory Chip, data won't be erased after power turned off
+`Hard Drive`: Store all the data
+`Motherboard`: Body or the circulatory system of the computer that connects all the parts together
+
+## Operating System
+`Kernel`: Core of the operating system, contains process manager, memory manager, file manager and I/O manager
+`BIOS/UEFI`: Basic Input/Output System, a program stored on a chip that is used to set up a computer
+`Logs`: Files that record system events on computer, like a diary
+`POST`: Power On Self Test, a series of diagnostic test to make sure the computer is in proper order
