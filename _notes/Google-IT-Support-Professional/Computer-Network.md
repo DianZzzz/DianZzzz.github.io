@@ -1,6 +1,6 @@
 ---
 layout: blog
-course: Technical-Support-Fundamentals
+course: Google-IT-Support-Professional
 title: Computer Network
 tags: computer network
 comments: true
@@ -26,3 +26,7 @@ date: 2021-12-14
 `URL`: Uniform Resource Location,  a web address
 
 `DNS`: Domain Name System, translates human readable domain name (www.amazon.com) to IP address (192.0.2.44)
+
+## TCP/IP Five Layer Network Model
+
+![TCPIP-Five-Layer-Model](/assets/TCPIP-Five-Layer-Model.PNG)
