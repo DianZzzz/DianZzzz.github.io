@@ -61,3 +61,6 @@ collections:
       output: true
    notes:
       output: true
+maps:
+    google:
+      api_key: <YOUR_KEY>
