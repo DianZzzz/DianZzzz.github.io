@@ -1,6 +1,6 @@
 ---
 layout: blog
-course: Technical-Support-Fundamentals
+course: Google-IT-Support-Professional
 title: Computer Language
 tags: computer language
 comments: true
