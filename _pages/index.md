@@ -11,7 +11,9 @@ Day job as a hedge fund analyst. Learning to become a cyber security White Hat.
 
 ### Courses Working in Progress
 
-* Technical Support Fundamentals by Google
+#### Coursera
+
+* The Bits and Bytes of Computer Networking
 
 * * *
 
@@ -22,6 +24,11 @@ Day job as a hedge fund analyst. Learning to become a cyber security White Hat.
 * Predictive Modeling
 * Optimization
 * Learning Structures & Time Series
+
+#### Coursera
+
+* Technical Support Fundamentals by Google
+* The Bits and Bytes of Computer Networking
 
 * * *
 
