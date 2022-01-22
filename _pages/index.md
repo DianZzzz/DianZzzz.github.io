@@ -164,5 +164,5 @@ layout: default
 </div>
 <!-- TradingView Widget END -->
 
-<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,74,5994,7083,1839" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,74,5994,7083" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
 
