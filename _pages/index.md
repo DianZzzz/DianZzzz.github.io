@@ -15,7 +15,7 @@ layout: default
   "isTransparent": false,
   "showSymbolLogo": true,
   "showFloatingTooltip": false,
-  "width": "800",
+  "width": "1000",
   "height": "660",
   "plotLineColorGrowing": "rgba(0, 255, 0, 1)",
   "plotLineColorFalling": "rgba(0, 255, 0, 1)",
