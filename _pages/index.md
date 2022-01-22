@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
@@ -12,12 +11,12 @@ layout: default
   "dateRange": "12M",
   "showChart": true,
   "locale": "en",
-  "width": "100%",
-  "height": "100%",
   "largeChartUrl": "",
   "isTransparent": false,
   "showSymbolLogo": true,
   "showFloatingTooltip": false,
+  "width": "800",
+  "height": "660",
   "plotLineColorGrowing": "rgba(0, 255, 0, 1)",
   "plotLineColorFalling": "rgba(0, 255, 0, 1)",
   "gridLineColor": "rgba(0, 0, 0, 0)",
