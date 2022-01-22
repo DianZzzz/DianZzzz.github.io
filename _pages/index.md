@@ -4,147 +4,65 @@ layout: default
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Crypto</span></a> <span class="blue-text">and</span> <a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Blue Chip</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/indices/" rel="noopener" target="_blank"><span class="blue-text">Indices</span></a> <span class="blue-text">and</span> <a href="https://www.tradingview.com/markets/futures/" rel="noopener" target="_blank"><span class="blue-text">Futures</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
   {
-  "colorTheme": "dark",
-  "dateRange": "12M",
-  "showChart": true,
-  "locale": "en",
-  "largeChartUrl": "",
-  "isTransparent": false,
-  "showSymbolLogo": true,
-  "showFloatingTooltip": false,
-  "width": "400",
-  "height": "660",
-  "plotLineColorGrowing": "rgba(0, 255, 0, 1)",
-  "plotLineColorFalling": "rgba(0, 255, 0, 1)",
-  "gridLineColor": "rgba(0, 0, 0, 0)",
-  "scaleFontColor": "rgba(120, 123, 134, 1)",
-  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
-  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
-  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
-  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
-  "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
-  "tabs": [
+  "width": 770,
+  "height": "500",
+  "symbolsGroups": [
     {
-      "title": "Indices",
+      "name": "Indices",
+      "originalName": "Indices",
       "symbols": [
         {
-          "s": "FOREXCOM:SPXUSD",
-          "d": "S&P 500"
+          "name": "FOREXCOM:SPXUSD",
+          "displayName": "S&P 500"
         },
         {
-          "s": "FOREXCOM:NSXUSD",
-          "d": "Nasdaq 100"
+          "name": "FOREXCOM:NSXUSD",
+          "displayName": "Nasdaq 100"
         },
         {
-          "s": "FOREXCOM:DJI",
-          "d": "Dow 30"
+          "name": "FOREXCOM:DJI",
+          "displayName": "Dow 30"
         },
         {
-          "s": "SSE:CSI300-HKG",
-          "d": "CSI 300"
+          "name": "FOREXCOM:US2000",
+          "displayName": "Russell 2000"
         },
         {
-          "s": "HSI:HSI",
-          "d": "Hang Seng Index"
+          "name": "SSE:000300",
+          "displayName": "CSI 300"
         },
         {
-          "s": "FOREXCOM:EU50",
-          "d": "Europe 50"
-        }
-      ],
-      "originalTitle": "Indices"
-    },
-    {
-      "title": "Crypto",
-      "symbols": [
-        {
-          "s": "COINBASE:BTCUSD",
-          "d": "Bitcoin"
+          "name": "HSI:HSI",
+          "displayName": "Hang Seng Index"
         },
         {
-          "s": "COINBASE:ETHUSD",
-          "d": "Ethereum "
-        },
-        {
-          "s": "COINBASE:DOGEUSD",
-          "d": "Dogecoin"
-        },
-        {
-          "s": "COINBASE:SHIBUSD",
-          "d": "Shibu Inu"
+          "name": "FOREXCOM:EU50",
+          "displayName": "EU 50"
         }
       ]
     },
     {
-      "title": "Blue Chip",
+      "name": "Futures",
+      "originalName": "Futures",
       "symbols": [
         {
-          "s": "NASDAQ:AAPL",
-          "d": "Apple"
+          "name": "COMEX:GC1!",
+          "displayName": "Gold"
         },
         {
-          "s": "NASDAQ:MSFT",
-          "d": "Microsoft"
-        },
-        {
-          "s": "NASDAQ:GOOG",
-          "d": "Alphabet"
-        },
-        {
-          "s": "NASDAQ:AMZN",
-          "d": "Amazon"
-        },
-        {
-          "s": "NASDAQ:TSLA",
-          "d": "Tesla"
-        },
-        {
-          "s": "NASDAQ:FB",
-          "d": "Meta"
-        },
-        {
-          "s": "NASDAQ:NVDA",
-          "d": "NVIDIA"
-        }
-      ]
-    },
-    {
-      "title": "Meme Stock",
-      "symbols": [
-        {
-          "s": "NYSE:GME",
-          "d": "GameStop"
-        },
-        {
-          "s": "NYSE:AMC",
-          "d": "AMC"
-        },
-        {
-          "s": "NASDAQ:PTON",
-          "d": "Peloton"
-        },
-        {
-          "s": "NASDAQ:HOOD",
-          "d": "Robinhood"
-        },
-        {
-          "s": "NASDAQ:BBBY",
-          "d": "BED BATH & BEYON"
-        },
-        {
-          "s": "NYSE:PLTR",
-          "d": "Palantir"
-        },
-        {
-          "s": "NASDAQ:WISH",
-          "d": "Wish"
+          "name": "NYMEX:CL1!",
+          "displayName": "Crude Oil"
         }
       ]
     }
-  ]
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "locale": "en"
 }
   </script>
 </div>
@@ -152,150 +70,98 @@ layout: default
 
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Crypto</span></a> <span class="blue-text">and</span> <a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Blue Chip</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  <div id="tradingview_90856"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/AAPL/" rel="noopener" target="_blank"><span class="blue-text">Apple</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.MediumWidget(
   {
-  "colorTheme": "dark",
-  "dateRange": "12M",
-  "showChart": true,
+  "symbols": [
+    [
+      "Apple",
+      "AAPL"
+    ],
+    [
+      "Microsoft",
+      "MSFT"
+    ],
+    [
+      "Alphabet",
+      "NASDAQ:GOOG|12M"
+    ],
+    [
+      "Amazon",
+      "NASDAQ:AMZN|12M"
+    ],
+    [
+      "Tesla",
+      "NASDAQ:TSLA|12M"
+    ],
+    [
+      "Meta",
+      "NASDAQ:FB|12M"
+    ],
+    [
+      "Nvidia",
+      "NASDAQ:NVDA|12M"
+    ],
+    [
+      "Disney",
+      "NYSE:DIS|12M"
+    ],
+    [
+      "Costco",
+      "NASDAQ:COST|12M"
+    ],
+    [
+      "Netflix",
+      "NASDAQ:NFLX|12M"
+    ],
+    [
+      "Visa",
+      "NYSE:V|12M"
+    ],
+    [
+      "KKR",
+      "NYSE:KKR|12M"
+    ],
+    [
+      "Pfizer",
+      "NYSE:PFE|12M"
+    ],
+    [
+      "JP Morgan",
+      "NYSE:JPM|12M"
+    ],
+    [
+      "P&G",
+      "NYSE:PG|12M"
+    ]
+  ],
+  "chartOnly": false,
+  "width": 1000,
+  "height": 400,
   "locale": "en",
-  "largeChartUrl": "",
+  "colorTheme": "dark",
+  "gridLineColor": "rgba(240, 243, 250, 0)",
+  "fontColor": "#787B86",
   "isTransparent": false,
-  "showSymbolLogo": true,
-  "showFloatingTooltip": false,
-  "width": "400",
-  "height": "660",
-  "plotLineColorGrowing": "rgba(0, 255, 0, 1)",
-  "plotLineColorFalling": "rgba(0, 255, 0, 1)",
-  "gridLineColor": "rgba(0, 0, 0, 0)",
-  "scaleFontColor": "rgba(120, 123, 134, 1)",
-  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
-  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
-  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
-  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
-  "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
-  "tabs": [
-    {
-      "title": "Indices",
-      "symbols": [
-        {
-          "s": "FOREXCOM:SPXUSD",
-          "d": "S&P 500"
-        },
-        {
-          "s": "FOREXCOM:NSXUSD",
-          "d": "Nasdaq 100"
-        },
-        {
-          "s": "FOREXCOM:DJI",
-          "d": "Dow 30"
-        },
-        {
-          "s": "SSE:CSI300-HKG",
-          "d": "CSI 300"
-        },
-        {
-          "s": "HSI:HSI",
-          "d": "Hang Seng Index"
-        },
-        {
-          "s": "FOREXCOM:EU50",
-          "d": "Europe 50"
-        }
-      ],
-      "originalTitle": "Indices"
-    },
-    {
-      "title": "Crypto",
-      "symbols": [
-        {
-          "s": "COINBASE:BTCUSD",
-          "d": "Bitcoin"
-        },
-        {
-          "s": "COINBASE:ETHUSD",
-          "d": "Ethereum "
-        },
-        {
-          "s": "COINBASE:DOGEUSD",
-          "d": "Dogecoin"
-        },
-        {
-          "s": "COINBASE:SHIBUSD",
-          "d": "Shibu Inu"
-        }
-      ]
-    },
-    {
-      "title": "Blue Chip",
-      "symbols": [
-        {
-          "s": "NASDAQ:AAPL",
-          "d": "Apple"
-        },
-        {
-          "s": "NASDAQ:MSFT",
-          "d": "Microsoft"
-        },
-        {
-          "s": "NASDAQ:GOOG",
-          "d": "Alphabet"
-        },
-        {
-          "s": "NASDAQ:AMZN",
-          "d": "Amazon"
-        },
-        {
-          "s": "NASDAQ:TSLA",
-          "d": "Tesla"
-        },
-        {
-          "s": "NASDAQ:FB",
-          "d": "Meta"
-        },
-        {
-          "s": "NASDAQ:NVDA",
-          "d": "NVIDIA"
-        }
-      ]
-    },
-    {
-      "title": "Meme Stock",
-      "symbols": [
-        {
-          "s": "NYSE:GME",
-          "d": "GameStop"
-        },
-        {
-          "s": "NYSE:AMC",
-          "d": "AMC"
-        },
-        {
-          "s": "NASDAQ:PTON",
-          "d": "Peloton"
-        },
-        {
-          "s": "NASDAQ:HOOD",
-          "d": "Robinhood"
-        },
-        {
-          "s": "NASDAQ:BBBY",
-          "d": "BED BATH & BEYON"
-        },
-        {
-          "s": "NYSE:PLTR",
-          "d": "Palantir"
-        },
-        {
-          "s": "NASDAQ:WISH",
-          "d": "Wish"
-        }
-      ]
-    }
-  ]
+  "autosize": false,
+  "showFloatingTooltip": true,
+  "showVolume": false,
+  "scalePosition": "no",
+  "scaleMode": "Normal",
+  "fontFamily": "Trebuchet MS, sans-serif",
+  "noTimeScale": false,
+  "chartType": "area",
+  "lineColor": "#2962FF",
+  "bottomColor": "rgba(41, 98, 255, 0)",
+  "topColor": "rgba(41, 98, 255, 0.3)",
+  "container_id": "tradingview_90856"
 }
+  );
   </script>
 </div>
 <!-- TradingView Widget END -->
 
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,74,5994" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
