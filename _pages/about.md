@@ -2,10 +2,12 @@
 layout: default
 ---
 
-# From A Dark Knight to A White Hat
+# Day Job
+![What-I-Do](/assets/What-I-Do.PNG)
 
-Day job as a hedge fund analyst. Learning to become a cyber security White Hat. 
 
+
+# Interest: Hiking with My Dog, Food, Travelling
 {% include instagram.html username="d.zhao" %}
 &nbsp;
 
