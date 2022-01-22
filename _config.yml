@@ -53,11 +53,9 @@ collections:
    pages:
       output: true
       permalink: /:name
-   writeups:
+   finance:
       output: true
-   solutions:
-      output: true
-   blog:
+   tech:
       output: true
    notes:
       output: true
