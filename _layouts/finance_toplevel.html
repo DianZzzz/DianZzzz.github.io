@@ -7,7 +7,7 @@ layout: default
 
 {{ content }}
 
-{% assign topics = site.finace | group_by:"topic" %}
+{% assign topics = site.finance | group_by:"topic" %}
 {% for topic in topics %}
   {{ topic.name | replace: '-', ' ' }}
   <ul style="padding-top: 0.3em;">
