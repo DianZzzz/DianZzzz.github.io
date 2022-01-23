@@ -7,7 +7,7 @@ tags: reference
 
 # References
 
-Greatly appreciate all the tools and knowledge generously shared online that not only helped me build this website but also helped me build my knowledge in technology and information security :heart:
+Greatly appreciate all the tools and knowledge generously shared online that helped me build this website :heart:
 
 ## Building this site
 
@@ -28,3 +28,7 @@ Instagram Feed:
   Installation instructions for Jekyll: [https://jekyllcodex.org/without-plugin/instagram/](https://jekyllcodex.org/without-plugin/instagram/)
 
 Embed Images: [https://jekyllrb.com/docs/posts/#including-images-and-resources](https://jekyllrb.com/docs/posts/#including-images-and-resources)
+
+Finance Website Gadget: [https://www.tradingview.com/widget/](https://www.tradingview.com/widget/)
+
+Crypto Website Gadget: [https://coinmarketcap.com/widget/ticker/](https://coinmarketcap.com/widget/ticker/)
