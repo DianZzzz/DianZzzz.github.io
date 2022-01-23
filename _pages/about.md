@@ -5,12 +5,12 @@ layout: default
 
 ## My Day Job
 ![What-I-Do](/assets/What-I-Do.PNG)
-
+<br>
 
 
 ## My Best Friend: Pepper 屁屁 
 ![pepper](/assets/pepper.jpg)
-
+<br>
 
 
 ## I like hiking with my dog, food and travelling
