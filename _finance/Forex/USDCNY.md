@@ -9,13 +9,13 @@ date: 2022-01-23
 
 # USD and Chinese Yuan
 
-Renminbi 人民币, or People's Money, is the official name given to the Chinese currency. Depending on where it is traded, Renminbi, or RMB for short, could be CNY or CNH.
+Renminbi 人民币, or People's Money, is the official name given to the Chinese currency. Depending on where it is traded, Renminbi, or RMB for short, is CNY or CNH.
 
 ## CNY
 
-CNY is Renminbi that's traded within Mainland China. So if you receive a note with Mao Zedong's head printed on it within Mainland China, it is a CNY.
+CNY is Renminbi traded within Mainland China. So if you receive a note with Mao Zedong's head printed on it within Mainland China, it is a CNY.
 
-China's Federal Reserve or State Owned banks are the major participants in the CNY market. So CNY is essentially a managed float regime.
+China's Federal Reserve or state-owned-banks are the major participants in the CNY market, hence CNY is essentially a managed float regime.
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
@@ -40,7 +40,7 @@ China's Federal Reserve or State Owned banks are the major participants in the C
 <!-- TradingView Widget END -->
 
 ## CNH
-CNH is Renminbi traded offshore, outside Mainland China. The major trading markets are usually Hong Kong and Singapore. CNH is subject to less influence from the Chinese government so it is more similiar to a free float regime.
+CNH is Renminbi traded offshore, outside Mainland China. The major trading markets are Hong Kong and Singapore. CNH is subject to less intervention from the Chinese government so it is more similiar to a free float regime.
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
