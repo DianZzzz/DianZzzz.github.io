@@ -9,3 +9,25 @@ date: 2022-01-23
 
 # USD and Chinese Yuan
 
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/USDCNY/?exchange=FX_IDC" rel="noopener" target="_blank"><span class="blue-text">USDCNY Rates</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "FX_IDC:USDCNY",
+  "width": "600",
+  "height": 220,
+  "locale": "en",
+  "dateRange": "12M",
+  "colorTheme": "dark",
+  "trendLineColor": "rgba(41, 98, 255, 1)",
+  "underLineColor": "rgba(41, 98, 255, 0.3)",
+  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
