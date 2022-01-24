@@ -17,3 +17,7 @@ layout: default
 {% include instagram.html username="d.zhao" %}
 &nbsp;
 
+##
+<a href="http://basno.com/sgy9w8le">
+	<img style="width:150px;" src="http://basno.com/sgy9w8le.png">
+</a>
