@@ -18,4 +18,4 @@ layout: default
 &nbsp;
 
 ##
-![CFAI](/assets/CFAI.PNG)  |  ![CFAII](/assets/CFAII.PNG) 
+![CFAI](/assets/CFAI.png)  |  ![CFAII](/assets/CFAII.png) 
