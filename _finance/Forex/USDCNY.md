@@ -16,8 +16,8 @@ date: 2022-01-23
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
   {
   "symbol": "FX_IDC:USDCNY",
-  "width": "600",
-  "height": 220,
+  "width": "100%",
+  "height": "100%",
   "locale": "en",
   "dateRange": "12M",
   "colorTheme": "dark",
@@ -25,7 +25,7 @@ date: 2022-01-23
   "underLineColor": "rgba(41, 98, 255, 0.3)",
   "underLineBottomColor": "rgba(41, 98, 255, 0)",
   "isTransparent": false,
-  "autosize": false,
+  "autosize": true,
   "largeChartUrl": ""
 }
   </script>
