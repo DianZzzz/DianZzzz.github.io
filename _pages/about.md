@@ -4,7 +4,7 @@ layout: default
 # Hi! Howdy! 嗨！こんにちは！ 안녕하세요! Bonjour!
 
 ## My Journey
-Hangzhou, Zhejiang, :cn: ---> Singapore ---> Austin TX, :us:
+Hangzhou, Zhejiang :cn: ---> Singapore ---> Austin TX :us:
 
 ## My Day Job
 ![What-I-Do](/assets/What-I-Do.PNG)
