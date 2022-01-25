@@ -16,9 +16,9 @@ Hangzhou, Zhejiang :cn: ---> Singapore ---> Austin TX :us:
 <br>
 
 
-## ESTP-A
+## My Personality: ESTP-A
 {% include instagram.html username="d.zhao" %}
 &nbsp;
 
-
+## My Certifications
 ![CFAI](/assets/CFAI.png)  ![CFAII](/assets/CFAII.png) 
