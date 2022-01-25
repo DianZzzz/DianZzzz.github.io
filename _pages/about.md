@@ -20,5 +20,5 @@ Hangzhou, Zhejiang :cn: ---> Singapore ---> Austin TX :us:
 {% include instagram.html username="d.zhao" %}
 &nbsp;
 
-##
-![CFAI](/assets/CFAI.png)  |  ![CFAII](/assets/CFAII.png) 
+
+![CFAI](/assets/CFAI.png)  ![CFAII](/assets/CFAII.png) 
