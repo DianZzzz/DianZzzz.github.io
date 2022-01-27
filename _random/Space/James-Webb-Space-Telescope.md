@@ -17,6 +17,6 @@ JWST is decades of work by thousands of scientists & engineers with billions of 
 
 I can't imagine the stress level when they hit the launch buttom. 
 
-Finger crossed and best of luck!
+Finger crossed and wish the mission best of luck!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v6ihVeEoUdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
