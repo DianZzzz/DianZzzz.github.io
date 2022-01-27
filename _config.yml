@@ -60,6 +60,8 @@ collections:
       output: true
    notes:
       output: true
+   random:
+      output: true
 maps:
     google:
       api_key: <YOUR_KEY>
