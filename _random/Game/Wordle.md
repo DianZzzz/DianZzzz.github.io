@@ -6,6 +6,8 @@ tags: game wordle
 comments: false
 ---
 
+#### I will keep playing until one day I got it right the first time
+
 Wordle 220 4/6
 
 ⬜⬜⬜⬜⬜
