@@ -19,7 +19,7 @@ A good way to know what is trending in the VC world right now
 I usually only pick the episodes on the brands I am interested in and Guy Raz definitely has his distinct style
 
 ## Invest Like the Best with Patrick O'Shaughnessy
-Some episodes are more interesting than others and long ads
+Some episodes are more interesting than others. Ads are pretty long 
 
 ## Planet Money
 Interesting quickbites over a wide range of topics
