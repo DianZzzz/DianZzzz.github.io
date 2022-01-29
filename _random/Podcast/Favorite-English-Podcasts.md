@@ -1,7 +1,7 @@
 ---
 layout: blog
 topic: Podcast
-title: Favorite English Podcast
+title: Favorite English Podcasts
 tags: podcast
 comments: true
 ---
