@@ -6,8 +6,7 @@ layout: default
 <br>
 
 {{ content }}
-
-{% assign courses = site.notes | group_by:"course" %}
+{% assign courses = site.notes | group_by:"course" | sort: 'date' | reverse %}
 {% for course in courses %}
   {{ course.name | replace: '-', ' ' }}
   <ul style="padding-top: 0.3em;">
