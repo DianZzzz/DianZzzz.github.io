@@ -32,3 +32,5 @@ Embed Images: [https://jekyllrb.com/docs/posts/#including-images-and-resources](
 Finance Website Gadget: [https://www.tradingview.com/widget/](https://www.tradingview.com/widget/)
 
 Crypto Website Gadget: [https://coinmarketcap.com/widget/ticker/](https://coinmarketcap.com/widget/ticker/)
+
+Content Page Reverse Chronological Order: [https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e](https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e)
