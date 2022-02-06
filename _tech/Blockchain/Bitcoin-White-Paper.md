@@ -9,4 +9,4 @@ date: 2022-02-05
 
 # The Bitcoin White Paper by Satoshi Nakamoto
 
-<object data="../assets/bitcoin.pdf" width="1000" height="1000" type='application/pdf'>
+<embed src="/assets/bitcoin.pdf" width="100%" height="100%" />
