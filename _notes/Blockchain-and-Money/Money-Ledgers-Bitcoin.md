@@ -21,7 +21,6 @@ date: 2022-02-05
 *   Tranasaction vs. Balance
 *   General Ledger vs. Subledger (Federal Reserve/Central Bank vs. Commercial/Local banks)
 *   Single-entry vs. Double-entry (asset & liability or debit & credit)
-*  
 
 ## Fiat Money
 *   Fiat money does not have intrinsic value but is backed by the good faith and credit of the government that issued it
