@@ -1,0 +1,26 @@
+---
+layout: blog
+course: Blockchain-and-Money
+title: Blockchain Basics & Cryptography
+tags: blockchain crypto defi finance bitcoin btc cryptography
+comments: true
+date: 2022-02-05
+---
+
+# Blockchain Basics & Cryptography
+
+## Cryptographic Hash Function
+*  Convert any input into a unique fixed length output/a hash
+*  Deterministic: the same input always lead to the same output/hash
+*  Can be efficiently computed
+*  Preimage resistant: it's infeasible to reverse engineer (not mathematically impossible)
+*  Collision resistant: it's infeasible that two inputs will generae the same hash
+*  Avalenche effect: Changing the input slightly will completely change the has
+*  Puzzle friendliness: knowing the part of the input will not help much in finding the rest of the input
+
+## Blockchain Header
+
+![blockheader example](/assets/blockheader-example.PNG)
+
+![header field](/assets/header-field.PNG)
+
