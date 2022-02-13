@@ -10,8 +10,8 @@ layout: default
 {% for course in courses %}
   {{ course.name | replace: '-', ' ' }}
   <ul style="padding-top: 0.3em;">
-  {% for post in course.items %}
-    {% sort: 'date' %}
+  {% assign posts = course.items | sort: 'date' %}  
+  {% for post in posts %}
     <li style="line-height: 1; padding-top: 0.4em;">
     <a href="{{ post.url | absolute_url }}"> {{ post.title }}
     </a>
