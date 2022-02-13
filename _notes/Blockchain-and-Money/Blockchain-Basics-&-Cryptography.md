@@ -4,7 +4,7 @@ course: Blockchain-and-Money
 title: Blockchain Basics & Cryptography
 tags: blockchain crypto defi finance bitcoin btc cryptography
 comments: true
-date: 2022-02-05
+date: 2022-02-06
 ---
 
 # Blockchain Basics & Cryptography
