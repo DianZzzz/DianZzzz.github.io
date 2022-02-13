@@ -10,7 +10,7 @@ date: 2022-02-05
 # Blockchain Basics & Cryptography
 
 ## Blockchain Design Features
-- Blockchain is a `timestamped appned-only log`. There is no editing or deletion. We can only add to an existing blockchain. 
+- Blockchain is a `timestamped append-only log`. There is no editing or deletion. We can only add to an existing blockchain. 
 - It is secured via cryptography
   - Hash functions for tamper resistance and integrity 
   - Digital signatures for consent
