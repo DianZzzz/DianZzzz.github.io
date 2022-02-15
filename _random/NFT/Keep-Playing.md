@@ -7,7 +7,7 @@ comments: false
 ---
 
 <iframe src='https://opensea.io/collection/keepplaying?embed=true'
-        width='100%'
-        height='100%'
+        width='100'
+        height='800'
         frameborder='0'
         allowfullscreen></iframe>
