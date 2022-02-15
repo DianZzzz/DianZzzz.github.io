@@ -4,7 +4,7 @@ course: Blockchain-and-Money
 title: Blockchain Basics & Consensus
 tags: blockchain crypto defi finance bitcoin btc cryptography
 comments: true
-date: 2022-02-05
+date: 2022-02-13
 ---
 
 # Blockchain Basics & Consensus
