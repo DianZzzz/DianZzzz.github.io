@@ -9,8 +9,11 @@ comments: true
 # My English Podcast Lists
 
 I use Google Podcast to listen to English podcasts。
+
 ★: listen to 50% of episodes
+
 ★★: listen to 70% of episodes
+
 ★★★: listen to 90% of episodes
 
 The list is in alphbetic order.
