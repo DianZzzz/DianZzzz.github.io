@@ -34,4 +34,4 @@ Interesting quickbites over a wide range of topics
 A wide ranging of topics in businesses
 
 ## (I cant remember the name TT) ★★★
-My favorite English podcast where guys talking about technology and Internet in a very frank and thought-provoking way. 
+My favorite English podcast. Two guys talking about technology and Internet in a very frank and thought-provoking way. 
