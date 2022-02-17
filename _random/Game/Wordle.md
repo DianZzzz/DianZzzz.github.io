@@ -6,7 +6,7 @@ tags: game wordle
 comments: false
 ---
 
-#### I will keep playing until the day I can get it right the first time
+#### I Will Keep Playing Untill I Got It Right The First Try
 
 Wordle 220 4/6
 
