@@ -24,7 +24,7 @@ PoW has the following characteristics to make it Byzantine fault tolerant
 *   Tempering is difficult. The attacker has to take over 51% of the system to affect changes. 
 *   Verification is easy. Thus consensus can be reached quickly.
 
-In bitcoin, the work is to find the nounce that results in a hash with a targeted number of leading zeros. The current target is 19 zeroes. The genesis block mined on January 3, 2009 has 10 leading zeroes, even though Satoshi required only leading zeroes. 
+In bitcoin, the work is to find the nounce that results in a hash with a targeted number of leading zeros. The current target is 19 zeroes. The genesis block mined on January 3, 2009 has 10 leading zeroes, even though Satoshi required only 8 leading zeroes. 
 
 ## Economic Incentive System
 *   BTC was created through Coinbase Transaction in each block
