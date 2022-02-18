@@ -4,9 +4,45 @@ course: Blockchain-and-Money
 title: Blockchain Basics & Transactions
 tags: blockchain crypto defi finance bitcoin btc cryptography
 comments: true
-date: 2022-02-14
+date: 2022-02-15
 ---
 
 # Blockchain Basics & Transactions
 
-Coinbase Transaction: a generation of a freshly minited bitcoin
+## Bitcoin Transaction Format
+
+### Input
+*  Previous Transaction ID
+*  Index (indicate how much bitcoin for transaction)
+*  Signature
+
+### Output
+*  Value in Satoshis
+*  Public Key (bitcoin address)
+
+
+## Coinbase Transaction
+*  Generation of a freshly minited bitcoin
+*  The only input is the coinbase block reward
+*  Reward halves every 210,000 blocks (originally 50 bitcoins per block)
+*  May include 100 bytes of arbitray data
+*  The Genesis Bock included Headline from Financial Times: "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"
+
+> 01000000 - version
+> 0000000000000000000000000000000000000000000000000000000000000000 - prev block
+> 3BA3EDFD7A7B12B27AC72C3E67768F617FC81BC3888A51323A9FB8AA4B1E5E4A - merkle root
+> 29AB5F49 - timestamp
+> FFFF001D - bits
+> 1DAC2B7C - nonce
+> 01 - number of transactions
+> 01000000 - version
+> 01 - input
+> 0000000000000000000000000000000000000000000000000000000000000000FFFFFFFF - prev output
+> 4D - script length
+> 04FFFF001D0104455468652054696D65732030332F4A616E2F32303039204368616E63656C6C6F72206F6E206272696E6B206F66207365636F6E64206261696C6F757420666F722062616E6B73 - scriptsig
+> FFFFFFFF - sequence
+> 01 - outputs
+> 00F2052A01000000 - 50 BTC
+> 43 - pk_script length
+> 4104678AFDB0FE5548271967F1A67130B7105CD6A828E03909A67962E0EA1F61DEB649F6BC3F4CEF38C4F35504E51EC112DE5C384DF7BA0B8D578A4C702B6BF11D5FAC - pk_script
+> 00000000 - lock time
