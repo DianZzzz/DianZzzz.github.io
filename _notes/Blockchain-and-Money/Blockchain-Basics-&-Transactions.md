@@ -38,6 +38,13 @@ translated into
 
 Source: [https://en.bitcoin.it/wiki/Genesis_block](https://en.bitcoin.it/wiki/Genesis_block)
 
-## Unspent Tranaction Output (UTXO) Set
-*  Contains all currently unspent transaction outputs
-*  Stored using a LevelDB databse in Bitcoin Core called "chainstate"
+## Unspent Tranaction Output (UTXO) 
+*  A UTXO is like the change we receive in a cash transaction which can be used for future transaction. It is a transaction output that can be used as input in a new transaction.
+*  Like a note or a coin, a UTXO can not be split. However, new UTXOs can be created. For example, assuming i have a UTXO of 0.8 bitcoin and another UTXO of 0.6 bitcoin. If I wish to send 1 bitcon, the two UTXOs will be used as inputs for the transaction and be destroyed, or spent. Two new outputs will be created, one worth 1 bitcoin sent to the recipient and another worth 0.39 bitcoin (since there is transaction fee) sent back to me. 
+*  UTXO addresses the double spend problem. 
+*  A UTXO set contains all the currently unspent bitcoins and is stored using a LevelDB database in Bitcoin Core called "chainstate"
+*  The sume of all UTXOs equal to the total bitcoin in circulation.
+
+## Bitcoin Script
+*  Stack-based code and cannot do loops so not turing-complete
+
