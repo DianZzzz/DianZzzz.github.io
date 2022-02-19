@@ -1,13 +1,13 @@
 ---
 layout: blog
 course: Blockchain-and-Money
-title: Smart Contracts & DApps
+title: Smart Contracts & dApps
 tags: blockchain crypto defi finance dapp smartcontract
 comments: true
 date: 2022-02-18
 ---
 
-# Smart Contracts & DApps
+# Smart Contracts & dApps
  
 ## Bitcoin vs Ethereum
 
@@ -26,3 +26,16 @@ date: 2022-02-18
 | Monetary Policy  | Halves every 210,000 blocks (4 years) | Fixed, but changes by updates |
 | Fees  | Voluntary | Needed & Market Based |
 
+## Decentralized App (dApp)
+*  Applications run on a Decentralized Blockchain Network
+*  Gnerally have a native token and run as a Smart Contract on top of a platform 
+*   [https://www.stateofthedapps.com](https://www.stateofthedapps.com/stats)
+
+## Initial Coin Offerings 
+*  Proceeds used to build networks
+*  Tokens usually issued prior to being functional
+*  Development, while open source, is largely centralized
+*  Promoters allocate themselves ‘premined’ tokens
+*  Tokens are fungible & transferable
+*  Scarcity is fostered with preset ‘Monetary policy’
+*  Purchasers anticipate profits through appreciation 
