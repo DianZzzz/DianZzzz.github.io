@@ -9,6 +9,7 @@ date: 2022-02-1p
 
 # Technical Challenges
 ![trilemma](/assets/trilemma.png)
+Source: [https://vitalik.ca/general/2021/04/07/sharding.html](https://vitalik.ca/general/2021/04/07/sharding.html)
 
 ## Challenges with Blockchain Technology
 *   Performance, Scalability, & Efficiency
