@@ -75,3 +75,17 @@ Cybersecurity Challenges of Private Key Custody, Generation & Storage
 *   A hard fork is a change to a blockchain protocol that renders older versions invalid. e.g. bitcoin cash, etherum classic
 *   A soft fork is a change to a blockchain protocal that is backward compatible. 
 
+### Permissoned vs Permissionless
+
+#### Permissioned Blockchain
+*   Known set of participants
+*   No proof-of-work or mining
+*   No need for a native currency
+*   Distributed database technology
+*   Favored by the financial sector
+
+#### Permissionless Blockchain
+*   Unknown participants
+*   Security based on incentives
+*   Native currency
+*   Crypto-economics
