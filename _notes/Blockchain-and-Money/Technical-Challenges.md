@@ -8,6 +8,7 @@ date: 2022-02-1p
 ---
 
 # Technical Challenges
+![trilemma](/assets/trilemma.png)
 
 ## Challenges with Blockchain Technology
 *   Performance, Scalability, & Efficiency
@@ -29,3 +30,5 @@ date: 2022-02-1p
 ![bitcoin energy by year](/assets/bitcoin-energy-year.png)
 ![bitcoin energy by country](/assets/bitcoin-energy-country.png)
 ![bitcoin energy as country percentage](/assets/bitcoin-energy-country-percentage.png)
+Source: [https://digiconomist.net/bitcoin-energy-consumption](https://digiconomist.net/bitcoin-energy-consumption)
+
