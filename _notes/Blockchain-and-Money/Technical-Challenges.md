@@ -2,7 +2,7 @@
 layout: blog
 course: Blockchain-and-Money
 title: Technical Challenges
-tags: blockchain 
+tags: blockchain fork
 comments: true
 date: 2022-02-19
 ---
