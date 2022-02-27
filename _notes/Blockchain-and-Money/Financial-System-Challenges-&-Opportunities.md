@@ -2,7 +2,7 @@
 layout: blog
 course: Blockchain-and-Money
 title: Financial System Challenges & Opportunities
-tags: blockchain permission
+tags: blockchain permission finance crypto
 comments: true
 date: 2022-02-22
 ---
