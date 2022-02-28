@@ -37,6 +37,6 @@ date: 2022-02-27
 
 ### Costs of technical challenges and transition?
 *   What tradeoffs of scalability, performance, privacy & coordination are necessary?
-*    Can Permissioned blockchain adequately address use case?
+*   Can Permissioned blockchain adequately address use case?
 *   How can broad adoption be realized?
 *   Are net benefits sufficient? 
