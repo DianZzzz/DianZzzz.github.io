@@ -17,6 +17,7 @@ date: 2022-02-24
 
 ![header field](/assets/currency-circulation-value.PNG)
 ![header field](/assets/currency-circulation-volume.PNG)
+
 Source: [https://www.federalreserve.gov/paymentsystems/coin_data.htm](https://www.federalreserve.gov/paymentsystems/coin_data.htm)
 
 ## Central Banking Goals and Functions
