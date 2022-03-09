@@ -49,3 +49,35 @@ Source: [https://www.federalreserve.gov/paymentsystems/coin_data.htm](https://ww
 - Commercial Banks Provide Digital Currency (Deposits) to Public, Essentially a form of Intermediated CBDC
 - Private Sector is Experimenting with Stable Value Tokens
 - Strategic question: Should Direct Access to Digital Reserves (from central bank to the public) be Expanded?
+
+## CBDC - Opportunities
+- Continue Government Provision of a Means of Payment
+- Promote Competition in Banking System
+- Promote Financial Inclusion
+- Address Payment System ‘Pain Points’
+- For Some Nations, Avert Sanctions 
+
+## CBDC - Challenges & Uncertainties
+- Financial Stability and Potential to Increase Ease of Bank Runs
+- Changes to Commercial Banks’ Deposits and Funding Models
+- Effects on Credit Allocation and Economy
+- Monetary Policy Implementation & Transmission
+- Resilience of Open Payment Infrastructures
+
+## CBDC – Design Considerations
+- Widely Accessible vs. Wholesale
+- Token (e-Money) or Account (e-Deposit) based
+- Issuer – Central Bank, Commercial Bank or Others
+- Degree of Anonymity
+- Transfer Mechanism
+- Limits or Caps
+- Interest Bearing and Level of Account Services 
+
+## Private Sector Stable Value Tokens
+- Fiat Collateralized: Tether, TrueUSD
+- Crypto Collateralized: BitShare, Dai, Havven
+- Commodity Collateralized: Digix, Ekon
+- Not Collateralized ‘Seigniorage based’: Basis, Saga
+
+## The Money Flower
+![money-flower](/assets/money-flower.jpg)
