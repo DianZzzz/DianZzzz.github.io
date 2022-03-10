@@ -81,3 +81,7 @@ Source: [https://www.federalreserve.gov/paymentsystems/coin_data.htm](https://ww
 
 ## The Money Flower
 ![money-flower](/assets/money-flower.jpg)
+
+Source: [https://www.ft.com/content/862f247b-005b-3915-b22a-542b5ab3736b](https://www.ft.com/content/862f247b-005b-3915-b22a-542b5ab3736b)
+
+
