@@ -314,45 +314,45 @@ Wordle 261 4/6
 ⬜🟨🟩🟩🟩
 🟩🟩🟩🟩🟩
 
-Wordle 262 3/6
+Wordle 262 3/6 SWEET
 
 🟨🟨⬜⬜⬜
 🟨⬜⬜🟨🟨
 🟩🟩🟩🟩🟩
 
-Wordle 263 4/6
+Wordle 263 4/6 MONTH
 
 🟨⬜⬜⬜🟩
 ⬜🟩⬜🟩🟩
 ⬜🟩⬜🟩🟩
 🟩🟩🟩🟩🟩
 
-Wordle 264 4/6
+Wordle 264 4/6 LAPSE
 
 ⬜🟨🟨⬜⬜
 ⬜🟩🟩🟨⬜
 ⬜🟩🟩🟨🟩
 🟩🟩🟩🟩🟩
 
-Wordle 265 3/6
+Wordle 265 3/6 WATCH
 
 🟨⬜🟨🟩🟩
 ⬜🟩🟩🟩🟩
 🟩🟩🟩🟩🟩
 
-Wordle 266 3/6
+Wordle 266 3/6 TODAY
 
 🟩⬛🟨⬛⬛
 🟩🟨⬛⬛🟩
 🟩🟩🟩🟩🟩
 
-Wordle 267 3/6
+Wordle 267 3/6 FOCUS
 
 ⬛⬛⬛🟨⬛
 🟨⬛🟨🟩⬛
 🟩🟩🟩🟩🟩
 
-Wordle 268 X/6
+Wordle 268 X/6 SMELT
 
 🟨🟨⬜⬜⬜
 ⬜⬜⬜🟨🟨
@@ -361,7 +361,7 @@ Wordle 268 X/6
 🟩⬜🟩🟩🟩
 🟩⬜🟩🟩🟩
 
-Wordle 270 5/6
+Wordle 270 5/6 CATER
 
 🟨🟨🟨🟨⬜
 🟩🟨🟨⬜🟨
@@ -369,18 +369,25 @@ Wordle 270 5/6
 🟩🟩🟨🟩🟨
 🟩🟩🟩🟩🟩
 
-Wordle 272 4/6
+Wordle 272 4/6 SAUTE
 
 🟨🟨🟨⬜⬜
 🟩🟨🟨🟨⬜
 🟩🟩🟨🟨⬜
 🟩🟩🟩🟩🟩
 
-Wordle 273 6/6
+Wordle 273 6/6 ALLOW
 
 ⬛⬛🟨⬛⬛
 ⬛🟨⬛🟨⬛
 ⬛⬛⬛🟨🟨
 🟩🟩⬛🟩⬛
 🟩🟩⬛🟩⬛
+🟩🟩🟩🟩🟩
+
+Wordle 275 4/6 
+
+🟩🟨⬜⬜🟨
+🟩🟩🟨🟨⬜
+🟩🟩🟩🟨⬜
 🟩🟩🟩🟩🟩
