@@ -27,3 +27,8 @@ date: 2022-03-21
 
 ![trade-financing](/assets/trade-financing.jpeg)
 Source: International Trade Administration Trade Finance Guide
+
+### Trade Finance - Blockchain Technology?
+- Multiple Parties Involved
+- Verification is Critical to Work Flows and Economics
+- Trade Finance relies on Significant Document Flow

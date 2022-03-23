@@ -9,7 +9,7 @@ tags: reference
 
 Greatly appreciate all the tools and knowledge generously shared online that helped me build this website :heart:
 
-Special thanks to the wonderful and amazing Grace! Check out her blog at https://ocholuo.github.io/. She inspired me to start this blog and has given me great help along the way :heart::heart:
+Special thanks to the wonderful and amazing Grace! Check out her blog at [https://ocholuo.github.io/](https://ocholuo.github.io/). She inspired me to start this blog and has given me great help along the way :heart::heart:
 
 ## Building this site
 
