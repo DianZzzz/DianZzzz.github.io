@@ -13,8 +13,10 @@ date: 2022-03-31
 
 ### Ethereum Client
 * An implementation of Ethereum that allows one to read data and interact with the blockchain from the desktop. Essentially, like downloading a software and running on your own desktop without relying on any third parties
+
 ### Node Endpoints-as-a-service
 * Infrastructure provider running an Ethereum Client and openning up an API endpoint for anyone to query
+
 ### Data Mappers
 * Parsing transaction and event log data into a format that can be queried with transitional languages like SQL and GraphQL
 
