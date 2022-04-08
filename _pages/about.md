@@ -11,7 +11,7 @@ Hangzhou, Zhejiang :cn: ---> Singapore ---> Austin TX :us:
 <br>
 
 
-## My Best Friend: Pepper 屁屁 
+## My Bestie: Pepper 屁屁 
 ![pepper](/assets/pepper.jpg)
 <br>
 
@@ -21,4 +21,4 @@ Hangzhou, Zhejiang :cn: ---> Singapore ---> Austin TX :us:
 &nbsp;
 
 ## My Certifications
-![CFAI](/assets/CFAI.png)  ![CFAII](/assets/CFAII.png) 
+![CFAI](/assets/CFAI.png)  ![CFAII](/assets/CFAII.png)
