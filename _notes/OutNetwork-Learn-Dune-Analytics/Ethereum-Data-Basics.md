@@ -60,33 +60,33 @@ date: 2022-03-31
 
 ## Code Example
 ```sql
-# look at the first 10 ethereum transactions
+-- look at the first 10 ethereum transactions
 SELECT * FROM ethereum."transactions"
 LIMIT 10
 ```
 
 ```sql
-# just need the hashes
+-- just need the hashes
 SELECT "hash" FROM ethereum."transactions"
 LIMIT 10
 ```
 
 ```sql
-# look up the exact transaction based on a specific hash
-# the leading 0 in the hash needs to be changed to "\"
+-- look up the exact transaction based on a specific hash
+-- the leading 0 in the hash needs to be changed to "\"
 SELECT * FROM ethereum."transactions" tx
 WHERE "hash" = '\x2a72c6e47f8283723b5ca132cf6ec7614bcdec7af6d210cca26bcac37ac7fb26'
 ```
 
 ```sql
-# look up the value transferred for a specific transaction
-# transform the value from heximal to decimal using the bytea2numeric function
+-- look up the value transferred for a specific transaction
+-- transform the value from heximal to decimal using the bytea2numeric function
 SELECT "data", bytea2numeric("data")/1e6 as "data_trans" FROM ethereum."logs" el
 WHERE el."tx_hash" = '\x2a72c6e47f8283723b5ca132cf6ec7614bcdec7af6d210cca26bcac37ac7fb26'
 ```
 
 ```sql
-# look up transactions that happen within the last month from certain users in aave
+-- look up transactions that happen within the last month from certain users in aave
 # in descending order based on transaction amount
 SELECT * FROM aave_v2."LendingPool_evt_Deposit"
 WHERE "user" IN ('\x0f8361ef329b43fa48ac66a7cd8f619c517274f1','\x7ffc460cea6f22f598b6e02f1c9b1e197a597b19','\xbce6053b60c5913f4190c95f629f473be0e379aa')

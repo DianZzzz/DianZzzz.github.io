@@ -25,7 +25,7 @@ With standards, Web3 app can use the same code to interact with all tokens.
 
 ## SQL Aggregation Functions
 ```sql
-# count how many successful transactions took place in a specific week
+-- count how many successful transactions took place in a specific week
 SELECT COUNT(*)
 FROM genieswap."GenieSwap_call_multiAssetSwap"
 WHERE "call_block_time" >= '10-18-2021'
@@ -34,7 +34,7 @@ AND "call_success" = True
 ```
 
 ```sql
-# count how many successful transactions took place each week
+-- count how many successful transactions took place each week
 SELECT COUNT(*),
 date_trunc('week',"call_block_time") AS weeks
 FROM genieswap."GenieSwap_call_multiAssetSwap"
@@ -43,7 +43,7 @@ GROUP BY weeks
 ```
 
 ```sql
-# count the average daily transactions
+-- count the average daily transactions
 WITH count_per_day AS (
 SELECT COUNT(*) AS count,
 date_trunc('day',"call_block_time") AS days
