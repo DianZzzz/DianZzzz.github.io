@@ -2,7 +2,7 @@
 layout: blog
 topic: Web-3
 title: What Is Web 3
-tags: tech web3 web internet blockchain DAO 
+tags: tech web3 web internet blockchain DAO
 comments: true
 date: 2022-01-24
 ---
@@ -22,7 +22,7 @@ https://www.zhihu.com/question/341559382/answer/2272136420_
 
 # Core Architecture
 
-An an ecosystem of decentralized apps running on blockchain with transactions made in cryptocurrncies.
+An ecosystem of decentralized apps running on blockchain with transactions made in cryptocurrncies.
 
 ## Web 3 Benefits
 *   Democracy: decentralization shifts the power balance away from big corporations toward inviduals
@@ -31,6 +31,5 @@ An an ecosystem of decentralized apps running on blockchain with transactions ma
 *   Privacy: greater protection of personal data
 
 ## Web 3 Costs
-*   Chaos: people can say whatever they want 
+*   Chaos: people can say whatever they want
 *   Energy Intensive: mining uses lots of energy; sharing files across multiple servers also uses more energy than central storage
-
