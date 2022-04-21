@@ -7,7 +7,7 @@ layout: default
 
 {{ content }}
 
-{% assign topics = site.tech | group_by:"topic" % | sort: 'date' | reverse %}
+{% assign topics = site.tech | group_by:"topic" | sort: 'date' | reverse %}
 {% for topic in topics %}
   {{ topic.name | replace: '-', ' ' }}
   <ul style="padding-top: 0.3em;">
