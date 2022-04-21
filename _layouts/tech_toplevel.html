@@ -6,12 +6,12 @@ layout: default
 <br>
 
 {{ content }}
-
 {% assign topics = site.tech | group_by:"topic" | sort: 'date' | reverse %}
 {% for topic in topics %}
   {{ topic.name | replace: '-', ' ' }}
   <ul style="padding-top: 0.3em;">
-  {% for post in topic.items %}
+  {% assign posts = topic.items | sort: 'date' | reverse %}
+  {% for post in posts %}
     <li style="line-height: 1; padding-top: 0.4em;">
     <a href="{{ post.url | absolute_url }}"> {{ post.title }}
     </a>
