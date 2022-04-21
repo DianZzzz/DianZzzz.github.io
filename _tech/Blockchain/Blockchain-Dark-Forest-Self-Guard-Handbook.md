@@ -1,8 +1,8 @@
 ---
 layout: blog
 topic: Blockchain
-title: Bitcoin White Paper
-tags: bitcoin blockchain
+title: Blockchain Dark Forest Self Guard Handbook
+tags: bitcoin blockchain security wallet backup
 comments: true
 date: 2022-02-05
 ---
