@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<h1>Tech</h1>
+<h1>Code</h1>
 <br>
 
 {{ content }}
-{% assign topics = site.tech | group_by:"topic" %}
+{% assign topics = site.code | group_by:"topic" %}
 {% for topic in topics %}
   {{ topic.name | replace: '-', ' ' }}
   <ul style="padding-top: 0.3em;">
-  {% assign posts = topic.items | sort: 'date' | reverse %}
+  {% assign posts = topic.items | sort: 'date' %}
   {% for post in posts %}
     <li style="line-height: 1; padding-top: 0.4em;">
     <a href="{{ post.url | absolute_url }}"> {{ post.title }}
