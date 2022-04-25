@@ -9,10 +9,15 @@ date: 2022-04-21
 # CapIQ Screening Excel Formulas
 
 ## Common Formulas
+
 =@CIQ($A2, "IQ_COMPANY_NAME")
+
 =@CIQ($A2, "IQ_BUSINESS_DESCRIPTION")
+
 =@CIQ($A2, "IQ_CLOSEPRICE_ADJ")
+
 =@CIQ($A2, "IQ_MARKETCAP")
+
 =@CIQ($A2, "IQ_PE_EXCL_FWD")
 
 ## More Formulas
