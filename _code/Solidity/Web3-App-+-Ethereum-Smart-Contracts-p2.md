@@ -1,13 +1,13 @@
 ---
 layout: blog
 topic: Solidity
-title: Build a Web3 App - Website Building
+title: Build a Web3 App - Website Set Up
 tags: ethereum solidity web3 smartcontract
 comments: true
 date: 2022-04-24
 ---
 
-# Build a Web3 App - Website Building
+# Build a Web3 App - Website Set Up
 
 The website will be deployed using [Replit](https://replit.com).
 
