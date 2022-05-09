@@ -116,7 +116,7 @@ const App = () => {
         </div>
 
         <button className="waveButton" onClick={wave}>
-          Wave at Me
+          Vax Me
         </button>
 
         {!currentAccount && (
