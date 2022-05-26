@@ -21,15 +21,23 @@ wei is the smallest unit of ETH.
 
 `10^9 wei = 1 gwei`
 
+Thus,
+
+`10^18 wei = 1 ETH`
+
 ## Calculate Gas Fee Before London Upgrade
 
-`Total Fee = Gas Limit * Gas Price Per Unit`
+`Total Fee = Gas Used * Gas Price Per Unit`
 
-21,000 is the  minimum amount of gas an operation on Ethereum will use. 
+21,000 is the  minimum amount of gas an operation on Ethereum will use.
 
 
 ## Calculate Gas Fee After London Upgrade
 
-The London Upgrade was impleted on August 5, 2021
+The London Upgrade, or EIP-1599, was implemented on August 5, 2021
 
-`Total Fee = Gas Limit * (Base fee + Tip)`
+The base fee represents the amount of ETH burned or destroyed.
+
+The tip represents the amount awarded to miners.
+
+`Total Fee = Gas Used * (Base fee + Tip)`
