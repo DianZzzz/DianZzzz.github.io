@@ -1,7 +1,7 @@
 ---
 layout: blog
 topic: Space
-title: James Webb Space Telescope
+title: First Images of Black Hole
 tags: space universe telescrope jameswebb blackhole
 comments: true
 date: 2022-05-29
