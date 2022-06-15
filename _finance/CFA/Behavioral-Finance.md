@@ -64,7 +64,7 @@ date: 2022-06-15
   - have a higher tolerance for risk than they have need for security. 
 
 #### Bailard, Biehl, and Kaiser Model
-![kkb model](assets/kkb model.png)
+![kkb model](/assets/kkb model.png)
 
 
 
