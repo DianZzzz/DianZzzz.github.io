@@ -34,6 +34,7 @@ date: 2022-06-15
 - `Gamblers’ fallacy`: a misunderstanding of probabilities in which people wrongly project reversal to a long-term mean
 - `Hot hand fallacy`: people wrongly project continuation of a recent trend
 - `Conjunction fallay`: an inappropriate combining of probabilities of independent events to support a belief. In fact, the probability of two independent events occurring in conjunction is never greater than the probability of either event occurring alone;
+
 ### Emotional biases
 
 - `Loss-aversion bias`:people tend to strongly prefer avoiding losses as opposed to achieving gains.
@@ -48,7 +49,7 @@ date: 2022-06-15
 - `Endowment Bias`: people value an asset more when they hold rights to it than when they do not
 - `Regret-Aversion Bias`: people tend to avoid making decisions that will result in action out of fear that the decision will turn out poorly. 
 - `Social proof`: individuals are biased to follow the beliefs of a group. 
-***
+
 
 ## Behavioral Finance and Investment Processes
 
