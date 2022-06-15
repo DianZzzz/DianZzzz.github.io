@@ -11,7 +11,7 @@ date: 2022-06-15
 
 ## Cognitive errors
 
-- `Belief Perseverance`: the tendency to cling to one’s previously held beliefs irrationally or illogically.
+- **Belief Perseverance**: the tendency to cling to one’s previously held beliefs irrationally or illogically.
   - `Conservatism`: people maintain their prior views or forecasts by inadequately incorporating new information.
   - `Confirmation`: people tend to look for and notice what confirms their beliefs, and to ignore or undervalue what contradicts their beliefs.
   - `Reprensentativeness`: people tend to classify new information based on past experiences and classifications.
