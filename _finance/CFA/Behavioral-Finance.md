@@ -65,6 +65,7 @@ date: 2022-06-15
 
 #### Bailard, Biehl, and Kaiser Model
 
+![kkb model](/assets/kkb-model.png)
 
 
 
