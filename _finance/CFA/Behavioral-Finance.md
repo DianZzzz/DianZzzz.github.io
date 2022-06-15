@@ -31,21 +31,23 @@ date: 2022-06-15
     - `categorization`: if an answer or idea comes to mind more quickly than another answer or idea, the first answer or idea will likely be chosen as correct even if it is not the reality
     - `narrow range of experience`: a person with a narrow range of experience uses too narrow a frame of reference when making an estimate.
     - `resonance`: people are often biased by how closely a situation parallels their own personal situation.
-
+- `Gamblers’ fallacy`: a misunderstanding of probabilities in which people wrongly project reversal to a long-term mean
+- `Hot hand fallacy`: people wrongly project continuation of a recent trend
+- `Conjunction fallay`: an inappropriate combining of probabilities of independent events to support a belief. In fact, the probability of two independent events occurring in conjunction is never greater than the probability of either event occurring alone;
 ### Emotional biases
 
 - `Loss-aversion bias`:people tend to strongly prefer avoiding losses as opposed to achieving gains.
   - `Disposition effect`: the holding (not selling) of investments that have experienced losses (losers) too long, and the selling (not holding) of investments that have experienced gains (winners) too quickly.
   - `Myopic Loss Aversion`: investors presented with annual return data for stocks and bonds tend to adopt more conservative strategies (lower allocation to equities) than those presented with longer-term return data
- - `Overconfidence bias`:people demonstrate unwarranted faith in their own intuitive reasoning, judgments, and/or cognitive abilities. 
-    - `Prediction overconfidence`: the confidence intervals that people assign to their investment predictions are too narrow. 
-    - `Prediction overconfidence`: the confidence intervals that people assign to their investment predictions are too narrow. 
- - `Self-attribution bias`: success is attributed to the individual’s skill, while failures are attributed to external factors.
- - `Self-Control Bias`: people fail to act in pursuit of their long-term, overarching goals because of a lack of self-discipline
- - `Status Quo Bias`: people choose to do nothing (i.e., maintain the “status quo”) instead of making a change. 
- - `Endowment Bias`: people value an asset more when they hold rights to it than when they do not
- - `Regret-Aversion Bias`: people tend to avoid making decisions that will result in action out of fear that the decision will turn out poorly. 
-
+- `Overconfidence bias`:people demonstrate unwarranted faith in their own intuitive reasoning, judgments, and/or cognitive abilities. 
+   - `Prediction overconfidence`: the confidence intervals that people assign to their investment predictions are too narrow. 
+   - `Prediction overconfidence`: the confidence intervals that people assign to their investment predictions are too narrow. 
+- `Self-attribution bias`: success is attributed to the individual’s skill, while failures are attributed to external factors.
+- `Self-Control Bias`: people fail to act in pursuit of their long-term, overarching goals because of a lack of self-discipline
+- `Status Quo Bias`: people choose to do nothing (i.e., maintain the “status quo”) instead of making a change. 
+- `Endowment Bias`: people value an asset more when they hold rights to it than when they do not
+- `Regret-Aversion Bias`: people tend to avoid making decisions that will result in action out of fear that the decision will turn out poorly. 
+- `Social proof`: individuals are biased to follow the beliefs of a group. 
 ***
 
 ## Behavioral Finance and Investment Processes
@@ -68,6 +70,29 @@ date: 2022-06-15
 ![kkb model](/assets/kkb-model.png)
 
 
+#### Pompian 4 BITs
+- Passive Preserver (PP)
+  - Basic type: Passive
+  - Risk tolerance level: Low
+  - Primary biases: Emotional
+  - Investment styple: Conservative 
+- Friendly Followers (FF)
+  - Basic type: Passive
+  - Risk tolerance level: Low to medium
+  - Primary biases: Cognitive
+  - Investment styple: Moderate 
+- Independent Individualist (II)
+  - Basic type: Active
+  - Risk tolerance level: Medium to high
+  - Primary biases: Cognitive
+  - Investment styple: Growth 
+- Active Accumulator (AA)
+  - Basic type: Active
+  - Risk tolerance level: High
+  - Primary biases: Emotional
+  - Investment styple: Aggressive 
 
-
-
+### Behavioral Portfolio Theory
+- Portfolios, affected by behavioral biases, are formed as layered pyramids in which each layer is aligned with an objective. 
+- Behavioral investors do not consider the correlation between the layers in the way that modern portfolio theory would suggest they should.
+- Investors have multiple attitudes toward risk depending on which part of their wealth is being considered. 
