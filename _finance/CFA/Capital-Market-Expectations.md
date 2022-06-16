@@ -240,4 +240,13 @@ i*, target nominal policy rate  = r-neutral, real policy rate that would be targ
 - The Liquidity Premium
 
 ### DCF Approach to Equity Returns
-E(Re)≈DP+(%ΔE−%ΔS)+%ΔP/E
+
+#### Grinold–Kroner model
+
+E(Re) ≈ D/P + (%ΔE−%ΔS) + %ΔP/E
+Expected equity return ≈ dividend yield + expected changes in earnings - expected changes in S/O + expected changes in PE ratio
+
+### Risk Premium Approaches to Equity Returns
+
+#### Singer and Terhaar model
+
