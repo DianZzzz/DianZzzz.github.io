@@ -238,3 +238,6 @@ i*, target nominal policy rate  = r-neutral, real policy rate that would be targ
 - The Term Premium
 - The Credit Premium
 - The Liquidity Premium
+
+### DCF Approach to Equity Returns
+E(Re)≈DP+(%ΔE−%ΔS)+%ΔP/E
