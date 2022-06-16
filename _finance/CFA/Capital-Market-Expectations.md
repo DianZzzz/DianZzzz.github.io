@@ -124,18 +124,11 @@ date: 2022-06-15
 
 ### Initial Recovery
 - The economy picks up, business confidence rises, an upturn in spending on housing and consumer durables.
-- Stimulative policies are still in place
+- Stimulative policies are still in place. Transitioning to tightening mode.
 - Ngative output gap is large
 - Inflation is typically decelerating
-- Short-term rates and government bond yields are low. 
-- Cyclical assets and riskier assets typically perform well.
-
-### Initial Recovery
-- The economy picks up, business confidence rises, an upturn in spending on housing and consumer durables.
-- Stimulative policies are still in place
-- Ngative output gap is large
-- Inflation is typically decelerating
-- Short-term rates and government bond yields are low. 
+- Rates are low and bottoming. 
+- Yield curve is steep. Shortest yields begin to rise first. 
 - Cyclical assets and riskier assets typically perform well.
 
 ### Early Expansion
@@ -143,8 +136,8 @@ date: 2022-06-15
 - Output gap remains negative
 - Businesses step up production and investment
 - Profits typically rise rapidly. 
-- Short rates are moving up as the central bank starts to withdraw stimulus put in place during the recession. 
-- The yield curve is flattening. 
+- Short rates are moving up as the central bank starts to withdraw stimulus 
+- Yields rising. The yield curve is flattening. 
 
 ### Late Expansion
 - Output gap closes
@@ -159,13 +152,15 @@ date: 2022-06-15
 ### Slowdown
 - Economy is slowing and approaching the eventual peak
 - Inflation often continues to rise
+- Monetary policies becomme restrictive. 
 - The yield curve may invert. Credit spreads generally widen. 
 - The stock market may fall, with interest-sensitive stocks such as utilities underperforming and “quality” stocks with stable earnings performing best.
 
 ### Contraction
 -  Firms cut production sharply. Profits drop sharply. 
 -  Unemployment can rise quickly
--  Short-term interest rates drop, as do bond yields. 
+-  Monetary policies more stimulating to combat downward momentum
+-  Yields declining. 
 -  The yield curve steepens substantially. 
 -  The stock market declines in the earlier stages of the contraction but usually starts to rise in the later stages, well before the recovery emerges. 
 -  Credit spreads typically widen and remain elevated until signs of a trough emerge 
@@ -191,8 +186,12 @@ date: 2022-06-15
 - RE: Negative as property values generally decline
 
 ## Fiscal and Monetary Policy
+
 - Fiscal policies: taxation and spending
 - Monetary policeis: policy rates and liquidity provision
+
+- Loose (tight) fiscal policy = High (low) real rates
+- Loose (tight) monetary policy = High (low) expected inflation
 
 ### Taylor's Rule
 i*, target nominal policy rate  = r-neutral, real policy rate that would be targeted if growth is expected to be at trend and inflation on target 
@@ -200,3 +199,42 @@ i*, target nominal policy rate  = r-neutral, real policy rate that would be targ
                                 + 0.5 * (Y-e, expected real GDP growth rates - Y-trend, long-term trend in the GDP growth rate)
                                 + 0.5 * (π-e, expected inflation rate - π-target, targeted inflation rate)
 
+## International Interactions
+- `Current Account`: net exports of goods and services, net investment income flows, and unilateral transfers. 
+- `Capital Account`:net investment flows for Foreign Direct Investment (FDI) and Portfolio Investment (PI) flows 
+
+> Y = C + I + G + X - M
+> 
+> Y = C + S (private savings) + T(tax)
+> 
+> (X, expoert - M, import) = (S, savings - I, investment) + (T, tax - G, gov spending)
+>
+> Current Account = (S-I) + (T-G)
+
+### The Impossible Trinity
+- Unrestricted capital flows
+- Fixed exchange rate
+- Independent monetary policy
+
+* * *
+
+## Approaches to Forecast Asset Values
+
+- Formal tools
+  - Statistical Methods
+    -  Sample statistics: sample means, variances, and correlations
+    -  `Shrinkage estimation`: taking a weighted average of two estimates of the same parameter—one based on historical sample data and the other based on some other source or information
+    -  `Time series estimation`: forecasting a variable on the basis of lagged values of the variable being forecast
+  - Discounted Cash Flow
+  - Risk Premium Models
+    - An equilibrium model, i.e. CAPM
+    - A factor model
+    - Building blocks
+- Surveys
+- Judgement
+
+### The Building Block Approach to Fixed-Income Returns
+- The Short-term Default-free Rate
+- The Term Premium
+- The Credit Premium
+- The Liquidity Premium
