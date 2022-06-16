@@ -250,3 +250,21 @@ Expected equity return ≈ dividend yield + expected changes in earnings - expec
 
 #### Singer and Terhaar model
 
+1.  Under the assumption of full integration with the global market portofolio:
+    Risk Premium = β * Global Risk Premium = ρ * (SD of asset / SD of market) * Global Risk Premium = ρ * SD of asset * Global Sharpe Ratio
+
+2.  Under the assumption of full segmentation of markets: 
+    β = 1 and each asset is their own market
+    Risk Premium = 1 * Market Risk Premium = 1 * SD of asset * (Risk premium of the asset / SD of asset) = Asset Risk * Asset Sharpe Ratio 
+
+3.  The weighted average of two component:
+     RPi = φ * Risk Premium Under Global Assumption +(1−φ) * Risk Premium Under Segmentation Assumption
+     
+## Forecasting Real Estate Return
+
+Cap Rate = Net Operating Income / Property Value
+Expected Return = Cap Rate + NOI growth rate
+
+## Forecasting Exchange Rates
+
+
