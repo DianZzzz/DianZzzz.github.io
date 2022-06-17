@@ -91,8 +91,8 @@ date: 2022-06-15
 - Rarely forecasts turning points well
 
 ### Economic Indicators
-- `Leading economic indicator`: 
-- `Lagging economic indicator`: 
+- `Leading economic indicator`:
+- `Lagging economic indicator`:
 - `Diffusion Index`: an index that measures how many indicators are pointing up and how many are pointing down.
 - `Look-Ahead Bias`: a study relies on data or information that is not yet available or known during the study
 
@@ -111,14 +111,14 @@ date: 2022-06-15
 - Consider a whole range of economic data to assess the economy’s future position.
 
 #### Advantages
-- Flexible. Structural changes easily incorporated. Items easily added/dropped. 
+- Flexible. Structural changes easily incorporated. Items easily added/dropped.
 - Breadth: Can include virtually any topics, perspectives, theories, and assumptions.
 
 #### Disadvantages
 - Subjective. Arbitrary. Judgmental.
-- Time-consuming. Manual process limits depth of analysis. 
+- Time-consuming. Manual process limits depth of analysis.
 - No clear mechanism for combining disparate information.
-- Imposes no consistency of analysis across items or at different points in time. 
+- Imposes no consistency of analysis across items or at different points in time.
 
 ## Business Cycle
 
@@ -127,17 +127,17 @@ date: 2022-06-15
 - Stimulative policies are still in place. Transitioning to tightening mode.
 - Ngative output gap is large
 - Inflation is typically decelerating
-- Rates are low and bottoming. 
-- Yield curve is steep. Shortest yields begin to rise first. 
+- Rates are low and bottoming.
+- Yield curve is steep. Shortest yields begin to rise first.
 - Cyclical assets and riskier assets typically perform well.
 
 ### Early Expansion
-- Unemployment starts to fall 
+- Unemployment starts to fall
 - Output gap remains negative
 - Businesses step up production and investment
-- Profits typically rise rapidly. 
-- Short rates are moving up as the central bank starts to withdraw stimulus 
-- Yields rising. The yield curve is flattening. 
+- Profits typically rise rapidly.
+- Short rates are moving up as the central bank starts to withdraw stimulus
+- Yields rising. The yield curve is flattening.
 
 ### Late Expansion
 - Output gap closes
@@ -147,30 +147,30 @@ date: 2022-06-15
 - Interest rates are typically rising as monetary policy becomes restrictive.
 - Stock markets often rise but may be volatile as nervous investors endeavor to detect signs of looming deceleration.
 - Yield curve continues to flatten
-- Cyclical assets may underperform while inflation hedges such as commodities outperform. 
+- Cyclical assets may underperform while inflation hedges such as commodities outperform.
 
 ### Slowdown
 - Economy is slowing and approaching the eventual peak
 - Inflation often continues to rise
-- Monetary policies becomme restrictive. 
-- The yield curve may invert. Credit spreads generally widen. 
+- Monetary policies becomme restrictive.
+- The yield curve may invert. Credit spreads generally widen.
 - The stock market may fall, with interest-sensitive stocks such as utilities underperforming and “quality” stocks with stable earnings performing best.
 
 ### Contraction
--  Firms cut production sharply. Profits drop sharply. 
+-  Firms cut production sharply. Profits drop sharply.
 -  Unemployment can rise quickly
 -  Monetary policies more stimulating to combat downward momentum
--  Yields declining. 
--  The yield curve steepens substantially. 
--  The stock market declines in the earlier stages of the contraction but usually starts to rise in the later stages, well before the recovery emerges. 
--  Credit spreads typically widen and remain elevated until signs of a trough emerge 
+-  Yields declining.
+-  The yield curve steepens substantially.
+-  The stock market declines in the earlier stages of the contraction but usually starts to rise in the later stages, well before the recovery emerges.
+-  Credit spreads typically widen and remain elevated until signs of a trough emerge
 
 
 ## Inflation Expectation
 
 ### Inflation at or below expectations
 - Cash Equivalents (CE) and Bonds: Neutral with stable or declining yields
-- Equity: Positive with predictable economic growth 
+- Equity: Positive with predictable economic growth
 - Real Estate (RE): Neutral with typical rates of return
 
 ### Inflation above expectations
@@ -194,19 +194,19 @@ date: 2022-06-15
 - Loose (tight) monetary policy = High (low) expected inflation
 
 ### Taylor's Rule
-i*, target nominal policy rate  = r-neutral, real policy rate that would be targeted if growth is expected to be at trend and inflation on target 
+i*, target nominal policy rate  = r-neutral, real policy rate that would be targeted if growth is expected to be at trend and inflation on target
                                 + π-e, expected inflation rate
                                 + 0.5 * (Y-e, expected real GDP growth rates - Y-trend, long-term trend in the GDP growth rate)
                                 + 0.5 * (π-e, expected inflation rate - π-target, targeted inflation rate)
 
 ## International Interactions
-- `Current Account`: net exports of goods and services, net investment income flows, and unilateral transfers. 
-- `Capital Account`:net investment flows for Foreign Direct Investment (FDI) and Portfolio Investment (PI) flows 
+- `Current Account`: net exports of goods and services, net investment income flows, and unilateral transfers.
+- `Capital Account`:net investment flows for Foreign Direct Investment (FDI) and Portfolio Investment (PI) flows
 
 > Y = C + I + G + X - M
-> 
+>
 > Y = C + S (private savings) + T(tax)
-> 
+>
 > (X, expoert - M, import) = (S, savings - I, investment) + (T, tax - G, gov spending)
 >
 > Current Account = (S-I) + (T-G)
@@ -253,18 +253,62 @@ Expected equity return ≈ dividend yield + expected changes in earnings - expec
 1.  Under the assumption of full integration with the global market portofolio:
     Risk Premium = β * Global Risk Premium = ρ * (SD of asset / SD of market) * Global Risk Premium = ρ * SD of asset * Global Sharpe Ratio
 
-2.  Under the assumption of full segmentation of markets: 
+2.  Under the assumption of full segmentation of markets:
     β = 1 and each asset is their own market
-    Risk Premium = 1 * Market Risk Premium = 1 * SD of asset * (Risk premium of the asset / SD of asset) = Asset Risk * Asset Sharpe Ratio 
+    Risk Premium = 1 * Market Risk Premium = 1 * SD of asset * (Risk premium of the asset / SD of asset) = Asset Risk * Asset Sharpe Ratio
 
 3.  The weighted average of two component:
      RPi = φ * Risk Premium Under Global Assumption +(1−φ) * Risk Premium Under Segmentation Assumption
-     
+
 ## Forecasting Real Estate Return
 
 Cap Rate = Net Operating Income / Property Value
+
 Expected Return = Cap Rate + NOI growth rate
 
 ## Forecasting Exchange Rates
 
+### Purchase Power Parity
+- %Δ Ex Rate = %Δ Country A Inflation Expectation - %Δ Country B Inflation Expectation
 
+### Uncovered Interest Rate Partiy
+- %Δ Ex Rate = %Δ Country A Nominal Interest Rate - %Δ Country B Nominal Interest Rate
+- Yet the profitability of carry trade - borrowing in low-rate currencies and lending in high-rate currencies—violates the UIP assumption
+
+## Forecasting Volatilities
+
+### Sample Statistics for CVC Matrix
+
+#### Advantages
+- Unbiased and correct on average
+- Converges to the true CVC matrix as sample size gets larger
+
+#### Disadvantages
+- Can't be used for large numbers of assets
+- Substantial sampling error unless number of observations is at least 10 times number of assets
+- No cross sectional consistency
+
+### Factor Model for CVC Matrix
+
+#### Advantages
+- Can be used when number of assets exceeds number of observations
+- Reduce the number of unique parameters to be estimated
+- Imposes cross-sectional structure
+- Substantially reduce estimation error
+
+#### Disadvantages
+- Mis-specified factor model will be biased and in consistent and will no converge on average
+
+### Shrinkage Estimation for CVC Matrix
+- Weighted average of the two methods
+- Captures the benefits of both methods while increase the efficiency (reduce MSE) of the estimates
+
+### Estimating Volatility from Smoothed Returns
+
+- Current observed return, Rt, is a weighted average of the current true return, rt, and the previous observed return: Rt = (1−λ)*rt + λR_t−1
+- var(r) = (1+λ)/(1−λ) * var(R) > var(R)
+
+### Time-Varying Volatility: ARCH Models
+- Current variance depends only on the variance in the previous period and the unexpected component of the current return
+- σ_t^2 = γ + α x σ_t−1^2 + β x η_t^2
+        = γ + (α+β)x σ_t−1^2 + β x (η——t−σ2t−1)
