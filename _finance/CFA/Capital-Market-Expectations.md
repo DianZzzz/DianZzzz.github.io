@@ -311,4 +311,4 @@ Expected Return = Cap Rate + NOI growth rate
 ### Time-Varying Volatility: ARCH Models
 - Current variance depends only on the variance in the previous period and the unexpected component of the current return
 - σ_t^2 = γ + α x σ_t−1^2 + β x η_t^2
-        = γ + (α+β)x σ_t−1^2 + β x (η——t−σ2t−1)
+        = γ + (α+β)x σ_t−1^2 + β x (η_t^2 − σ_2t−1^2)
