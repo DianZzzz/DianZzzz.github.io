@@ -53,8 +53,8 @@ date: 2022-06-21
 #### Spread Duration
 - Measures the sensitivity of the bond’s price to changes in credit spread
 
-#### Duration times spread
--
+#### Duration times spread (DTS)
+- DTS = EffSpreadDur * Spread
 
 #### Portfolio dispersion
 - Measures the variance of the times of the cash flow
@@ -170,8 +170,43 @@ POD Approximation: POD = Spread / LGD
 
 ## Credit Spread
 - `G-Spread`: treasury yield with the matching duration as benchmark
-- `I-Spread`: interest rate swap as benchmark
+- `I-Spread`: interest rate swap as benchmar
 - `Asset Swap Spread, ASW`: difference between the bond's fixed coupon rate and the fixed rate on an interest rate swap
 - `Z-Spread`: spot curve as benchmark
 - `CDS Basis`: CDS with the same duration as benchmark
 -  `OAS Spread`
+- ExcessSpread
+
+## Floating Rate Note (FRN)F
+- Quoted Margin, QM
+- Discounted Margin, DM
+- Zero Discount Margin, Z-DM
+
+## Value at Risk
+- `Incremental VaR` measures the impact of a specific portfolio position change on VaR
+- `Relative VaR` evaluates all active portfolio positions versus the benchmark index
+- `CVaR` measures a portfolio’s average loss over a specific time period conditional on that loss exceeding the VaR threshold.
+
+## Methods to Assess Portfolio Tail Risk
+
+### Parametric Method
+- Uses expected value and standard deviation of risk factors assuming normal distribution
+- Advantage: Simple and transparent calculation
+- Disadvantage: Not well suited for non-normally distributed returns or option-based portfolios
+
+### Historical Simulation
+-	Prices existing portfolio using historical parameters and ranking results
+- Advantage: Actual results, accommodates options, with no probability distribution assumed
+- Disadvantage: Highly dependent on historical period and repetition of historical market trends
+
+### Monte Carlo Analysis
+- Involves generating random outcomes using portfolio measures and sensitivities
+- Advantage: Randomly generated results from a probability distribution, accommodates options
+- Disadvantage: Highly dependent on model assumptions and less transparent
+
+
+### CDS
+
+Upfront premium % = (Fixed Coupon - CDS Spread) * EffSpreadDur
+
+- To underweight: buy CDS
