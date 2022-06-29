@@ -1,7 +1,7 @@
 ---
 layout: blog
 topic: CFA
-title: Derivatives and Currency Management
+title: Fixed-Income Portfolio Management
 tags: cfa finance
 comments: true
 date: 2022-06-21
