@@ -62,4 +62,6 @@ Tracking Error = sqrt(variance(Portfolio Return - Benchmark Return))
 
 - Construct the portfolio by maximizing the objective function (such as portfolio alpha or information ratio) with risk models.
 - Portfolios are usually rebalanced at regular intervals, such as monthly.
-- Pitfalls: Survivorship Bias, Look-Ahead Bias, Data Mining, and Overfitting
+- Pitfalls: Survivorship Bias, Look-Ahead Bias, Data Mining, and Overfitting, Turnover, Transaction Costs, and Short Availability
+
+Expected Active Return = Information coefficient * sqrt(Breadth) * Active Risk * Transfer Coefficient
