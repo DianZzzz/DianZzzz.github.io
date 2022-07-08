@@ -99,3 +99,22 @@ date: 2022-06-15
 - Portfolios, affected by behavioral biases, are formed as layered pyramids in which each layer is aligned with an objective.
 - Behavioral investors do not consider the correlation between the layers in the way that modern portfolio theory would suggest they should.
 - Investors have multiple attitudes toward risk depending on which part of their wealth is being considered.
+
+## Situational Profiling
+
+- Source of wealth
+  - Active wealth creation
+  - Passive wealth creation
+- Measure of wealth
+  - Perception of wealth as small - lower risk tolerance
+  - Vice versa
+- Stage of life
+  - Foundation: long-time horizon - higher risk tolerance, little financial wealth - lower risk tolerance
+  - Accumulation: maximum savings and wealth accumulation - higher  risk tolerance
+  - Maintenance: retirement - risk tolerance declining
+  - Distribution: time horizon may extend beyond one's death so time horizon is long - higer risk tolerance
+
+## Investment Policy Statement IPS
+
+- Objectives: Return and Risk
+- Constraints: TTLLU (Time Horizon, Taxes, Liquidity, Legal, Unique)
