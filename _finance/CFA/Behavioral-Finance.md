@@ -118,3 +118,57 @@ date: 2022-06-15
 
 - Objectives: Return and Risk
 - Constraints: TTLLU (Time Horizon, Taxes, Liquidity, Legal, Unique)
+
+### Return Objective
+- Required return
+- Desired return
+- Pre- and After-tax return, adjusted for inflation
+
+#### Example
+Consider a client in a 30% tax bracket with $1,000,000, needing a $30,000 after-tax distribution at the end of the year with that amount growing at an estimated 2% inflation rate in perpetuity.
+
+1. First calculate the real, after-tax return: 30 / 1,000 = 3.00%.
+2. Then add inflation for the nominal, after-tax return: 3.00% + 2.00% = 5.00%.
+3. Last gross up for taxes to calculate the nominal, pretax return: 5.00% / (1 − 0.30) = 7.14%.
+
+### Risk Objective
+- Ability to take risk
+  - Shorter time horizon (decreases ability to take risk)
+  - Large critical goals in relation to the size of the portfolio.
+  - High liquidity needs.
+  - Goals that cannot be deferred.
+  - Situations where the portfolio is the sole source of support or an inability to replace losses in value.
+- Willingness to take risk
+- Overall conclusion
+
+### Taxes
+- Personal Income Tax
+- Capital Gain Tax
+- Wealth Transfer Tax
+- Personal Property Tax
+
+### Legal
+- Revocable trusts
+- Irrevocable trusts
+- Family foundation
+- If there are no noticeable legal concerns, state there are none beyond your normal ethical responsibilities under the Code and Standards.
+
+### Unique
+- Home ownership
+- ESG
+
+## Monte Carlo Simulation
+
+In Monte Carlo simulation, each of the variables is given a probability distribution to allow for real world uncertainty.
+
+### Pros
+- It considers path dependency, such as the interaction of changing inflation on the portfolio values and on the investor’s withdrawal needs.
+- It can more clearly display tradeoffs of risk and return by ranking the paths from the best to worst
+- Properly modeled tax analysis
+- A clearer understanding of short-term and long-term risk can be gained.
+- It is superior in assessing multi-period effects. Monte Carlo simulation can better model the real stochastic process where return over time depends not only on the starting value of the period but
+also on the additions or withdrawals to the portfolio at each future period.
+
+### Cons
+- Poor or simplistic inputs or modeling can create poor results.
+Models that simulate the return of asset classes but not the actual assets held.

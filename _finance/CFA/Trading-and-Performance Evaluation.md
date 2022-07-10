@@ -37,7 +37,7 @@ Trading Cost = Actual price paid - # of shares purchased * price_delayed
 #### Macro vs. Micro
 
 -  `Macro attribution`: attribution at the sponsor level to evaluate the asset owner’s tactical asset allocation and manager selection decisions
--  `Micro attribution`: attribution at the portfolio manager level to evaluate the impact of the portfolio manager’s decisions 
+-  `Micro attribution`: attribution at the portfolio manager level to evaluate the impact of the portfolio manager’s decisions
 
 #### Return-based vs. Holding-based vs. Transaction-based
 - `Returns-based attribution`:
@@ -49,7 +49,7 @@ Trading Cost = Actual price paid - # of shares purchased * price_delayed
 
 #### Equity Return Attribution
 
-##### The Brinson–Hood–Beebower approach 
+##### The Brinson–Hood–Beebower approach
 
 Allocation = (portfolio’s sector weight - benchmark’s sector weight) *  benchmark sector return
 Selection = (portfolio’s sector return - benchmark’s sector return) *  benchmark sector return
@@ -70,18 +70,18 @@ Allocation = (portfolio’s sector weight - benchmark’s sector weight) *  (ben
 - Exposure decomposition—duration based
 - Yield curve decomposition—duration based
 - Yield curve decomposition—full repricing based
-- 
+-
 #### Risk Attribution
 
 - Absolute return target: marginal contribution to total risk or factor’s marginal contribution to total risk and specific risk
-- Relative return target: marginal contribution to tracking risk 
+- Relative return target: marginal contribution to tracking risk
 
 #### Decomposition of Portfolio Return
 
 Return due to style = Benchmark - Market
 Return due to active management = Portfolio - Benchmark
 
-### Performance Appraisal 
+### Performance Appraisal
 
 #### Sharpe ratio
 - (Portfolio return - risk free rate) / standard deviation
@@ -127,22 +127,22 @@ Return due to active management = Portfolio - Benchmark
     - Investment vehicle
     - Terms
     - Monitoring
- 
- ### Style Analysis
- 
- #### Return-based style analysis (RBSA)
- 
- ##### Advantages
+
+### Style Analysis
+
+#### Return-based style analysis (RBSA)
+
+##### Advantages
  - Does not require potentially difficult to acquire data.
- ##### Disadvantages
+##### Disadvantages
  - Not a precise tool
  - If the portfolio contains illiquid securities, stale prices may understate the risk exposure of the strategy.
 
- #### Holdings-based style analysis (HBSA)
- ##### Advantages
+#### Holdings-based style analysis (HBSA)
+##### Advantages
  - It can identify important drivers of return and risk factors and is comparable across managers and through time.
- - 
- ##### Disadvantages
- - The computational effort increases with the complexity of the strategy and depends on the timing and degree of the transparency provided by the manager. 
+ -
+##### Disadvantages
+ - The computational effort increases with the complexity of the strategy and depends on the timing and degree of the transparency provided by the manager.
  - Window dressing and high turnover can compromise the results because the results are attributed to a snapshot of the portfolio.
- - If the portfolio has illiquid securities, stale pricing may underestimate the risk exposure of the strategy. 
+ - If the portfolio has illiquid securities, stale pricing may underestimate the risk exposure of the strategy.
