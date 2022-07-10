@@ -15,6 +15,21 @@ date: 2022-06-17
 - Consumable/transformable Assets
 - Store of Value of Assets
 
+### VaR
+
+A 100 million portfolio has a 1.37% VaR at the 5% probability over one week means that over one week, the portfolio could lose 1.37% of 100 million or 1.37 million. There is a 5% chance that more than this will be lost and a 95% chance that less than this will be lost.
+
+#### Advantages of VaR
+- It has become the industry standard for risk measurement and is required by many regulators.
+- It aggregates all risk into one single, easy to understand number.
+- It can be used in capital allocation.
+
+#### Disadvantages of VaR
+- Some of the methods (Monte Carlo) are difficult and expensive.
+- The different computation methods can generate different estimates of VaR.
+- It can generate a false sense of security. It is only as good as the inputs and estimation process. Even when done correctly it is probabilistic; things can always be worse.
+- It is one-sided, focusing on the left tail in the return distribution, and ignores any upside potential.
+
 ### Optimal Choice Between One Risky Asset and Risk Free Asset
 w* =1/λ * (μ−r_f/σ^2)
 λ: investor's risk aversion
@@ -121,4 +136,4 @@ where E(R) = surplus return = (Δ in asset value - Δ in liability value) / Init
 
 ### Availability Bias
 - A formal asset allocation process using the global market portfolio as the starting point for asset allocation modeling
-- A strong governance framework with the appropriate level of expertise and well-documented investment beliefs 
+- A strong governance framework with the appropriate level of expertise and well-documented investment beliefs
