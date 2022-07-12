@@ -65,6 +65,11 @@ Allocation = (portfolio’s sector weight - benchmark’s sector weight) *  (ben
 - HML = high minus low, a value factor (HML is the average return on two high-book-to-market portfolios minus the average return on two low-book-to-market portfolios)
 - WML = winners minus losers, a momentum factor (WML is the return on a portfolio of the past year’s winners minus the return on a portfolio of the past year’s losers)
 
+##### Bailey Decomposition
+
+Portfolio Return = Market Return + Active Management Return + Style Return
+S = Benchmark - Market
+A = Portfolio - Benchmark
 #### Fixed-income attribution
 
 - Exposure decomposition—duration based
@@ -103,7 +108,12 @@ Return due to active management = Portfolio - Benchmark
 - more relevant when return distributions are not symmetrical, as with option writing and when one of the primary objectives is capital preservation.
 
 #### Capture ratios
-
+- Calculate the geometric means for upside or downside returns: [(1+x1)(1+x2)...(1+xn)]^(1/n)
+- Upside (Downside) Capture = Portfolio Mean / Benchmark Mean
+- Capture Ratio = Upside Ratio / Downside Ratio
+- Capture Ratio > 1: Convex return
+- Capture Ratio < 1: Concave return
+- Capture RATIO = 1: Symmetric return
 
 ## Investment Manager Selection
 
