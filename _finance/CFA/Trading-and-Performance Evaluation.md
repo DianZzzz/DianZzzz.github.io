@@ -8,6 +8,55 @@ date: 2022-07-05
 ---
 # Trading and Performance Evaluation
 
+## Reference Prices
+
+### Pre-trade benchmarks
+- `Decision price`: the security price at the time the portfolio manager made the decision to buy or sell the security
+- `Previous close`: often specified by quantitative portfolio managers who incorporate the previous close in a quantitative model, portfolio optimizer, or screening model.
+- `Opening price`: If the trade is to be executed in the opening auction, then using the opening price as a reference benchmark is not appropriate because the trade itself can influence the reference benchmark.
+- `Arrival price`: the price of the security at the time the order is entered into the market for execution.
+
+### Intraday benchmarks
+
+- `VWAP`: Portfolio managers who are rebalancing their portfolios over the day and have both buy and sell orders may select the VWAP
+- `TWAP`: Portfolio managers may choose TWAP when they wish to exclude potential trade outliers.
+
+### Post-trade benchmarks
+
+- `Closing price`: An advantage of the closing price benchmark is that it provides portfolio managers with the price used for fund valuation and thus minimizes potential tracking error. A disadvantage is that the benchmark price is not known until after trading is completed.
+
+### Price target benchmarks
+- Used by portfolio managers seeking short-term alpha
+
+## Execution Algorithm
+
+### Scheduled algorithm (POV, VWAP, TWAP)
+
+- Send orders to the market following a schedule
+- Appropriate for orders in which portfolio managers or traders do not have expectations of adverse price movement during the trade horizon and are more concerned with minimizing market impact.
+
+#### Percentage of volume (POV)
+
+- As trading volume increases in the market, these algorithms will trade more shares, and as volume decreases, these algorithms will trade fewer shares.
+- Advantages: will automatically take advantage of increased liquidity conditions by trading more shares when there is ample market liquidity and will not trade in times of illiquidity.
+- Disadvantages: may incur higher trading costs by continuing to buy as prices move higher and to sell as prices move lower and may not complete the order within the time period specified.
+
+#### VWAP algorithms
+
+-  Trade a higher percentage of the order at the open and close and a smaller percentage of the order during midday.
+- Advantages: ensures the specified number of shares are executed within the specified time period.
+- Disadvantages: may not be optimal for illiquid stocks because such algorithms may not complete the order in cases where volumes are low.
+
+#### TWAP algorithms
+
+- Send the same number of shares and the same percentage of the order to be traded in each time period.
+
+### Opportunistic algorithms (Liquidity-seeking)
+
+- Take advantage of market liquidity across multiple venues by trading faster when liquidity exists at a favorable price.
+-
+
+
 ## Trading Cost
 
 Implementation Shortfall = Execution cost + Opportunity Cost + Fees
@@ -22,6 +71,22 @@ Execution Cost = Delay Cost + Trading Cost = Actual price paid - # of shares pur
 Delay Cost = # of shares purchased * (price_delayed - price_t0)
 
 Trading Cost = Actual price paid - # of shares purchased * price_delayed
+
+### Arrival cost
+
+Arrival cost = side * (average price - arrival price) / arrival price * 10000 bps
+
+### Market-adjusted cost
+
+Index cost (in bps) = (average index price - arrival index price) / arrival index price * 10000 bps
+
+Market-adjusted cost = arrival cost (in bps) - beta * index cost
+
+## Investment Philosophy
+
+- `Behavioral inefficiencies` are perceived mispricings created by the actions of other market participants, usually associated with biases. These inefficiencies are temporary, lasting long enough for the manager to identify and exploit them before the market price and perceived intrinsic value converge.
+
+- `Structural inefficiencies` are perceived mispricings created by external or internal rules and regulations. These inefficiencies can be long lived
 
 ## Performance Evaluation
 
@@ -52,7 +117,7 @@ Trading Cost = Actual price paid - # of shares purchased * price_delayed
 ##### The Brinson–Hood–Beebower approach
 
 Allocation = (portfolio’s sector weight - benchmark’s sector weight) *  benchmark sector return
-Selection = (portfolio’s sector return - benchmark’s sector return) *  benchmark sector return
+Selection = (portfolio’s sector return - benchmark’s sector return) *  benchmark sector weight
 Interaction = (portfolio’s sector weight - benchmark’s sector weight) * (portfolio’s sector return - benchmark’s sector return)
 
 ##### Brinson–Fachler Model
@@ -65,11 +130,7 @@ Allocation = (portfolio’s sector weight - benchmark’s sector weight) *  (ben
 - HML = high minus low, a value factor (HML is the average return on two high-book-to-market portfolios minus the average return on two low-book-to-market portfolios)
 - WML = winners minus losers, a momentum factor (WML is the return on a portfolio of the past year’s winners minus the return on a portfolio of the past year’s losers)
 
-##### Bailey Decomposition
 
-Portfolio Return = Market Return + Active Management Return + Style Return
-S = Benchmark - Market
-A = Portfolio - Benchmark
 #### Fixed-income attribution
 
 - Exposure decomposition—duration based
@@ -78,13 +139,14 @@ A = Portfolio - Benchmark
 -
 #### Risk Attribution
 
-- Absolute return target: marginal contribution to total risk or factor’s marginal contribution to total risk and specific risk
+- Absolute return target:  contribution to total risk or factor’s  contribution to total risk and specific risk
 - Relative return target: marginal contribution to tracking risk
 
 #### Decomposition of Portfolio Return
 
-Return due to style = Benchmark - Market
-Return due to active management = Portfolio - Benchmark
+Portfolio Return = Market Return + Active Management Return + Style Return
+S = Benchmark - Market
+A = Portfolio - Benchmark
 
 ### Performance Appraisal
 
@@ -137,6 +199,28 @@ Return due to active management = Portfolio - Benchmark
     - Investment vehicle
     - Terms
     - Monitoring
+
+### Separately Managed Account
+
+#### Advantages
+
+- Ownership: In an SMA, the investor owns the individual securities directly. This approach provides additional safety should a liquidity event occur.
+
+- Independence: Investment decisions will not be influenced by the redemption or liquidity demand of other investors in the strategy.
+
+- Customization: SMAs allow the investor to potentially express individual constraints or preferences within the portfolio. SMAs can thus more closely address the investor’s particular investment objectives.
+
+- Tax efficiency: SMAs offer potentially improved tax efficiency because the investor pays taxes only on the capital gains realized and allows the implementation of tax-efficient investing and trading strategies.
+
+- Transparency: SMAs offer real-time, position-level detail to the investor, providing complete transparency and accurate attribution to the investor.
+
+#### Disadvantages
+
+- Cost: Separate accounts represent an additional operational burden on the manager, which translates into potentially higher costs for the investor. In addition, SMAs are likely to face higher transaction costs to the degree that trades cannot be aggregated to reduce trade volumes.
+
+- Tracking risk: Customization of the strategy creates tracking risk relative to the benchmark, which can confuse attribution because performance will reflect investor constraints rather than manager decisions.
+
+- Investor behavior: Potential micromanagement by the investor. Potential investor behaviors include performance chasing, familiarity bias (being overly averse to unfamiliar holdings), and loss aversion
 
 ### Style Analysis
 

@@ -17,6 +17,10 @@ date: 2022-07-01
 - Liquidity: Linked to needs for plan payouts.
 - Unique: Watch for small plans with inadequate resources to complete proper due diligence.
 
+### DB Plan Calculation
+- The maximum discount rate allowed for pension plan is the high-grade bond yields averaged over the last 25 years
+- The required return for the plan asset should exceed the discount rate on plan liabilities.
+
 ## Foundations and Endowments
 - Return: Geometric link of distribution, relevant inflation, and expense rates.
 - Risk: Often higher, may be diminished if the beneficiary is heavily dependent on the distributions.

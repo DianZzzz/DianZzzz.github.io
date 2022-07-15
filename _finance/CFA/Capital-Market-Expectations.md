@@ -216,7 +216,6 @@ i*, target nominal policy rate  = r-neutral, real policy rate that would be targ
 - Fixed exchange rate
 - Independent monetary policy
 
-* * *
 
 ## Approaches to Forecast Asset Values
 

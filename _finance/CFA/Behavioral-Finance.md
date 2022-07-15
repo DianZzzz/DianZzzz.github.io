@@ -78,22 +78,22 @@ date: 2022-06-15
   - Basic type: Passive
   - Risk tolerance level: Low
   - Primary biases: Emotional
-  - Investment styple: Conservative
+  - Investment style: Conservative
 - Friendly Followers (FF)
   - Basic type: Passive
   - Risk tolerance level: Low to medium
   - Primary biases: Cognitive
-  - Investment styple: Moderate
+  - Investment style: Moderate
 - Independent Individualist (II)
   - Basic type: Active
   - Risk tolerance level: Medium to high
   - Primary biases: Cognitive
-  - Investment styple: Growth
+  - Investment style: Growth
 - Active Accumulator (AA)
   - Basic type: Active
   - Risk tolerance level: High
   - Primary biases: Emotional
-  - Investment styple: Aggressive
+  - Investment style: Aggressive
 
 ### Behavioral Portfolio Theory
 - Portfolios, affected by behavioral biases, are formed as layered pyramids in which each layer is aligned with an objective.

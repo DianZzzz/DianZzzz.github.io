@@ -70,3 +70,17 @@ Economic Net Worth  = Traditional Net Worth
 - Fixed versus Variable.
   - Fixed annuities: For each dollar invested, the insurance company will tell the investor how much income he or she will receive
   - Variable annuities: the amount of the payments varies over time based on the performance of the portfolios that the assets are invested in
+
+
+## Tax issues
+
+### Potential Capital Gain Exposure (PCGE)
+
+- Used to assess the tax efficiency of mutual funds
+- PCGE  = net gain (loss) / total net assets
+        = (gains - capital distribution - loss) / (starting asset + gain - distribution - loss)
+
+### After-tax post-liquidation return
+
+- Calculate the final after tax portfolio return
+- Subtract liability from unrealized capital gain = embed gain * capital tax rate

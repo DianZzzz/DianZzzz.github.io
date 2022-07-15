@@ -34,6 +34,7 @@ A 100 million portfolio has a 1.37% VaR at the 5% probability over one week mean
 w* =1/λ * (μ−r_f/σ^2)
 λ: investor's risk aversion
 
+
 ### Risk Budgeting
 - Objective: specifies the total amount of risk and how much of risk should be budgeted for each asset class
 - Marginal Contribution to Total Risk (MCTR) = beta * portfolio volatility
@@ -62,17 +63,29 @@ w* =1/λ * (μ−r_f/σ^2)
 
 U = E(R) - 0.005 * λ * σ^2 where λ = the investor’s risk aversion coefficient
 
+#### Risk of MVO Portfolio Combined with RF Asset
+
+Risk of MVO portfolio combined with rf asset = risky asset standard deviation * (1 - rf asset weight)
+
+
 #### Criticism of MVO
-- Outputs are highly sensitive to small changes in inputs
+- Outputs are highly sensitive to small changes in inputs; typically more sensitive to expected return estimates than estimates of volatilities and correlations.
 - Investors are concerned more than just mean and variance of return
 - Does not take into account of trading costs and taxes
 - Efficient portfolios are highly concentrated in a subset of the available asset classes
 
 #### Alternative Models
-- Reverse MVO
-- Black-Litterman Model
+- Reverse MVO: can be used to estimate expected returns for use in a forward-looking optimization
+- Black-Litterman Model: enables investors to combine their unique forecasts of expected returns with reverse-optimized returns in an elegant manner.
 - Constrained asset class weights
 - Resampled MVO = MVO + Monte Carlo Simulation
+
+##### Criticisms of resampling
+
+- Some frontiers have concave “bumps” where expected return decreases as expected risk increases
+- The “riskier” asset allocations are over-diversified
+- The asset allocations inherit the estimation errors in the original inputs
+- The approach lacks a foundation in theory
 
 ### Surplus Optimization
 
