@@ -8,6 +8,12 @@ date: 2022-07-01
 ---
 # Institutional Portfolio Management
 
+## Investment Strategies
+
+- Index: Passive
+- Tactical: allows short term deviations from target portfolio weight
+- Dynamic: allows long term deviations from target portfolio weight
+
 ## Defined Benefit Plans
 - Return: The actuarial discount rate or somewhat higher.
 - Risk: Determined by plan and sponsor characteristics. Factors reducing risk tolerance include shorter time horizon, higher liquidity needs, weak sponsor, and positive correlation of sponsor results with plan asset returns.
@@ -30,18 +36,25 @@ date: 2022-07-01
 - Liquidity: Situation specific.
 - Unique: Watch for concentrated positions, restrictions on sale, and SRI.
 
+### Example IPS
+The mission of xx University Endowment is to provide scholarships for students attending the university.
+
+In order to achieve this mission, the Endowment must maintain the purchasing power of the assets in perpetuity while achieving investment returns sufficient to sustain the level of spending necessary to support the scholarship budget.
+
+herefore, the investment objective of the endowment should be to achieve a total real rate of return (after inflation) of at least 6% with a reasonable level of risk.
+
 ### Investment Approaches
 
 #### Norway Model
 
 - Traditional style characterized by 60%/40% equity/fixed-income allocation, few alternatives, largely passive investments, tight tracking error limits, and benchmark as a starting position.
-- Pros: Low cost, transparent, suitable for large scale, easy for board to understand.
+- Pros: Low cost, transparent, suitable for large scale, easy for board to understand, low management risk
 - Cons: Limited value-added potential.
 
 #### Endowment Model
 - Characterized by high alternatives exposure, active management and outsourcing.
 - Pros: High value-added potential.
-- Cons: Expensive and difficult to implement for most sovereign wealth funds because of their large asset sizes.
+- Cons: Expensive and difficult to implement for most sovereign wealth funds because of their asset sizes; higher costs/fees
 
 #### Canada Model
 - Characterized by high alternatives exposure, active management, and insourcing.

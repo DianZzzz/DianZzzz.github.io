@@ -11,6 +11,8 @@ date: 2022-07-05
 ## Reference Prices
 
 ### Pre-trade benchmarks
+
+Used by portfolio managers who are buying or selling securities on the basis of decision prices.
 - `Decision price`: the security price at the time the portfolio manager made the decision to buy or sell the security
 - `Previous close`: often specified by quantitative portfolio managers who incorporate the previous close in a quantitative model, portfolio optimizer, or screening model.
 - `Opening price`: If the trade is to be executed in the opening auction, then using the opening price as a reference benchmark is not appropriate because the trade itself can influence the reference benchmark.
@@ -81,6 +83,9 @@ Arrival cost = side * (average price - arrival price) / arrival price * 10000 bp
 Index cost (in bps) = (average index price - arrival index price) / arrival index price * 10000 bps
 
 Market-adjusted cost = arrival cost (in bps) - beta * index cost
+
+If market-adjusted cost is significantly lower than the total arrival cost, this indicates that most of the expense associated with buying is due to the effect of buying it in a rising market as opposed to the buying pressure induced by the order itself.
+
 
 ## Investment Philosophy
 

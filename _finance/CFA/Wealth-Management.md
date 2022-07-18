@@ -50,11 +50,18 @@ Economic Net Worth  = Traditional Net Worth
   - Whole Life Insurance: fixed premium payments
   - Universal Life Insurance: more payment and investment flexibility
 
-## Net Payment Cost Index
+### Net Payment Cost Index
 
 - Calculate the insurance cost = FV (Premiums) - FV (Dividend)
 - Set the insurance cost to FV and calculate the PMT
 - Net payment cost index = PMT / Face value in thousands
+
+### Surrender Cost Index Calculation
+
+- Calculate the insurance cost = FV (Premiums) - FV (Dividend)
+- Substract the final cash value from the insurance cost calculated in the previous step
+- Set the result of step 2 to FV and calculate the PMT
+- Surrender cost index = PMT / Face value in thousands
 
 ## Health Insurance Plan
 
@@ -71,6 +78,12 @@ Economic Net Worth  = Traditional Net Worth
   - Fixed annuities: For each dollar invested, the insurance company will tell the investor how much income he or she will receive
   - Variable annuities: the amount of the payments varies over time based on the performance of the portfolios that the assets are invested in
 
+### Incorporating Growth Rate
+
+As long as discount rate > growth rate, the adjusted discount rate can be calculated as (1 + Discount rate)/(1 + Growth rate) − 1
+
+### Advanced life deferred annuity’s (ALDA’s)
+- Provide the greatest supplemental level income relative to the cost because the payments are made far in the future
 
 ## Tax issues
 
@@ -84,3 +97,23 @@ Economic Net Worth  = Traditional Net Worth
 
 - Calculate the final after tax portfolio return
 - Subtract liability from unrealized capital gain = embed gain * capital tax rate
+
+## Estate Planning
+
+RV_gift = FV_gift/FV_bequest
+        = (1 + r(1-t))^n(1-T) / (1 + r(1-t))^n(1-T)              
+
+## Concentrated Positions
+
+### Risks
+
+- The company-specific risk inherent in the concentrated position
+- The reduction in portfolio efficiency resulting from the lack of diversification
+- The liquidity risk inherent in a privately-held or outsized publicly-held security
+- The risk of incurring an outsized tax bill that diminishes return if one were to sell part of the concentrated position in an attempt to reduce the other risks
+
+### Solutions
+
+#### Charitable Remainder Trust
+- An irrevocable donation to a trust and receive a tax deduction for the gift.
+- Provide income for the life of the named beneficiaries. When the last-named beneficiary dies, any assets remaining in the trust would be distributed to the charity named in the trust.

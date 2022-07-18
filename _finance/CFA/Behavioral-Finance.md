@@ -52,6 +52,16 @@ date: 2022-06-15
 - `Regret-Aversion Bias`: people tend to avoid making decisions that will result in action out of fear that the decision will turn out poorly.
 - `Social proof`: individuals are biased to follow the beliefs of a group.
 
+### Implications of Biases
+
+- No thorough analysis regarding investment
+- An undiversified portfolio.
+- An inappropriate asset allocation
+
+### Overcome Biases
+
+- Have a disciplined approach to investment decision making. An investment policy statement would help provide discipline
+- Focusing on the cognitive error aspects of the behavior. Cognitive biases are easier to correct for than emotional biases, which are based on how people feel.
 
 ## Behavioral Finance and Investment Processes
 
