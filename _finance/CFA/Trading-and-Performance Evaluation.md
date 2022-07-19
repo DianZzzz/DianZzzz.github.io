@@ -95,8 +95,9 @@ If market-adjusted cost is significantly lower than the total arrival cost, this
 
 ## Performance Evaluation
 
-- `Performance attribution`: Explains how the excess performance or risk was achieved.
-- `Performance appraisal`: uses the results of risk, return, and attribution analyses to assess the quality of a portfolio's performance.
+- Performance measurement
+- Performance attribution: Explains how the excess performance or risk was achieved.
+- Performance appraisal: uses the results of risk, return, and attribution analyses to assess the quality of a portfolio's performance.
 
 ### Performance attribution
 

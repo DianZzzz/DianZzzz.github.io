@@ -43,6 +43,14 @@ In order to achieve this mission, the Endowment must maintain the purchasing pow
 
 herefore, the investment objective of the endowment should be to achieve a total real rate of return (after inflation) of at least 6% with a reasonable level of risk.
 
+### Yale Formula
+
+Spending for current fiscal year = (60% × Spending for previous fiscal year) + 40% × (5% × Endowment market value at the end of previous fiscal year).
+
+- Consistent with an investment objective of achieving long-term returns that support the spending rate while preserving the value of the endowment in real terms over time
+- Intended to bring about a predictable pattern of distributions for better planning of resource deployment
+- Incorporates a smoothing, countercyclical element. This leads to lower spending rates in a period of sustained strong investment returns but higher spending rates in a protracted weak return environment.
+
 ### Investment Approaches
 
 #### Norway Model

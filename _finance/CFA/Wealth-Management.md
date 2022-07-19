@@ -69,6 +69,21 @@ Economic Net Worth  = Traditional Net Worth
 - `Peferred provider organization (PPO)`, which is a large network of physicians and other medical service providers that charge lower prices to individuals within the plan than to individuals who obtain care on their own
 - `Health maintenance organization (HMO)`, which allows office visits at no, or very little, cost
 
+
+
+### Loss Control
+
+- Risk avoidance: remove the possibility that an event involving loss will occur.
+- Risk prevention: taking actions to reduce the probability that a loss event will occur
+- Risk reduction: seeking to reduce the size of a loss if a loss event occurs.
+- Risk transfer: generally involves insurance or annuities;  Incorporation of an individual’s business provides a non-insurance risk transfer in many countries
+
+| Loss characteristics | High frequency | Low frequency |
+|:-------------|:------------------|:------|
+| High severity| Risk avoidance | Risk transfer |
+| Low severity | Risk reduction | Risk retention |
+
+
 ## Annuities
 
 - Deferred versus Immediate
