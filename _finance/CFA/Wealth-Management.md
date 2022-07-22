@@ -13,6 +13,16 @@ date: 2022-07-01
 - `Human capital` is commonly defined as the mortality-weighted net present value of an individual’s future expected labor income.
 - `Financial capital` includes the tangible and intangible assets (outside of human capital) owned by an individual or household.
 
+### Human Capital
+
+The value of human capital is a function:
+- survival probabilities (usually proxied by mortality tables)
+- current employment income
+- expected annual wage growth
+- the risk-free rate
+- a risk adjustment based on occupational income volatility
+the expected number of working years
+
 ### Risks
 - `Earnings risk` (insure with disability insurance) refers to loss in HC. Job loss and other career disruptions can reduce HC and may even lead to the need to consume FC prematurely.
 - `Premature death risk` (insure with life insurance) can be a substantial HC loss. In addition, it may cause unexpected expenses that consume limited FC of the survivors.
@@ -43,6 +53,11 @@ Economic Net Worth  = Traditional Net Worth
                     + PV (future earnings + unvested pension benefits)
                     - PV (consumption goals + bequests)
 
+## Retirement Planning
+
+- Mortality Table
+- Annuity Method
+- Monte Carlo Simulation
 ## Life Insurance
 
 - Temporary Insurance (Term Insurance)
@@ -132,3 +147,22 @@ RV_gift = FV_gift/FV_bequest
 #### Charitable Remainder Trust
 - An irrevocable donation to a trust and receive a tax deduction for the gift.
 - Provide income for the life of the named beneficiaries. When the last-named beneficiary dies, any assets remaining in the trust would be distributed to the charity named in the trust.
+
+## Client Segment
+
+### Robo-Adviser (part of the mass affluent client segment)
+
+- Robo-advisers support advanced asset allocation techniques, implement typically with exchange-traded funds or mutual funds, and are lower-cost alternatives for relatively small portfolios.
+- Robo-advisers enable their clients to use advanced techniques, such as mean–variance optimization, for determining asset allocations
+
+### Mass Affluent Segment
+
+- The mass affluent segment covers asset levels between $250,000 and $1 million and serves clients who are focused on building their portfolios and want help with financial planning needs.
+
+### High-Net-Worth Segment
+
+- Covers asset levels between $1 million and $10 million and can provide a team of specialized advisers that supports more customized strategies for more sophisticated investments with longer time horizons, greater risk, and less liquidity.
+
+
+### Ultra-High-Net-Worth Segment
+- Covers asset levels over $50 million for clients with multi-generational time horizons and provides a wider range of services for complex tax situations, estate planning, bill payment, concierge services, travel planning, and advice on acquiring high-end assets.

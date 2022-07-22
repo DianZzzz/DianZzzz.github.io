@@ -56,8 +56,17 @@ Used by portfolio managers who are buying or selling securities on the basis of 
 ### Opportunistic algorithms (Liquidity-seeking)
 
 - Take advantage of market liquidity across multiple venues by trading faster when liquidity exists at a favorable price.
--
 
+### Dark Aggregator
+
+- Used when portfolio managers and traders are concerned with information leakage that may occur from posting limit orders.
+- Used when the order size is large relative to the market and are appropriate for trades in which the trader or portfolio manager does not need to execute the order in its entirety.
+
+### Arrival price
+
+- Seek to trade close to current market prices at the time the order is received for execution.
+- Arrival price algorithms will trade more aggressively at the beginning of trading to execute more shares nearer to the arrival price, known as a front-loaded strategy.
+- Used for orders in which the portfolio manager or trader believes prices are likely to move unfavorably during the trade horizon.
 
 ## Trading Cost
 
@@ -86,12 +95,19 @@ Market-adjusted cost = arrival cost (in bps) - beta * index cost
 
 If market-adjusted cost is significantly lower than the total arrival cost, this indicates that most of the expense associated with buying is due to the effect of buying it in a rising market as opposed to the buying pressure induced by the order itself.
 
+## Trading Strategies
+
+### Equitization
+
+- To temporarily investcash using futures or ETFs to gain the desired equity exposure before investing in the underlying securities longer term.
+- May be required if large inflows into a portfolio are hindered by lack of liquidity in the underlying securities.
 
 ## Investment Philosophy
 
 - `Behavioral inefficiencies` are perceived mispricings created by the actions of other market participants, usually associated with biases. These inefficiencies are temporary, lasting long enough for the manager to identify and exploit them before the market price and perceived intrinsic value converge.
 
 - `Structural inefficiencies` are perceived mispricings created by external or internal rules and regulations. These inefficiencies can be long lived
+
 
 ## Performance Evaluation
 
@@ -246,3 +262,16 @@ A = Portfolio - Benchmark
  - The computational effort increases with the complexity of the strategy and depends on the timing and degree of the transparency provided by the manager.
  - Window dressing and high turnover can compromise the results because the results are attributed to a snapshot of the portfolio.
  - If the portfolio has illiquid securities, stale pricing may underestimate the risk exposure of the strategy.
+
+## Portfolio Reporting and Review
+
+### Portfolio Reporting
+
+- A portfolio asset allocation report, which may reflect strategic asset allocation targets
+- A performance summary report for the current (often year-to-date) period
+- A detailed performance report, which may include asset class and/or individual security performance
+- A historical performance report covering the period since the inception of the client’s investment strategy
+- A contribution and withdrawal report for the current period
+- A purchase and sale report for the current period
+- A currency exposure report detailing the effects of exchange rate fluctuations
+- An accompanying letter that provides market commentary, investment context, education, and other advice
