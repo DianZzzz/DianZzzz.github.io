@@ -45,6 +45,11 @@ date: 2022-06-15
 - `Parameter uncertainty`: parameters are invariably estimated with error.
 - `Input uncertainty`: inputs could be incorrect or the need to proxy for an unobservable variable
 
+### High Frequency Data
+
+- Advantages: improves the precision of sample variances, covariances, and correlations
+- Disadvantages: does not improve the precision of the sample mean and are more sensitive to asynchronism across variables
+
 ## Economics Growth
 
 ### Exogenous Shocks to Growth
@@ -311,3 +316,5 @@ Expected Return = Cap Rate + NOI growth rate
 - Current variance depends only on the variance in the previous period and the unexpected component of the current return
 - σ_t^2 = γ + α x σ_t−1^2 + β x η_t^2
         = γ + (α+β)x σ_t−1^2 + β x (η_t^2 − σ_2t−1^2)
+
+##
