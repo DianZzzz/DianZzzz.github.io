@@ -75,11 +75,11 @@ Implementation Shortfall = Execution cost + Opportunity Cost + Fees
 Expanded implementation shortfall = Delay cost + Trading Cost + Opportunity Cost + Fees
 
 
-Opportunity Cost = # of shares not filled * (price_t1 - price_t0)
+Opportunity Cost = # of shares not filled * (closing price - decision price)
 
-Execution Cost = Delay Cost + Trading Cost = Actual price paid - # of shares purchased * price_t0
+Execution Cost = Delay Cost + Trading Cost = actual price paid - # of shares purchased * decision price
 
-Delay Cost = # of shares purchased * (price_delayed - price_t0)
+Delay Cost = # of shares purchased * (price_delayed - decision price)
 
 Trading Cost = Actual price paid - # of shares purchased * price_delayed
 
@@ -99,8 +99,19 @@ If market-adjusted cost is significantly lower than the total arrival cost, this
 
 ### Equitization
 
-- To temporarily investcash using futures or ETFs to gain the desired equity exposure before investing in the underlying securities longer term.
+- To temporarily invest cash using futures or ETFs to gain the desired equity exposure before investing in the underlying securities longer term.
 - May be required if large inflows into a portfolio are hindered by lack of liquidity in the underlying securities.
+
+### Cash Market vs. Derivatives Market
+
+Derivative market has the following advantages
+- Quick implementation
+- Flexibility to tactically adjust exposure and quickly reverse decisions
+- Ability to leave external managers in place
+- High levels of liquidity
+
+Thus derivative market is suitable for short-term rebalancing as opposed to reallocating amongst managers
+
 
 ## Investment Philosophy
 
@@ -111,9 +122,9 @@ If market-adjusted cost is significantly lower than the total arrival cost, this
 
 ## Performance Evaluation
 
-- Performance measurement
-- Performance attribution: Explains how the excess performance or risk was achieved.
-- Performance appraisal: uses the results of risk, return, and attribution analyses to assess the quality of a portfolio's performance.
+- Performance measurement: provides an overall indication of the portfolio’s performance, usually relative to a benchmark.
+- Performance attribution: analyzes the impact of active investment decisions on returns and the risk consequences of those decisions.
+- Performance appraisal: indicates whether the portfolio’s performance was achieved through manager skill or through luck.
 
 ### Performance attribution
 
@@ -275,3 +286,15 @@ A = Portfolio - Benchmark
 - A purchase and sale report for the current period
 - A currency exposure report detailing the effects of exchange rate fluctuations
 - An accompanying letter that provides market commentary, investment context, education, and other advice
+
+## Fee Structure
+
+### AUM Based
+
+- Advantages: avoid making risky decisions
+- Disadvantages: less incentive to generate extra return
+
+### Performance Based
+
+- Advantages: align interests of the manager and the client
+- Disadvantages: may lead to misestimates of portfolio risk and may incentivize managers to assume higher portfolio risk; may incentivize managers to hold on to assets until a profit can be realized even if the client would benefit from selling the assets at a loss and investing the proceeds elsewhere.

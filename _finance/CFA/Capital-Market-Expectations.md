@@ -45,11 +45,6 @@ date: 2022-06-15
 - `Parameter uncertainty`: parameters are invariably estimated with error.
 - `Input uncertainty`: inputs could be incorrect or the need to proxy for an unobservable variable
 
-### High Frequency Data
-
-- Advantages: improves the precision of sample variances, covariances, and correlations
-- Disadvantages: does not improve the precision of the sample mean and are more sensitive to asynchronism across variables
-
 ## Economics Growth
 
 ### Exogenous Shocks to Growth
@@ -107,7 +102,8 @@ date: 2022-06-15
 - Data available from third parties. Easy to track.
 
 #### Disadvantages
-- History subject to frequent revision.
+- History subject to frequent revision
+- Overfitted in sample. Likely overstates forecast accuracy.
 - “Current” data not reliable as input for historical analysis.
 - Can provide false signals.
 - May provide little more than binary (no/yes) directional guidance.
@@ -175,6 +171,7 @@ date: 2022-06-15
 
 ### Inflation at or below expectations
 - Cash Equivalents (CE) and Bonds: Neutral with stable or declining yields
+- Bonds: Positive as rates decreases and prices increases. Persistent deflation benefits the highest-quality bonds because it increases the purchasing power of their cash flows. It will, however, impair the creditworthiness of lower-quality debt.
 - Equity: Positive with predictable economic growth
 - Real Estate (RE): Neutral with typical rates of return
 
@@ -257,7 +254,7 @@ Expected equity return ≈ dividend yield + expected changes in earnings - expec
 1.  Under the assumption of full integration with the global market portofolio:
     Risk Premium = β * Global Risk Premium = ρ * (SD of asset / SD of market) * Global Risk Premium = ρ * SD of asset * Global Sharpe Ratio
 
-2.  Under the assumption of full segmentation of markets:
+2.  Under the assumption of full segmentation of markets,
     β = 1 and each asset is their own market
     Risk Premium = 1 * Market Risk Premium = 1 * SD of asset * (Risk premium of the asset / SD of asset) = Asset Risk * Asset Sharpe Ratio
 
@@ -316,5 +313,3 @@ Expected Return = Cap Rate + NOI growth rate
 - Current variance depends only on the variance in the previous period and the unexpected component of the current return
 - σ_t^2 = γ + α x σ_t−1^2 + β x η_t^2
         = γ + (α+β)x σ_t−1^2 + β x (η_t^2 − σ_2t−1^2)
-
-##

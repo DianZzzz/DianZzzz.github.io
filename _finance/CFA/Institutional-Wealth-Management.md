@@ -97,3 +97,8 @@ Modified Duration of Equity = (A/E) * Asset Duration - (A/E - 1) * Liability Dur
 Change in equity capitalization value = Δy * - modified duration
 
 Variance of change in equity capitalization value = (A/E)^2 * asset variance + (A/E - 1) * liability variance - 2 * (A/E) 8 (A/E - 1) * Asset SD * Liability SD * Correlation
+
+## Illiquidity Premium
+- The illiquidity premium is the expected compensation for the additional risk of tying up capital for a potentially uncertain time period.
+- The size of the discount for illiquidity can be represented by the value of a put option with an exercise price equal to the marketable price of the illiquid asset
+rns representing the illiquidity premium

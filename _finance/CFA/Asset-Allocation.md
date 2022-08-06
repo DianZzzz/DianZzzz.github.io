@@ -107,6 +107,11 @@ where E(R) = surplus return = (Δ in asset value - Δ in liability value) / Init
 - Can apply to any funded ratio
 - Multi period model
 
+### Risk Parity
+
+- Each asset (asset class or risk factor) should contribute equally to the total risk of the portfolio
+- weight × Cov(ri,rP) = 1/n * σ^2
+
 ## Rebalance
 
 ### Optimal Width of Corridor

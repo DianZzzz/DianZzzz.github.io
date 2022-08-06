@@ -139,6 +139,18 @@ Domestic Currency Volatility^2 = Foreign Currency Volatility^2 + Forex Rate Vola
 
 ### Currency Hedge Strategies
 
+#### Dynamic vs. Static
+
+A static hedge will avoid transaction costs but tend to accumulate unwanted currency exposures as the value of the foreign-currency assets change, causing a mismatch between the market value of the foreign-currency asset portfolio and the nominal size of the forward contract used for the currency hedge;
+
+#### Forward vs. Futures
+
+- A forward contract is more flexible in terms of currency pair, settlement date, and transaction amount.
+- Forward contracts are simpler than futures contracts owing to the absence of margin requirements, reducing portfolio management expense.
+- Forward contracts are more liquid than futures because the daily trade volume for OTC currency forward contracts dwarfs those for exchange-traded futures contracts.
+
+#### Option Strategies
+
 - To hedge a long position in the price currency, you needs to sell the price currency, i.e. purchase of the base currency. Calls will be used.
 - To hedge a short position in the price currency, you needs to buy the price currency, i.e. sale of the base currency. Puts will be used.
 
@@ -146,7 +158,7 @@ Domestic Currency Volatility^2 = Foreign Currency Volatility^2 + Forex Rate Vola
 
 A **US-based** fund manager holding **UK government bonds** have a **long** position in GBP. He will want to hedge the GBP against USD by **shorting** GBP forward.
 
-The current spot rate is USD/GBP 1.28 and the 3-month futures price is USD/GBP 1.20. **F < S**, the base currency (GBP) is trading at a forward discount. To hedge, he will short GBP futures at a lower price and as the contract is close to maturity, the futures price will approach the spot price of 1.28 and he proceeds to close the contract by buying GBP at 1.28 => there will be a loss on the futures contract => resulting in a **negative roll yield**. This would increase the hedging cost.
+The current spot rate is USD/GBP 1.28 and the 3-month futures price is USD/GBP 1.20. **F < S**, the base currency (GBP) is trading at a forward discount. To hedge, he will short GBP futures at a lower price and as the contract gets close to maturity, the futures price will approach the spot price of 1.28 and he proceeds to close the contract by buying GBP at 1.28 => there will be a loss on the futures contract => resulting in a **negative roll yield**. This would increase the hedging cost.
 
 #### Option Strategies
 
@@ -163,3 +175,10 @@ The current spot rate is USD/GBP 1.28 and the 3-month futures price is USD/GBP 1
 - Increased likelihood of extreme market events and severe illiquidity under stressed market conditions
 - Government involvement in setting the exchange rate through such measures as foreign exchange market intervention, capital controls, and pegged (or at least tightly managed) exchange rates
   - `Non-deliverable forwards (NDF)`: similar to regular forward contracts, but they are cash settled (in the non-controlled currency of the currency pair)
+
+## Carry Trade and Forward Premium Bias
+
+||Buy/Invest        | Sell/Borrow |
+|:-------------|:------------------|:------|
+|Implementing the carry trade | High-yield currency | Low-yield currency  |
+| Trading the forward rate bias | Forward discount currency |	Forward premium currency
