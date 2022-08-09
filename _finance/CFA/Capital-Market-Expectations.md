@@ -245,7 +245,9 @@ i*, target nominal policy rate  = r-neutral, real policy rate that would be targ
 #### Grinold–Kroner model
 
 E(Re) ≈ D/P + (%ΔE−%ΔS) + %ΔP/E
-Expected equity return ≈ dividend yield + expected changes in earnings - expected changes in S/O + expected changes in PE ratio
+Expected equity return ≈ dividend yield + expected changes in earnings - expected changes in S/O + expected changes in PE ratio 
+
+D/P - %ΔS = Expected annual income return
 
 ### Risk Premium Approaches to Equity Returns
 
@@ -265,7 +267,7 @@ Expected equity return ≈ dividend yield + expected changes in earnings - expec
 
 Cap Rate = Net Operating Income / Property Value
 
-Expected Return = Cap Rate + NOI growth rate
+Expected Return = Cap Rate + NOI growth rate - % Cap Rate Change 
 
 ## Forecasting Exchange Rates
 
@@ -313,3 +315,20 @@ Expected Return = Cap Rate + NOI growth rate
 - Current variance depends only on the variance in the previous period and the unexpected component of the current return
 - σ_t^2 = γ + α x σ_t−1^2 + β x η_t^2
         = γ + (α+β)x σ_t−1^2 + β x (η_t^2 − σ_2t−1^2)
+        
+## Emerging Market 
+
+### Investment Risk Guideline
+
+- Fiscal deficit/GDP:	< 4.00%	
+- Debt/GDP: <	70.00%
+- Current account deficit: < 4.00% of GDP
+- Foreign exchange reserves	100.00% of short-term debt
+
+### EM Risks
+
+- Political, legal, and regulatory weaknesses
+  - The standards of corporate governance may allow interested parties to manipulate the capital structure of companies and to misuse business assets. 
+  - Accounting standards may allow management and other insiders to hide or misstate important information. 
+  - Weak disclosure rules may also impede transparency and favor insiders. 
+  - Inadequate property rights laws, lack of enforcement, and weak checks and balances on governmental actions may permit seizure of property, nationalization of companies, and prejudicial and unpredictable regulatory actions.
