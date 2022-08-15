@@ -186,6 +186,16 @@ POD Approximation: POD = Spread / LGD
 -  `OAS Spread`
 - ExcessSpread
 
+### Expected Excess Return
+
+EXR = (s × t) – (∆s × SD) – (t × p × L)
+where
+s = Z-spread
+t = Holding period
+SD = Spread duration
+p = Probability of default
+L = Loss severity
+
 ## Floating Rate Note (FRN)F
 - Quoted Margin, QM
 - Discounted Margin, DM
