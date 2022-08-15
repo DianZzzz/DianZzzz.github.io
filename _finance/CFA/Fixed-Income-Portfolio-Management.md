@@ -103,6 +103,15 @@ Dollar interest = principal * repo rate * days/360
 
 ## Portfolio Immunization
 
+- Cash flow matching
+  - A laddered portfolio
+    - lower convexity and dispersion than a barbell portfolio but more than a bullet portfolio, given comparable duration and cash flow yields.
+  - A bullet portfolio
+  - A barbell portfolio
+- Duration matching
+- Derivatives overlay
+- Contingent immunization
+- 
 Immunized portfolio convexity = (MacDur^2 + MacDur + Dispersion) / (1 + Cash flow yield)^2
 
 ## Fixed Income Portfolio Construction
