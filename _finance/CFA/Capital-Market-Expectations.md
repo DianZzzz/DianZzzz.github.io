@@ -45,6 +45,10 @@ date: 2022-06-15
 - `Parameter uncertainty`: parameters are invariably estimated with error.
 - `Input uncertainty`: inputs could be incorrect or the need to proxy for an unobservable variable
 
+### Shrinkage Estimate
+
+Shrinkage estimation involves taking a weighted average of a historical estimate of a parameter and some other parameter estimate
+
 ## Economics Growth
 
 ### Exogenous Shocks to Growth
@@ -153,7 +157,7 @@ date: 2022-06-15
 ### Slowdown
 - Economy is slowing and approaching the eventual peak
 - Inflation often continues to rise
-- Monetary policies becomme restrictive.
+- Monetary policies become restrictive.
 - The yield curve may invert. Credit spreads generally widen.
 - The stock market may fall, with interest-sensitive stocks such as utilities underperforming and “quality” stocks with stable earnings performing best.
 
@@ -245,9 +249,7 @@ i*, target nominal policy rate  = r-neutral, real policy rate that would be targ
 #### Grinold–Kroner model
 
 E(Re) ≈ D/P + (%ΔE−%ΔS) + %ΔP/E
-Expected equity return ≈ dividend yield + expected changes in earnings - expected changes in S/O + expected changes in PE ratio 
-
-D/P - %ΔS = Expected annual income return
+Expected equity return ≈ dividend yield + expected changes in earnings - expected changes in S/O + expected changes in PE ratio
 
 ### Risk Premium Approaches to Equity Returns
 
@@ -267,7 +269,7 @@ D/P - %ΔS = Expected annual income return
 
 Cap Rate = Net Operating Income / Property Value
 
-Expected Return = Cap Rate + NOI growth rate - % Cap Rate Change 
+Expected Return = Cap Rate + NOI growth rate
 
 ## Forecasting Exchange Rates
 
@@ -315,20 +317,3 @@ Expected Return = Cap Rate + NOI growth rate - % Cap Rate Change
 - Current variance depends only on the variance in the previous period and the unexpected component of the current return
 - σ_t^2 = γ + α x σ_t−1^2 + β x η_t^2
         = γ + (α+β)x σ_t−1^2 + β x (η_t^2 − σ_2t−1^2)
-        
-## Emerging Market 
-
-### Investment Risk Guideline
-
-- Fiscal deficit/GDP:	< 4.00%	
-- Debt/GDP: <	70.00%
-- Current account deficit: < 4.00% of GDP
-- Foreign exchange reserves	100.00% of short-term debt
-
-### EM Risks
-
-- Political, legal, and regulatory weaknesses
-  - The standards of corporate governance may allow interested parties to manipulate the capital structure of companies and to misuse business assets. 
-  - Accounting standards may allow management and other insiders to hide or misstate important information. 
-  - Weak disclosure rules may also impede transparency and favor insiders. 
-  - Inadequate property rights laws, lack of enforcement, and weak checks and balances on governmental actions may permit seizure of property, nationalization of companies, and prejudicial and unpredictable regulatory actions.
