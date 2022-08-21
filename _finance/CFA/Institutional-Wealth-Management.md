@@ -102,3 +102,27 @@ Variance of change in equity capitalization value = (A/E)^2 * asset variance + (
 - The illiquidity premium is the expected compensation for the additional risk of tying up capital for a potentially uncertain time period.
 - The size of the discount for illiquidity can be represented by the value of a put option with an exercise price equal to the marketable price of the illiquid asset
 rns representing the illiquidity premium
+
+## Hedge Fund Strategies
+
+| Hedge Fund Category  | Strategies |
+|:-------------|:------------------|
+| Equity related |	Long–short equity, dedicated short bias, equity market neutral
+| Event-driven strategies |	Merger arbitrage, distressed securities
+| Relative value |	Fixed-income arbitrage, convertible bond arbitrage
+|Opportunistic|	Global macro, managed futures
+|Specialist	| Volatility strategies involving options, reinsurance
+|Multimanager	| Multistrategy, funds of hedge funds
+
+### Equity Market Neutral Strategies
+
+- Take opposite (long and short) positions in similar or related equities having divergent valuations while attempting to maintain a near net zero portfolio exposure to the market.
+- Typically utilize leverage
+- Typically deliver return profiles that lower but less volatile than those of many other hedge strategy areas.
+
+### Volatility Strategies
+
+- Through simple exchange-traded options: The maturity of such options typically extends to no more than two years. The longer-dated options will have more absolute exposure to volatility levels than shorter-dated options, but the shorter-dated options will exhibit more delta sensitivity to price changes.
+- Through OTC options: The tenor and strike prices of the options can be customized and be extended beyond what is available with exchange-traded options.
+- Through use VIX futures or options on VIX futures: can more explicitly express a pure volatility view without the need for constant delta hedging of an equity put or call for isolating the volatility exposure.
+- Through an OTC volatility swap or a variance swap: A volatility swap is a forward contract on future realized price volatility. Both swaps provide “pure” exposure to volatility alone

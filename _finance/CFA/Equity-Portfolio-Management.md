@@ -132,6 +132,7 @@ Expected Active Return = Information coefficient * sqrt(Breadth) * Active Risk *
 - No active positions: portfolio is equal to the benchmark
 - Zero Active Share and zero active risk
 
+
 #### Factor neutral
 - No active factor bets—idiosyncratic risk low if diversified
 - Low active risk—Active Share low if diversified

@@ -20,6 +20,13 @@ date: 2022-06-21
   - Derivatives overlay
   - Contingent immunization
 
+
+## Statistical Credit Analysis
+
+- `Reduced form credit models`: solve for default intensity, or the POD over a specific time period, using observable company-specific variables such as financial ratios and recovery assumptions as well as macroeconomic variables, including economic growth and market volatility measures.
+- `Structural credit models`: use market-based variables to estimate the market value of an issuer’s assets and the volatility of asset value. The likelihood of default is defined as the probability of the asset value falling below that of liabilities.
+
+
 ## Fixed Income Portfolio Measures
 
 ### Duration
@@ -75,6 +82,9 @@ E(R) =  Coupon income
 
 Rolling yield = Coupon income return + rolldown return
 
+Coupon income return = coupon / current price
+Rolldown return=(Bond price_t1 - Bond price_t0) / Bond price_to
+
 E(ΔPrice due to investor’s view of benchmark yield) = - ModDur * ΔYield + 0.5 * Convexity * ΔYield^2
 
 E(ΔPrice due to investor’s view of yield spreads) = - ModDur * ΔSpread + 0.5 * Convexity * ΔYield^2
@@ -111,8 +121,19 @@ Dollar interest = principal * repo rate * days/360
 - Duration matching
 - Derivatives overlay
 - Contingent immunization
-- 
+
 Immunized portfolio convexity = (MacDur^2 + MacDur + Dispersion) / (1 + Cash flow yield)^2
+
+### Immunization Conditions
+
+#### Single Liabilities
+- Match the Macaulay duration
+- Minimize convexity
+
+#### Multiple Liabilities
+- the money duration (or BPV) of the asset and liability to match
+- the immunizing portfolio needs to be greater than the convexity (and dispersion) of the outflow portfolio. But, the convexity of the immunizing portfolio should be minimized in order to minimize dispersion and reduce structural risk.
+
 
 ## Fixed Income Portfolio Construction
 
@@ -184,7 +205,11 @@ POD Approximation: POD = Spread / LGD
 - `Z-Spread`: spot curve as benchmark
 - `CDS Basis`: CDS with the same duration as benchmark
 -  `OAS Spread`
-- ExcessSpread
+- Excess Spread
+
+### Spread strategies
+
+- When a wide spread curve flattens, underweight shorter-maturity bonds and overweight longer-maturity bonds.
 
 ### Expected Excess Return
 
@@ -195,6 +220,12 @@ t = Holding period
 SD = Spread duration
 p = Probability of default
 L = Loss severity
+
+
+
+### Leverage Return
+
+Leveraged Return = Unlevered return + D/E * (unlevered return - borrow rate)
 
 ## Floating Rate Note (FRN)F
 - Quoted Margin, QM
