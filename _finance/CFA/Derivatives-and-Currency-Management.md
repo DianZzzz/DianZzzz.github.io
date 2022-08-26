@@ -89,6 +89,11 @@ To hedge a short forward position
 
 ## Derivatives
 
+### Forward and Futures
+
+- A forward contract has greater liquidity.
+- Futures contract has lower transaction costs. However, they not only have initial margin requirements, they also have daily mark-to-market and can be subject to daily margin calls.
+
 ### Interest Rate Swap
 
 Notional Amount for Interest Rate Swap = (Target Modified Duration - Portfolio Modified Duration) / Interest Rate Swap Duration * Market Value of Bond Portfolio
@@ -112,6 +117,13 @@ Variance Notional = Vega Notional / (2 * Strike)
 VarSwap_t = Variance Notional * PV factor * (t/T * realized volatility^2 + (T-t)/T * Implied volatility^2 - strike^2)
 
 Settlement_T = Variance Notional * (Realized volatility^2 - Strike^2)
+
+### Total Return Swap
+
+#### Compared to ETF
+- Capital Commitment: an ETF would be less efficient (requiring a larger cash outlay) because the capital commitment equals the full notional value. In contrast, a total return swap generates a similar economic exposure to ETFs with much lower capital.
+- Liquidity: ETF would be more efficient as ETFs enjoy liquid trading and narrow bid–ask spreads. In contrast, total return swaps are over-the-counter contracts (not exchange traded) that are negotiated and customizable on such features as maturity, leverage, and cost.
+- Tracking Error: ETF would have associated tracking error, which may result from premiums and discounts to net asset value, cash drag, or regulatory diversification requirements. In contrast, for total return swaps, the replication is exact.
 
 #### Delta Options
 - >50 Delta Call = ITM
@@ -160,6 +172,11 @@ A **US-based** fund manager holding **UK government bonds** have a **long** posi
 
 The current spot rate is USD/GBP 1.28 and the 3-month futures price is USD/GBP 1.20. **F < S**, the base currency (GBP) is trading at a forward discount. To hedge, he will short GBP futures at a lower price and as the contract gets close to maturity, the futures price will approach the spot price of 1.28 and he proceeds to close the contract by buying GBP at 1.28 => there will be a loss on the futures contract => resulting in a **negative roll yield**. This would increase the hedging cost.
 
+##### Roll Yields Strategies
+- Implement the carry trade.	Buy the high-yield currency and sell the low-yield currency.
+- Trade the forward rate bias.	Buy the forward discount currency and sell the forward premium currency.
+
+
 #### Option Strategies
 
 - Risk Reversal
@@ -176,7 +193,12 @@ The current spot rate is USD/GBP 1.28 and the 3-month futures price is USD/GBP 1
 - Government involvement in setting the exchange rate through such measures as foreign exchange market intervention, capital controls, and pegged (or at least tightly managed) exchange rates
   - `Non-deliverable forwards (NDF)`: similar to regular forward contracts, but they are cash settled (in the non-controlled currency of the currency pair)
 
-## Carry Trade and Forward Premium Bias
+### Currency Hedge Consideration
+
+- Trading cost: bid-offer spread, option premiums, rolling hedges, administrative infrastructure for setting up currency trading operation
+- Opportunity cost: To be 100% hedged is to forgo any possibility of favorable currency rate moves. If skillfully handled, accepting and managing currency risk—or any financial risk—can potentially add value to the portfolio
+
+### Carry Trade and Forward Premium Bias
 
 ||Buy/Invest        | Sell/Borrow |
 |:-------------|:------------------|:------|

@@ -55,9 +55,10 @@ Economic Net Worth  = Traditional Net Worth
 
 ## Retirement Planning
 
-- Mortality Table
-- Annuity Method
-- Monte Carlo Simulation
+- Mortality Table: A mortality table allows for estimating the present value of retirement spending needs by associating each outflow with a probability based on life expectancy.
+- Annuity Method: 	The calculated price of an annuity equals the present value of a series of future fixed outflows during retirement.
+- Monte Carlo Simulation: 	Monte Carlo simulation yields an overall probability of meeting retirement needs by aggregating the results of many trials of probability-based estimates of key variables, and it is a flexible approach for exploring different retirement scenarios.
+
 ## Life Insurance
 
 - Temporary Insurance (Term Insurance)

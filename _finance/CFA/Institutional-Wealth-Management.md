@@ -26,6 +26,7 @@ date: 2022-07-01
 ### DB Plan Calculation
 - The maximum discount rate allowed for pension plan is the high-grade bond yields averaged over the last 25 years
 - The required return for the plan asset should exceed the discount rate on plan liabilities.
+- US GAAP requires firms to report the value of the overfunded or underfunded pension plan on the balance sheet as an asset or a liability, respectively.
 
 ## Foundations and Endowments
 - Return: Geometric link of distribution, relevant inflation, and expense rates.
@@ -126,3 +127,7 @@ rns representing the illiquidity premium
 - Through OTC options: The tenor and strike prices of the options can be customized and be extended beyond what is available with exchange-traded options.
 - Through use VIX futures or options on VIX futures: can more explicitly express a pure volatility view without the need for constant delta hedging of an equity put or call for isolating the volatility exposure.
 - Through an OTC volatility swap or a variance swap: A volatility swap is a forward contract on future realized price volatility. Both swaps provide “pure” exposure to volatility alone
+
+## Mutual Fund
+
+- Open-end fund tends to be less liquid than close-end fund

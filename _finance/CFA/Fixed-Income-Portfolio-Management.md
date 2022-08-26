@@ -34,6 +34,7 @@ date: 2022-06-21
 #### Macaulay duration
 - Weighted average of the time to receipt of the bond’s promised payments
 - Increases linearly with maturity of the bond
+- If the investment horizon equals the Macaulay duration of the portfolio, the capital loss created by the increase in yields and the reinvestment effects (gains) will roughly offset, leaving the realized return approximately equal to the original yield to maturity.
 
 #### Modified duration
 - Measures the sensitivity of the bond’s price to a change in interest rate

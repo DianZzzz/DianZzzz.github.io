@@ -52,6 +52,7 @@ Used by portfolio managers who are buying or selling securities on the basis of 
 #### TWAP algorithms
 
 - Send the same number of shares and the same percentage of the order to be traded in each time period.
+- Suitable for trading that needs to be completed within a short timeframe
 
 ### Opportunistic algorithms (Liquidity-seeking)
 
@@ -70,18 +71,16 @@ Used by portfolio managers who are buying or selling securities on the basis of 
 
 ## Trading Cost
 
-Implementation Shortfall = Execution cost + Opportunity Cost + Fees
+Implementation Shortfall = Trading Cost + Delay cost + Opportunity Cost + Fees (TDOF)
 
-Expanded implementation shortfall = Delay cost + Trading Cost + Opportunity Cost + Fees
-
-
-Opportunity Cost = # of shares not filled * (closing price - decision price)
-
-Execution Cost = Delay Cost + Trading Cost = actual price paid - # of shares purchased * decision price
+Trading Cost = # of shares purchased * (actual price - price_delayed)
 
 Delay Cost = # of shares purchased * (price_delayed - decision price)
 
-Trading Cost = Actual price paid - # of shares purchased * price_delayed
+Opportunity Cost = # of shares not filled * (closing price - decision price)
+
+Execution Cost = Delay Cost + Trading Cost
+
 
 ### Arrival cost
 
@@ -122,9 +121,9 @@ Thus derivative market is suitable for short-term rebalancing as opposed to real
 
 ## Performance Evaluation
 
-- Performance measurement: provides an overall indication of the portfolio’s performance, usually relative to a benchmark.
-- Performance attribution: analyzes the impact of active investment decisions on returns and the risk consequences of those decisions.
-- Performance appraisal: indicates whether the portfolio’s performance was achieved through manager skill or through luck.
+- `Performance measurement`: provides an overall indication of the portfolio’s performance, usually relative to a benchmark.
+- `Performance attribution`: analyzes the impact of active investment decisions on returns and the risk consequences of those decisions.
+- `Performance appraisal`: indicates whether the portfolio’s performance was achieved through manager skill or through luck.
 
 ### Performance attribution
 
@@ -137,13 +136,20 @@ Thus derivative market is suitable for short-term rebalancing as opposed to real
 -  `Macro attribution`: attribution at the sponsor level to evaluate the asset owner’s tactical asset allocation and manager selection decisions
 -  `Micro attribution`: attribution at the portfolio manager level to evaluate the impact of the portfolio manager’s decisions
 
-#### Return-based vs. Holding-based vs. Transaction-based
-- `Returns-based attribution`:
-  - Uses only the total portfolio returns over a period to identify the components of the investment process that have generated the returns.
-  - Easiest to implement but least accurate
--  `Holdings-based attribution`: calculates the return of portfolio and benchmark components based upon the price and foreign exchange rate changes applied to daily snapshots of portfolio holdings.
--  `Transaction- based attribution`: captures the impact of intra-day trades and exogenous events such as a significant class action settlement.
-- `Performance appraisal` uses the results of risk, return, and attribution analyses to assess the quality of a portfolio's performance.
+#### Three Approaches
+
+##### Returns-based attribution
+- Uses only the total portfolio returns over a period to identify the components of the investment process that have generated the returns.
+- Easiest to implement but least accurate
+- Most appropriate when the underlying portfolio holdings are not readily available with sufficient frequency at the required level of detail (e.g., hedge funds)
+
+##### Holdings-based attribution
+- Calculates the return of portfolio and benchmark components based upon the price and foreign exchange rate changes applied to daily snapshots of portfolio holdings.
+- Most appropriate for investment strategies with little turnover (e.g., passive strategies)
+
+##### Transaction- based attribution
+- Most effective for active stock selection portfolios because it captures both the holdings and the transactions (purchases/sales) completed within the defined period, which would allow the entire excess return to be quantified and explained.
+
 
 #### Equity Return Attribution
 

@@ -155,3 +155,18 @@ where E(R) = surplus return = (Δ in asset value - Δ in liability value) / Init
 ### Availability Bias
 - A formal asset allocation process using the global market portfolio as the starting point for asset allocation modeling
 - A strong governance framework with the appropriate level of expertise and well-documented investment beliefs
+
+## Optimal Width of Corridor
+
+| Factor | Effect on Optimal Width of Corridor |
+|:-------------|:------------------|
+|Transaction costs | The higher the transaction costs, the wider the optimal corridor.	High transaction costs set a high hurdle for rebalancing benefits to overcome.
+|Risk tolerance	| The higher the risk tolerance, the wider the optimal corridor.	Higher risk tolerance means less sensitivity to divergences from the target allocation.
+| Correlation with the rest of the portfolio	| The higher the correlation, the wider the optimal corridor.	When asset classes move in sync, further divergence from target weights is less likely.
+| Volatility of the asset class	| The higher the volatility, the wider the optimal corridor.
+| Volatility of the rest of the portfolio	| The higher the volatility, the narrower the optimal corridor.	Higher volatility makes large divergences from the strategic asset allocation more likely.
+
+## Illiquidity Premium
+
+- Expected compensation for the additional risk of tying up capital for a potentially uncertain time period.
+- Illiquidity premium equals the value of a put option with an exercise price equal to the hypothetical “marketable price” of the illiquid asset as estimated at the time of purchase.
