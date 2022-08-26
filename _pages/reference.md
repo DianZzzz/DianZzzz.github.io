@@ -40,3 +40,5 @@ Content Page Reverse Chronological Order: [https://gist.github.com/Phlow/1f27dfa
 Code Editor: [atom.io](atom.io)
 
 Package for preview and drag and drop images: markdown-preview-enhanced
+
+Package for automating table of contents: https://atom.io/packages/atom-mdtoc

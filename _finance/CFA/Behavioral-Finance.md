@@ -8,6 +8,33 @@ date: 2022-06-15
 ---
 
 # Behavioral Finance
+<!-- MDTOC maxdepth:6 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+
+- [The Behavioral Biases of Individuals](#the-behavioral-biases-of-individuals)   
+   - [Cognitive errors](#cognitive-errors)   
+   - [Emotional biases](#emotional-biases)   
+   - [Implications of Biases](#implications-of-biases)   
+   - [Overcome Biases](#overcome-biases)   
+- [Behavioral Finance and Investment Processes](#behavioral-finance-and-investment-processes)   
+   - [Investor Types](#investor-types)   
+      - [Barnewall Two-Way Model](#barnewall-two-way-model)   
+      - [Bailard, Biehl, and Kaiser Model](#bailard-biehl-and-kaiser-model)   
+      - [Pompian 4 BITs](#pompian-4-bits)   
+   - [Behavioral Portfolio Theory](#behavioral-portfolio-theory)   
+- [Situational Profiling](#situational-profiling)   
+- [Investment Policy Statement IPS](#investment-policy-statement-ips)   
+   - [Return Objective](#return-objective)   
+      - [Example](#example)   
+   - [Risk Objective](#risk-objective)   
+   - [Taxes](#taxes)   
+   - [Legal](#legal)   
+   - [Unique](#unique)   
+- [Monte Carlo Simulation](#monte-carlo-simulation)   
+   - [Pros](#pros)   
+   - [Cons](#cons)   
+
+<!-- /MDTOC -->
+
 
 ## The Behavioral Biases of Individuals
 

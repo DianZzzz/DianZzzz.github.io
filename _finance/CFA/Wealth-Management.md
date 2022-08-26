@@ -7,7 +7,37 @@ comments: true
 date: 2022-07-01
 ---
 # Private Wealth Management
+<!-- MDTOC maxdepth:6 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
+- [Human and Financial Capital](#human-and-financial-capital)   
+   - [Human Capital](#human-capital)   
+   - [Risks](#risks)   
+- [Technical and Soft Skills for Wealth Managers](#technical-and-soft-skills-for-wealth-managers)   
+- [Economic Net Worth](#economic-net-worth)   
+- [Retirement Planning](#retirement-planning)   
+- [Life Insurance](#life-insurance)   
+   - [Net Payment Cost Index](#net-payment-cost-index)   
+   - [Surrender Cost Index Calculation](#surrender-cost-index-calculation)   
+- [Health Insurance Plan](#health-insurance-plan)   
+   - [Loss Control](#loss-control)   
+- [Annuities](#annuities)   
+   - [Incorporating Growth Rate](#incorporating-growth-rate)   
+   - [Advanced life deferred annuity’s (ALDA’s)](#advanced-life-deferred-annuity’s-alda’s)   
+- [Tax issues](#tax-issues)   
+   - [Potential Capital Gain Exposure (PCGE)](#potential-capital-gain-exposure-pcge)   
+   - [After-tax post-liquidation return](#after-tax-post-liquidation-return)   
+- [Estate Planning](#estate-planning)   
+- [Concentrated Positions](#concentrated-positions)   
+   - [Risks](#risks)   
+   - [Solutions](#solutions)   
+      - [Charitable Remainder Trust](#charitable-remainder-trust)   
+- [Client Segment](#client-segment)   
+   - [Robo-Adviser (part of the mass affluent client segment)](#robo-adviser-part-of-the-mass-affluent-client-segment)   
+   - [Mass Affluent Segment](#mass-affluent-segment)   
+   - [High-Net-Worth Segment](#high-net-worth-segment)   
+   - [Ultra-High-Net-Worth Segment](#ultra-high-net-worth-segment)   
+
+<!-- /MDTOC -->
 ## Human and Financial Capital
 
 - `Human capital` is commonly defined as the mortality-weighted net present value of an individual’s future expected labor income.

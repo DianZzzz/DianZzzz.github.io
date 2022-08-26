@@ -8,6 +8,50 @@ date: 2022-06-19
 ---
 # Derivatives and Currency Management
 
+<!-- MDTOC maxdepth:6 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+
+- [Options](#options)   
+   - [Put Call Parity](#put-call-parity)   
+   - [Put Call Forward Parity](#put-call-forward-parity)   
+   - [Greeks](#greeks)   
+   - [Synthetic Forward Position](#synthetic-forward-position)   
+   - [Covered Call](#covered-call)   
+   - [Protective Put](#protective-put)   
+   - [Spreads](#spreads)   
+      - [Bull spread](#bull-spread)   
+      - [Bear spread](#bear-spread)   
+      - [Calendar spread](#calendar-spread)   
+   - [Straddle](#straddle)   
+   - [Collar](#collar)   
+   - [Volatility](#volatility)   
+      - [Volatility smile](#volatility-smile)   
+      - [Volatility skew](#volatility-skew)   
+      - [Term Structure of Volatility](#term-structure-of-volatility)   
+      - [Option Choice](#option-choice)   
+- [Derivatives](#derivatives)   
+   - [Forward and Futures](#forward-and-futures)   
+   - [Interest Rate Swap](#interest-rate-swap)   
+   - [Cheapest-to-deliver Bond](#cheapest-to-deliver-bond)   
+   - [Equity Futures](#equity-futures)   
+   - [Variance Swaps](#variance-swaps)   
+   - [Total Return Swap](#total-return-swap)   
+      - [Compared to ETF](#compared-to-etf)   
+      - [Delta Options](#delta-options)   
+   - [Fed Fund Futures](#fed-fund-futures)   
+- [Foreign Currency](#foreign-currency)   
+   - [Currency Risk and Return](#currency-risk-and-return)   
+   - [Currency Hedge Strategies](#currency-hedge-strategies)   
+      - [Dynamic vs. Static](#dynamic-vs-static)   
+      - [Forward vs. Futures](#forward-vs-futures)   
+      - [Option Strategies](#option-strategies)   
+      - [Roll Yields](#roll-yields)   
+         - [Roll Yields Strategies](#roll-yields-strategies)   
+      - [Option Strategies](#option-strategies)   
+   - [Considerations for emerging market currency exposure](#considerations-for-emerging-market-currency-exposure)   
+   - [Currency Hedge Consideration](#currency-hedge-consideration)   
+   - [Carry Trade and Forward Premium Bias](#carry-trade-and-forward-premium-bias)   
+
+<!-- /MDTOC -->
 ## Options
 
 ### Put Call Parity

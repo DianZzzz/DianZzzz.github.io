@@ -7,7 +7,28 @@ comments: true
 date: 2022-07-01
 ---
 # Institutional Portfolio Management
+<!-- MDTOC maxdepth:6 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
+- [Investment Strategies](#investment-strategies)   
+- [Defined Benefit Plans](#defined-benefit-plans)   
+   - [DB Plan Calculation](#db-plan-calculation)   
+- [Foundations and Endowments](#foundations-and-endowments)   
+   - [Example IPS](#example-ips)   
+   - [Yale Formula](#yale-formula)   
+   - [Investment Approaches](#investment-approaches)   
+      - [Norway Model](#norway-model)   
+      - [Endowment Model](#endowment-model)   
+      - [Canada Model](#canada-model)   
+      - [LDI Model](#ldi-model)   
+- [Insurance](#insurance)   
+- [Banks](#banks)   
+- [Illiquidity Premium](#illiquidity-premium)   
+- [Hedge Fund Strategies](#hedge-fund-strategies)   
+   - [Equity Market Neutral Strategies](#equity-market-neutral-strategies)   
+   - [Volatility Strategies](#volatility-strategies)   
+- [Mutual Fund](#mutual-fund)   
+
+<!-- /MDTOC -->
 ## Investment Strategies
 
 - Index: Passive

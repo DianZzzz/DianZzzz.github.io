@@ -8,6 +8,41 @@ date: 2022-06-17
 ---
 # Asset Allocation
 
+<!-- MDTOC maxdepth:6 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+
+- [Asset Risks](#asset-risks)   
+   - [Three Super-Classes of Risks](#three-super-classes-of-risks)   
+   - [VaR](#var)   
+      - [Advantages of VaR](#advantages-of-var)   
+      - [Disadvantages of VaR](#disadvantages-of-var)   
+   - [Optimal Choice Between One Risky Asset and Risk Free Asset](#optimal-choice-between-one-risky-asset-and-risk-free-asset)   
+   - [Risk Budgeting](#risk-budgeting)   
+- [Implementation Choices](#implementation-choices)   
+- [Approaches to Asset Allocation](#approaches-to-asset-allocation)   
+   - [Mean Variance Optimization](#mean-variance-optimization)   
+      - [Utility Function](#utility-function)   
+      - [Risk of MVO Portfolio Combined with RF Asset](#risk-of-mvo-portfolio-combined-with-rf-asset)   
+      - [Criticism of MVO](#criticism-of-mvo)   
+      - [Alternative Models](#alternative-models)   
+         - [Criticisms of resampling](#criticisms-of-resampling)   
+   - [Surplus Optimization](#surplus-optimization)   
+   - [Hedging/Return-Seeking Portfolio Approach](#hedgingreturn-seeking-portfolio-approach)   
+   - [Integrated Asset-Liability Approach](#integrated-asset-liability-approach)   
+   - [Risk Parity](#risk-parity)   
+- [Rebalance](#rebalance)   
+   - [Optimal Width of Corridor](#optimal-width-of-corridor)   
+- [Tax Consideration](#tax-consideration)   
+- [Behavior Biases in Asset Allocation](#behavior-biases-in-asset-allocation)   
+   - [Loss Aversion](#loss-aversion)   
+   - [Illusion of Control](#illusion-of-control)   
+   - [Mental Accounting](#mental-accounting)   
+   - [Representativeness Bias](#representativeness-bias)   
+   - [Framing Bias](#framing-bias)   
+   - [Availability Bias](#availability-bias)   
+- [Optimal Width of Corridor](#optimal-width-of-corridor)   
+- [Illiquidity Premium](#illiquidity-premium)   
+
+<!-- /MDTOC -->
 ## Asset Risks
 
 ### Three Super-Classes of Risks

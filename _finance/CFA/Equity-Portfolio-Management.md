@@ -8,6 +8,44 @@ date: 2022-06-28
 ---
 # Equity Portfolio Management
 
+<!-- MDTOC maxdepth:6 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+
+- [Benchmark](#benchmark)   
+   - [Herfindahl-Hirschman Index (HHI)](#herfindahl-hirschman-index-hhi)   
+- [Passive Investment](#passive-investment)   
+   - [Stratified Sampling](#stratified-sampling)   
+   - [Optimization](#optimization)   
+      - [Advantages](#advantages)   
+      - [Disadvantage](#disadvantage)   
+   - [Tracking Error](#tracking-error)   
+      - [Sources of tracking error](#sources-of-tracking-error)   
+- [Active Investment](#active-investment)   
+   - [Fundamental](#fundamental)   
+   - [Quantitative](#quantitative)   
+   - [Active Investment Pitfall](#active-investment-pitfall)   
+- [Style Analysis](#style-analysis)   
+   - [Holding-based analysis](#holding-based-analysis)   
+      - [Pros](#pros)   
+      - [Cons](#cons)   
+   - [Return-based analysis](#return-based-analysis)   
+      - [Pros](#pros)   
+      - [Cons](#cons)   
+   - [Building blocks of portfolio construction](#building-blocks-of-portfolio-construction)   
+   - [Fundamental law of active management](#fundamental-law-of-active-management)   
+      - [Pearson IC](#pearson-ic)   
+      - [Spearman Rank IC addressees this issue and is often](#spearman-rank-ic-addressees-this-issue-and-is-often)   
+   - [Active Share and Active Risk](#active-share-and-active-risk)   
+      - [Pure indexing](#pure-indexing)   
+      - [Factor neutral](#factor-neutral)   
+      - [Factor diversified](#factor-diversified)   
+      - [Concentrated factor bets](#concentrated-factor-bets)   
+      - [Concentrated stock picker](#concentrated-stock-picker)   
+   - [Strategies](#strategies)   
+      - [Merits of Long Only Investing](#merits-of-long-only-investing)   
+      - [Benefits of Long/Short Strategies](#benefits-of-longshort-strategies)   
+      - [Drawbacks of Long/Short Strategies](#drawbacks-of-longshort-strategies)   
+
+<!-- /MDTOC -->
 ## Benchmark
 
 - Buffering: Establishing ranges around breakpoints that define whether a stock belongs in one index or another.
