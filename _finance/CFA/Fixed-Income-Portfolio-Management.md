@@ -10,7 +10,6 @@ date: 2022-06-21
 
 <!-- MDTOC maxdepth:6 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
-- [Fixed Income Mandates](#fixed-income-mandates)   
 - [Statistical Credit Analysis](#statistical-credit-analysis)   
 - [Fixed Income Portfolio Measures](#fixed-income-portfolio-measures)   
    - [Duration](#duration)   
@@ -64,18 +63,6 @@ date: 2022-06-21
    - [CDS](#cds)   
 
 <!-- /MDTOC -->
-## Fixed Income Mandates
-
-- Total Return
-  - Pure indexing
-  - Enhanced indexing
-  - Active management
-- Liability Based
-  - Cash flow matching
-  - Duration matching
-  - Derivatives overlay
-  - Contingent immunization
-
 
 ## Statistical Credit Analysis
 
@@ -90,7 +77,7 @@ date: 2022-06-21
 #### Macaulay duration
 - Weighted average of the time to receipt of the bond’s promised payments
 - Increases linearly with maturity of the bond
-- If the investment horizon equals the Macaulay duration of the portfolio, the capital loss created by the increase in yields and the reinvestment effects (gains) will roughly offset, leaving the realized return approximately equal to the original yield to maturity.
+- Zero replication: If the investment horizon equals the Macaulay duration of the portfolio, the capital loss created by the increase in yields and the reinvestment effects (gains) will roughly offset, leaving the realized return approximately equal to the original yield to maturity.
 
 #### Modified duration
 - Measures the sensitivity of the bond’s price to a change in interest rate
@@ -177,7 +164,7 @@ Dollar interest = principal * repo rate * days/360
   - A barbell portfolio
 - Duration matching
 - Derivatives overlay
-- Contingent immunization
+- Contingent immunization: allows for active bond portfolio management until a minimum threshold in the surplus is reached.
 
 Immunized portfolio convexity = (MacDur^2 + MacDur + Dispersion) / (1 + Cash flow yield)^2
 
@@ -215,7 +202,7 @@ Asset BPV + (Notional Amount * Swap BPV / 100) = Liability BPV
 #### Swaptions
 
 Long a receiver swaption: receive fixed payment and pay float
-
+Long a payer swaption: receive float and pay fixed
 ## Bond Index
 
 Tracking error of 1% means that assuming normally distributed returns, in 68% of time periods, the fund should have a return that is within 1% of the tracked index.
@@ -256,9 +243,10 @@ LGD * Probability of Default, POD = Expected Loss, Loss
 POD Approximation: POD = Spread / LGD
 
 ## Credit Spread
+- `Yield/Benchmark-Spread`: subtracts the yield of an on-the-run government bond; maturities may not match
 - `G-Spread`: treasury yield with the matching duration as benchmark
-- `I-Spread`: interest rate swap as benchmar
-- `Asset Swap Spread, ASW`: difference between the bond's fixed coupon rate and the fixed rate on an interest rate swap
+- `I-Spread`: interest rate swap as benchmark
+- `Asset Swap Spread, ASW`: difference between the bond's fixed coupon rate and its interest swap rate
 - `Z-Spread`: spot curve as benchmark
 - `CDS Basis`: CDS with the same duration as benchmark
 -  `OAS Spread`
@@ -278,6 +266,9 @@ SD = Spread duration
 p = Probability of default
 L = Loss severity
 
+Or
+
+EXR = OAS - Expected Loss
 
 
 ### Leverage Return

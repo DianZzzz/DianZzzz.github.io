@@ -22,6 +22,7 @@ date: 2022-06-19
       - [Bear spread](#bear-spread)   
       - [Calendar spread](#calendar-spread)   
    - [Straddle](#straddle)   
+   - [Strangle](#strangle)   
    - [Collar](#collar)   
    - [Volatility](#volatility)   
       - [Volatility smile](#volatility-smile)   
@@ -33,6 +34,7 @@ date: 2022-06-19
    - [Interest Rate Swap](#interest-rate-swap)   
    - [Cheapest-to-deliver Bond](#cheapest-to-deliver-bond)   
    - [Equity Futures](#equity-futures)   
+   - [Bond Futures](#bond-futures)   
    - [Variance Swaps](#variance-swaps)   
    - [Total Return Swap](#total-return-swap)   
       - [Compared to ETF](#compared-to-etf)   
@@ -66,8 +68,10 @@ C = P + PV(F) - PV(X)
   - Delta for long calls is always positive
   - Delta for long puts is always negative
   - Delta for long (short) the underlying asset is 1 (-1)
+  - 50-delta ATM; <50 ITM; >50 OTM
 - `Gamma`: Change in delta / Change in value of underlying
   - Gamma for long calls and long puts is always positive
+  - The largest gamma occurs when options are trading at the money or near expiration
 - `Vega`: Change in value of option / Change in volatility of underlying
   - Vega for long calls and long puts is always positive
 - `Theta`: Sensitivity of the option’s price to the passage of time, known as time decay
@@ -106,9 +110,13 @@ To hedge a short forward position
 - A short calendar spread is when one buys the near term option and the sells the more distant option
 
 ### Straddle
-- A long straddle is when one buys both puts and calls, with the same exercise price and same expiration date, on the same underlying asset.
+- A long straddle is when one buys both ATM puts and calls, with the same exercise price and same expiration date, on the same underlying asset.
 - A short straddle is when one sells both puts and calls
 - The investor buying a straddle is essentially betting volatility to increase
+
+### Strangle
+- A long position is buying OTM puts and calls with the same expiry date and the same degree of being out of the money
+- Because OTM options are being bought, the cost of the position is cheaper—but conversely, it also does not pay off until the spot rate passes the OTM strike levels. As a result, the risk–reward for a strangle is more moderate than that for a straddle.
 
 ### Collar
 - Long shares of stock and then buys a put with an exercise price below the current stock price and writes a call with an exercise price above the current stock price
@@ -154,6 +162,11 @@ Number of Futures Contract to Hedge = - (BPV_target - BPV_portfolio) / BPV_CTD *
 
 Number of futures contract = (target beta - current beta) / futures beta * portfolio size / futures price
 
+### Bond Futures
+
+- If the basis is positive, a trader would make a profit by “selling the basis” — selling the bond and buying the futures.
+- If the basis is negative, the trader would make a profit by “buying the basis” - buying the bond and short the futures.
+
 ### Variance Swaps
 
 Variance Notional = Vega Notional / (2 * Strike)
@@ -164,15 +177,18 @@ Settlement_T = Variance Notional * (Realized volatility^2 - Strike^2)
 
 ### Total Return Swap
 
+- The TRS payer buys protection against a possible decline in the value of the asset. The payer pays positive return to the receiver while being paid LIBOR-based interest returns
+- The TRS receiver pays a LIBOR-based payment and any depreciation in the value of the asset
+
 #### Compared to ETF
 - Capital Commitment: an ETF would be less efficient (requiring a larger cash outlay) because the capital commitment equals the full notional value. In contrast, a total return swap generates a similar economic exposure to ETFs with much lower capital.
 - Liquidity: ETF would be more efficient as ETFs enjoy liquid trading and narrow bid–ask spreads. In contrast, total return swaps are over-the-counter contracts (not exchange traded) that are negotiated and customizable on such features as maturity, leverage, and cost.
 - Tracking Error: ETF would have associated tracking error, which may result from premiums and discounts to net asset value, cash drag, or regulatory diversification requirements. In contrast, for total return swaps, the replication is exact.
 
 #### Delta Options
-- >50 Delta Call = ITM
+- &lt; 50 Delta Call = ITM
 - =50 Delta Call = ATM
-- <50 Delta cALL = OTM
+- <50 Delta Call = OTM
 
 ### Fed Fund Futures
 

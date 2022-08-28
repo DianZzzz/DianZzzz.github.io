@@ -41,4 +41,4 @@ Code Editor: [atom.io](atom.io)
 
 Package for preview and drag and drop images: markdown-preview-enhanced
 
-Package for automating table of contents: https://atom.io/packages/atom-mdtoc
+Package for automating table of contents: [https://atom.io/packages/atom-mdtoc](https://atom.io/packages/atom-mdtoc)
