@@ -52,6 +52,7 @@ date: 2022-06-19
    - [Considerations for emerging market currency exposure](#considerations-for-emerging-market-currency-exposure)   
    - [Currency Hedge Consideration](#currency-hedge-consideration)   
    - [Carry Trade and Forward Premium Bias](#carry-trade-and-forward-premium-bias)   
+   - [Minimum Variance Hedge](#minimum-variance-hedge)   
 
 <!-- /MDTOC -->
 ## Options
@@ -264,3 +265,7 @@ The current spot rate is USD/GBP 1.28 and the 3-month futures price is USD/GBP 1
 |:-------------|:------------------|:------|
 |Implementing the carry trade | High-yield currency | Low-yield currency  |
 | Trading the forward rate bias | Forward discount currency |	Forward premium currency
+
+### Minimum Variance Hedge
+
+Hedge ratio = correlation * SD of Foreign currency / SD of Exchange Rate

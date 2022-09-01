@@ -258,6 +258,8 @@ POD Approximation: POD = Spread / LGD
 
 ### Expected Excess Return
 
+E [ExcessSpread] ≈ Current OAS − (EffSpreadDur × ΔSpread) − (POD × LGD)
+
 EXR = (s × t) – (∆s × SD) – (t × p × L)
 where
 s = Z-spread

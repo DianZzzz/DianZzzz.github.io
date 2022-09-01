@@ -21,6 +21,7 @@ date: 2022-07-05
       - [VWAP algorithms](#vwap-algorithms)   
       - [TWAP algorithms](#twap-algorithms)   
    - [Opportunistic algorithms (Liquidity-seeking)](#opportunistic-algorithms-liquidity-seeking)   
+   - [Implementation Shortfall algorithm](#implementation-shortfall-algorithm)   
    - [Dark Aggregator](#dark-aggregator)   
    - [Arrival price](#arrival-price)   
 - [Trading Cost](#trading-cost)   
@@ -119,6 +120,9 @@ Used by portfolio managers who are buying or selling securities on the basis of 
 ### Opportunistic algorithms (Liquidity-seeking)
 
 - Take advantage of market liquidity across multiple venues by trading faster when liquidity exists at a favorable price.
+
+### Implementation Shortfall algorithm
+- A frontloaded strategy that can be adjusted to aggressively execute an order when the order has a high urgency
 
 ### Dark Aggregator
 
@@ -253,7 +257,7 @@ A = Portfolio - Benchmark
 
 #### Sharpe ratio
 - (Portfolio return - risk free rate) / standard deviation
-- the use of standard deviation as a measure of risk assumes investors are indifferent between upside and downside volatility
+- the use of standard deviation as a measure of risk assumes investors are indifferent between upside and downside volatility and that risks are normally distributed
 
 #### Treynor ratio
 - (Portfolio return - risk free rate) / beta
@@ -268,7 +272,7 @@ A = Portfolio - Benchmark
 
 #### Sortino ratio
 - (portfolio return - target return) / target standard deviation
-- more relevant when return distributions are not symmetrical, as with option writing and when one of the primary objectives is capital preservation.
+- more relevant when return distributions are not symmetrical and risk is defined as downside deviation
 
 #### Capture ratios
 - Calculate the geometric means for upside or downside returns: [(1+x1)(1+x2)...(1+xn)]^(1/n)

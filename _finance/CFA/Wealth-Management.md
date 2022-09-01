@@ -30,6 +30,9 @@ date: 2022-07-01
 - [Concentrated Positions](#concentrated-positions)   
    - [Risks](#risks)   
    - [Solutions](#solutions)   
+      - [Outright Sales](#outright-sales)   
+      - [Completion portfolio](#completion-portfolio)   
+      - [Exchange Fund](#exchange-fund)   
       - [Charitable Remainder Trust](#charitable-remainder-trust)   
 - [Client Segment](#client-segment)   
    - [Robo-Adviser (part of the mass affluent client segment)](#robo-adviser-part-of-the-mass-affluent-client-segment)   
@@ -175,9 +178,22 @@ RV_gift = FV_gift/FV_bequest
 
 ### Solutions
 
+#### Outright Sales
+- Tax immediately due
+- Loss of voting power
+
+#### Completion portfolio
+- Needs sufficient assets to complement
+- Takes time to complete
+
+#### Exchange Fund
+- Only available to accredited investors
+- Need to hold at least seven years
+
 #### Charitable Remainder Trust
 - An irrevocable donation to a trust and receive a tax deduction for the gift.
 - Provide income for the life of the named beneficiaries. When the last-named beneficiary dies, any assets remaining in the trust would be distributed to the charity named in the trust.
+- Loss of voting rights
 
 ## Client Segment
 

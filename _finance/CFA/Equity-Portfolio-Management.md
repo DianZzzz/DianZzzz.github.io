@@ -11,6 +11,7 @@ date: 2022-06-28
 <!-- MDTOC maxdepth:6 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Benchmark](#benchmark)   
+   - [Index Requirement](#index-requirement)   
    - [Herfindahl-Hirschman Index (HHI)](#herfindahl-hirschman-index-hhi)   
 - [Passive Investment](#passive-investment)   
    - [Stratified Sampling](#stratified-sampling)   
@@ -22,6 +23,8 @@ date: 2022-06-28
 - [Active Investment](#active-investment)   
    - [Fundamental](#fundamental)   
    - [Quantitative](#quantitative)   
+   - [Bottom-up approach](#bottom-up-approach)   
+   - [Top-down approach](#top-down-approach)   
    - [Active Investment Pitfall](#active-investment-pitfall)   
 - [Style Analysis](#style-analysis)   
    - [Holding-based analysis](#holding-based-analysis)   
@@ -34,7 +37,8 @@ date: 2022-06-28
    - [Fundamental law of active management](#fundamental-law-of-active-management)   
       - [Pearson IC](#pearson-ic)   
       - [Spearman Rank IC addressees this issue and is often](#spearman-rank-ic-addressees-this-issue-and-is-often)   
-   - [Active Share and Active Risk](#active-share-and-active-risk)   
+   - [Active Share](#active-share)   
+   - [Active Risk](#active-risk)   
       - [Pure indexing](#pure-indexing)   
       - [Factor neutral](#factor-neutral)   
       - [Factor diversified](#factor-diversified)   
@@ -50,6 +54,12 @@ date: 2022-06-28
 
 - Buffering: Establishing ranges around breakpoints that define whether a stock belongs in one index or another.
 - Packeting: involves splitting stock positions into multiple parts. If a stock's capitalization increases and breaches the breakpoint between mid-cap and large-cap indexes, a portion of the total holding is transferred to the large-cap index but the rest stays in the mid-cap index.
+
+### Index Requirement
+
+1. Rules-based
+2. Transparent
+3. Investable
 
 ### Herfindahl-Hirschman Index (HHI)
 
@@ -101,6 +111,17 @@ Tracking Error = sqrt(variance(Portfolio Return - Benchmark Return))
 - Construct the portfolio by maximizing the objective function (such as portfolio alpha or information ratio) with risk models.
 - Portfolios are usually rebalanced at regular intervals, such as monthly.
 - Pitfalls: Survivorship Bias, Look-Ahead Bias, Data Mining, and Overfitting, Turnover, Transaction Costs, and Short Availability
+
+### Bottom-up approach
+
+- Analyze information at the company level to generate investment
+ideas.
+- Bottom up strategies can be divided into value and growth styles. - Resulted portfolios could be diversified or concentrated depending on manager style
+
+### Top-down approach
+- Focus on the macroeconomic environment, demographic trends,
+and government policies to make investment decisions.
+- Typically incoporates factor timing and results in a diversified portfolio
 
 ### Active Investment Pitfall
 
@@ -161,10 +182,14 @@ Expected Active Return = Information coefficient * sqrt(Breadth) * Active Risk *
 - IC of the rank of the factor scores and rank of subsequent performance.
 - Addresses the outlier issue and thus more robust than Person IC
 
-### Active Share and Active Risk
+### Active Share
 
-- Active Share measures the degree to which the number and sizing of the positions in a manager’s portfolio are different from those of a benchmark
-- Active risk, also called tracking error, is the standard deviation of active returns (portfolio returns minus benchmark returns).
+- Measures the degree to which the number and sizing of the positions in a manager’s portfolio are different from those of a benchmark
+
+- Formula: Σ abs(portfolio weight - benchmark weight)
+
+### Active Risk
+- Also called tracking error, is the standard deviation of active returns (portfolio returns minus benchmark returns).
 
 #### Pure indexing
 - No active positions: portfolio is equal to the benchmark

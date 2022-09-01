@@ -27,6 +27,11 @@ date: 2022-07-01
    - [Equity Market Neutral Strategies](#equity-market-neutral-strategies)   
    - [Volatility Strategies](#volatility-strategies)   
 - [Mutual Fund](#mutual-fund)   
+- [Alternative Assets Allocation](#alternative-assets-allocation)   
+   - [Traditional approaches](#traditional-approaches)   
+   - [Risk-based approaches](#risk-based-approaches)   
+- [FOF vs. Multi-strategies](#fof-vs-multi-strategies)   
+- [Alternative Investment Risks](#alternative-investment-risks)   
 
 <!-- /MDTOC -->
 ## Investment Strategies
@@ -141,7 +146,7 @@ rns representing the illiquidity premium
 - Take opposite (long and short) positions in similar or related equities having divergent valuations while attempting to maintain a near net zero portfolio exposure to the market.
 - Typically utilize leverage
 - Typically deliver return profiles that lower but less volatile than those of many other hedge strategy areas.
-
+- More useful for portfolio allocation during periods of non-trending or declining markets
 ### Volatility Strategies
 
 - Through simple exchange-traded options: The maturity of such options typically extends to no more than two years. The longer-dated options will have more absolute exposure to volatility levels than shorter-dated options, but the shorter-dated options will exhibit more delta sensitivity to price changes.
@@ -152,3 +157,44 @@ rns representing the illiquidity premium
 ## Mutual Fund
 
 - Open-end fund tends to be less liquid than close-end fund
+
+## Alternative Assets Allocation
+
+### Traditional approaches
+
+Pros:
+- Easy to communicate. Listing the roles of various asset classes is intuitive and easy to explain to the decision makers, who often have familiarity with the traditional asset class-based approach.
+- Relevance for liquidity management and operational considerations. The traditional categorization of asset classes may make it easier to identify relevant mandates for the portfolio’s alternative investments.
+
+Cons:
+- Over-estimation of portfolio diversification.
+- Obscured primary drivers of risk.
+
+
+### Risk-based approaches
+
+Pros:
+- Common risk factor identification. Investors are able to identify common risk factors across all investments, whether public or private, passive or active.
+- Integrated risk framework. Investors are able to build an integrated risk management framework, leading to more reliable portfolio-level risk quantification.
+
+Cons
+- Sensitivity to the historical look-back period.
+- Implementation hurdles.
+- Determining which risk factors should be used and how to measure them in different asset classes. One drawback with risk-based approaches is the decision on which risk factors to use is somewhat subjective and how these factors are measured can also be subjective.
+
+## FOF vs. Multi-strategies
+
+- Multi-strategy managers can reallocate capital into different strategy areas more quickly and efficiently than would be possible by a fund-of-funds (FoF) manager.
+- The multi-strategy manager has full transparency and a better picture of the interactions of the different teams’ portfolio risks than would ever be possible for FoF managers to achieve.
+- FoF investors always face netting risk, whereby they are responsible for paying performance fees due to winning underlying funds while suffering return drag from the performance of losing underlying funds.
+- FoF has multiple layers of fees.
+
+## Alternative Investment Risks
+
+- Key person risk
+- Alignment of interests
+- Style drift: Investors should understand where the fund manager has a competitive advantage and skill and confirm that the investments are consistent with the manager’s advantage.
+- Risk management
+- Client/asset turnover
+- Client profile: Investors should confirm that the other clients are long-term investors and that they have similar investment goals and desired outcomes.
+- Service providers: Investors should ensure that the fund manager has engaged independent and reputable third-party service providers, including administrators, custodians and auditors.
