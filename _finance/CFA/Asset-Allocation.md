@@ -25,6 +25,7 @@ date: 2022-06-17
       - [Criticism of MVO](#criticism-of-mvo)   
       - [Alternative Models](#alternative-models)   
          - [Criticisms of resampling](#criticisms-of-resampling)   
+   - [Monto Carlo Simulation](#monto-carlo-simulation)   
    - [Surplus Optimization](#surplus-optimization)   
    - [Hedging/Return-Seeking Portfolio Approach](#hedgingreturn-seeking-portfolio-approach)   
    - [Integrated Asset-Liability Approach](#integrated-asset-liability-approach)   
@@ -121,6 +122,11 @@ Risk of MVO portfolio combined with rf asset = risky asset standard deviation * 
 - The “riskier” asset allocations are over-diversified
 - The asset allocations inherit the estimation errors in the original inputs
 - The approach lacks a foundation in theory
+
+### Monto Carlo Simulation
+- Able to incorporate chanegs of variables overtime
+- Able to incorporate statistical properties outside normal distribution such as skewness and kurtosis
+- Able to incorporate alternative assets
 
 ### Surplus Optimization
 
