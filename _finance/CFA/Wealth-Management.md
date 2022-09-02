@@ -60,8 +60,7 @@ the expected number of working years
 - `Earnings risk` (insure with disability insurance) refers to loss in HC. Job loss and other career disruptions can reduce HC and may even lead to the need to consume FC prematurely.
 - `Premature death risk` (insure with life insurance) can be a substantial HC loss. In addition, it may cause unexpected expenses that consume limited FC of the survivors.
 - `Longevity risk` (insure with annuities) is where individuals who live too long are at risk of outliving their FC.
-- `Property risk` (insure with property insurance) refers to sudden loss in value of physical property (FC). The loss of business property
-could reduce FC and also HC of the owner if the property is necessary to generate business income.
+- `Property risk` (insure with property insurance) refers to sudden loss in value of physical property (FC). The loss of business property could reduce FC and also HC of the owner if the property is necessary to generate business income.
 - `Liability risk` (insure with liability insurance) refers to being legally responsible for damages and a reduction in FC.
 - `Health risk` (insure with health insurance) can lead to direct loss of FC to pay illness or injury related expenses. It can reduce HC through diminished or inability to work.
 
@@ -89,8 +88,8 @@ Economic Net Worth  = Traditional Net Worth
 ## Retirement Planning
 
 - Mortality Table: A mortality table allows for estimating the present value of retirement spending needs by associating each outflow with a probability based on life expectancy.
-- Annuity Method: 	The calculated price of an annuity equals the present value of a series of future fixed outflows during retirement.
-- Monte Carlo Simulation: 	Monte Carlo simulation yields an overall probability of meeting retirement needs by aggregating the results of many trials of probability-based estimates of key variables, and it is a flexible approach for exploring different retirement scenarios.
+- Annuity Method: The calculated price of an annuity equals the present value of a series of future fixed outflows during retirement.
+- Monte Carlo Simulation:	Monte Carlo simulation yields an overall probability of meeting retirement needs by aggregating the results of many trials of probability-based estimates of key variables, and it is a flexible approach for exploring different retirement scenarios.
 
 ## Life Insurance
 
@@ -147,7 +146,8 @@ Economic Net Worth  = Traditional Net Worth
 As long as discount rate > growth rate, the adjusted discount rate can be calculated as (1 + Discount rate)/(1 + Growth rate) − 1
 
 ### Advanced life deferred annuity’s (ALDA’s)
-- Provide the greatest supplemental level income relative to the cost because the payments are made far in the future
+
+Provide the greatest supplemental level income relative to the cost because the payments are made far in the future
 
 ## Tax issues
 
@@ -204,11 +204,11 @@ RV_gift = FV_gift/FV_bequest
 
 ### Mass Affluent Segment
 
-- The mass affluent segment covers asset levels between $250,000 and $1 million and serves clients who are focused on building their portfolios and want help with financial planning needs.
+- The mass affluent segment covers asset levels between $250,000 and 1 million and serves clients who are focused on building their portfolios and want help with financial planning needs.
 
 ### High-Net-Worth Segment
 
-- Covers asset levels between $1 million and $10 million and can provide a team of specialized advisers that supports more customized strategies for more sophisticated investments with longer time horizons, greater risk, and less liquidity.
+- Covers asset levels between $1 million and 10 million and can provide a team of specialized advisers that supports more customized strategies for more sophisticated investments with longer time horizons, greater risk, and less liquidity.
 
 
 ### Ultra-High-Net-Worth Segment

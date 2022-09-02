@@ -41,7 +41,7 @@ date: 2022-06-28
    - [Active Risk](#active-risk)   
       - [Pure indexing](#pure-indexing)   
       - [Factor neutral](#factor-neutral)   
-      - [Factor diversified](#factor-diversified)   
+      - [Factor diversified / Diversified stock picker](#factor-diversified-diversified-stock-picker)   
       - [Concentrated factor bets](#concentrated-factor-bets)   
       - [Concentrated stock picker](#concentrated-stock-picker)   
    - [Strategies](#strategies)   
@@ -193,22 +193,22 @@ Expected Active Return = Information coefficient * sqrt(Breadth) * Active Risk *
 
 #### Pure indexing
 - No active positions: portfolio is equal to the benchmark
-- Zero Active Share and zero active risk
+- Zero active share and zero active risk
 
 
 #### Factor neutral
-- No active factor bets—idiosyncratic risk low if diversified
-- Low active risk—Active Share low if diversified
+- No active factor bets — idiosyncratic risk low if diversified
+- Low active risk — active share low if diversified
 
-#### Factor diversified
+#### Factor diversified / Diversified stock picker
 - Balanced exposure to risk factors and minimized idiosyncratic risk through high number of securities in portfolio
 - Reasonably low active risk
-- High Active Share from large amount of securities used that are
+- High active share from large amount of securities used that are
 unlikely to be in the benchmark
 
 #### Concentrated factor bets
 - Targeted factor bets—idiosyncratic risk likely to be high
-- High Active Share and high active risk
+- High active share and high active risk
 
 #### Concentrated stock picker
 - Targeted individual stock bets

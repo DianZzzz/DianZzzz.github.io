@@ -25,15 +25,12 @@ date: 2022-06-17
       - [Criticism of MVO](#criticism-of-mvo)   
       - [Alternative Models](#alternative-models)   
          - [Criticisms of resampling](#criticisms-of-resampling)   
-   - [Monto Carlo Simulation](#monto-carlo-simulation)   
    - [Surplus Optimization](#surplus-optimization)   
    - [Hedging/Return-Seeking Portfolio Approach](#hedgingreturn-seeking-portfolio-approach)   
    - [Integrated Asset-Liability Approach](#integrated-asset-liability-approach)   
    - [Risk Parity](#risk-parity)   
-- [Rebalance](#rebalance)   
-   - [Optimal Width of Corridor](#optimal-width-of-corridor)   
 - [Tax Consideration](#tax-consideration)   
-- [Behavior Biases in Asset Allocation](#behavior-biases-in-asset-allocation)   
+- [Strategies to Overcome Behavior Biases in Asset Allocation](#strategies-to-overcome-behavior-biases-in-asset-allocation)   
    - [Loss Aversion](#loss-aversion)   
    - [Illusion of Control](#illusion-of-control)   
    - [Mental Accounting](#mental-accounting)   
@@ -123,19 +120,16 @@ Risk of MVO portfolio combined with rf asset = risky asset standard deviation * 
 - The asset allocations inherit the estimation errors in the original inputs
 - The approach lacks a foundation in theory
 
-### Monto Carlo Simulation
-- Able to incorporate chanegs of variables overtime
-- Able to incorporate statistical properties outside normal distribution such as skewness and kurtosis
-- Able to incorporate alternative assets
 
 ### Surplus Optimization
 
+Use MVO to determine an efficient frontier based on the surplus with its volatility as measure of risk
+
 U = E(R) - 0.005 * λ * σ^2
-where E(R) = surplus return = (Δ in asset value - Δ in liability value) / Initial asset value
-Δ in liability value = time value of money for the liabilities + any expected changes in the discount rate and future cash flows over the planning horizon
-- Assumes linear correlation between assets and liabilities
-- Can apply to any funded ratio
-- Single period model
+where
+E(R) = surplus return = (Δ in asset value - Δ in liability value) / Initial asset value
+σ^2 = variance of surplus return
+
 
 ### Hedging/Return-Seeking Portfolio Approach
 - Assumes both linear and nonlinear correlation between assets and liabilities
@@ -153,22 +147,12 @@ where E(R) = surplus return = (Δ in asset value - Δ in liability value) / Init
 - Each asset (asset class or risk factor) should contribute equally to the total risk of the portfolio
 - weight × Cov(ri,rP) = 1/n * σ^2
 
-## Rebalance
-
-### Optimal Width of Corridor
-- Higher transaction costs -> wider corridor
-- Higher risk tolerance -> wider corridor
-- Higher correlation with the rest of portfolio -> wider corridor
-- Higher tax -> wider corridor
-- Higher volatility -> wider corridor
-- Higher volatility of the rest of portfolio -> narrower corridor
-
 ## Tax Consideration
 
 - after-tax standard deviation = pre-tax standard deviation * (1-t)
 - Tax Advantage Retirement Account = Investment grade bonds, high yield bond, dividend income stock, total return (capital gain) stock
 
-## Behavior Biases in Asset Allocation
+## Strategies to Overcome Behavior Biases in Asset Allocation
 
 ### Loss Aversion
 - Frame risk in terms of shortfall probability

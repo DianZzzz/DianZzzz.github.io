@@ -30,7 +30,6 @@ date: 2022-06-19
       - [Term Structure of Volatility](#term-structure-of-volatility)   
       - [Option Choice](#option-choice)   
 - [Derivatives](#derivatives)   
-   - [Forward and Futures](#forward-and-futures)   
    - [Interest Rate Swap](#interest-rate-swap)   
    - [Cheapest-to-deliver Bond](#cheapest-to-deliver-bond)   
    - [Equity Futures](#equity-futures)   
@@ -38,7 +37,6 @@ date: 2022-06-19
    - [Variance Swaps](#variance-swaps)   
    - [Total Return Swap](#total-return-swap)   
       - [Compared to ETF](#compared-to-etf)   
-      - [Delta Options](#delta-options)   
    - [Fed Fund Futures](#fed-fund-futures)   
 - [Foreign Currency](#foreign-currency)   
    - [Currency Risk and Return](#currency-risk-and-return)   
@@ -47,12 +45,10 @@ date: 2022-06-19
       - [Forward vs. Futures](#forward-vs-futures)   
       - [Option Strategies](#option-strategies)   
       - [Roll Yields](#roll-yields)   
-         - [Roll Yields Strategies](#roll-yields-strategies)   
       - [Option Strategies](#option-strategies)   
    - [Considerations for emerging market currency exposure](#considerations-for-emerging-market-currency-exposure)   
    - [Currency Hedge Consideration](#currency-hedge-consideration)   
    - [Carry Trade and Forward Premium Bias](#carry-trade-and-forward-premium-bias)   
-   - [Minimum Variance Hedge](#minimum-variance-hedge)   
 
 <!-- /MDTOC -->
 ## Options
@@ -82,7 +78,7 @@ C = P + PV(F) - PV(X)
 
 To hedge a long forward position
 - Sell the stock and lend the money
-- Build a synthetic short forward position by short the call and long the put which ahve the same strike price and expiration date
+- Build a synthetic short forward position by short the call and long the put which have the same strike price and expiration date
 
 To hedge a short forward position
 - Borrow money to buy the underlying stock
@@ -104,7 +100,7 @@ To hedge a short forward position
 
 #### Bear spread
 - A spread that becomes more valuable when the price of the underlying asset declines
-- Investors buys the higher exercise price option and writes another with a lower exercise price
+- Investors buys the higher exercise price put and writes another with a lower exercise price
 
 #### Calendar spread
 - A long calendar spread is when one buys the more distant option and the sells the near term option
@@ -142,10 +138,6 @@ To hedge a short forward position
 
 ## Derivatives
 
-### Forward and Futures
-
-- A forward contract has greater liquidity.
-- Futures contract has lower transaction costs. However, they not only have initial margin requirements, they also have daily mark-to-market and can be subject to daily margin calls.
 
 ### Interest Rate Swap
 
@@ -186,11 +178,6 @@ Settlement_T = Variance Notional * (Realized volatility^2 - Strike^2)
 - Liquidity: ETF would be more efficient as ETFs enjoy liquid trading and narrow bid–ask spreads. In contrast, total return swaps are over-the-counter contracts (not exchange traded) that are negotiated and customizable on such features as maturity, leverage, and cost.
 - Tracking Error: ETF would have associated tracking error, which may result from premiums and discounts to net asset value, cash drag, or regulatory diversification requirements. In contrast, for total return swaps, the replication is exact.
 
-#### Delta Options
-- &lt; 50 Delta Call = ITM
-- =50 Delta Call = ATM
-- <50 Delta Call = OTM
-
 ### Fed Fund Futures
 
 Fed funds futures contract price = 100 − Expected FFE rate.
@@ -214,13 +201,14 @@ Domestic Currency Volatility^2 = Foreign Currency Volatility^2 + Forex Rate Vola
 
 #### Dynamic vs. Static
 
-A static hedge will avoid transaction costs but tend to accumulate unwanted currency exposures as the value of the foreign-currency assets change, causing a mismatch between the market value of the foreign-currency asset portfolio and the nominal size of the forward contract used for the currency hedge;
+A static hedge will avoid transaction costs but tend to accumulate unwanted currency exposures as the value of the foreign-currency assets change, causing a mismatch between the market value of the foreign-currency asset portfolio and the nominal size of the forward contract used for the currency hedge
 
 #### Forward vs. Futures
 
 - A forward contract is more flexible in terms of currency pair, settlement date, and transaction amount.
 - Forward contracts are simpler than futures contracts owing to the absence of margin requirements, reducing portfolio management expense.
 - Forward contracts are more liquid than futures because the daily trade volume for OTC currency forward contracts dwarfs those for exchange-traded futures contracts.
+- Futures contract has lower transaction costs. However, they not only have initial margin requirements, they also have daily mark-to-market and can be subject to daily margin calls.
 
 #### Option Strategies
 
@@ -232,10 +220,6 @@ A static hedge will avoid transaction costs but tend to accumulate unwanted curr
 A **US-based** fund manager holding **UK government bonds** have a **long** position in GBP. He will want to hedge the GBP against USD by **shorting** GBP forward.
 
 The current spot rate is USD/GBP 1.28 and the 3-month futures price is USD/GBP 1.20. **F < S**, the base currency (GBP) is trading at a forward discount. To hedge, he will short GBP futures at a lower price and as the contract gets close to maturity, the futures price will approach the spot price of 1.28 and he proceeds to close the contract by buying GBP at 1.28 => there will be a loss on the futures contract => resulting in a **negative roll yield**. This would increase the hedging cost.
-
-##### Roll Yields Strategies
-- Implement the carry trade.	Buy the high-yield currency and sell the low-yield currency.
-- Trade the forward rate bias.	Buy the forward discount currency and sell the forward premium currency.
 
 
 #### Option Strategies
@@ -265,7 +249,3 @@ The current spot rate is USD/GBP 1.28 and the 3-month futures price is USD/GBP 1
 |:-------------|:------------------|:------|
 |Implementing the carry trade | High-yield currency | Low-yield currency  |
 | Trading the forward rate bias | Forward discount currency |	Forward premium currency
-
-### Minimum Variance Hedge
-
-Hedge ratio = correlation * SD of Foreign currency / SD of Exchange Rate

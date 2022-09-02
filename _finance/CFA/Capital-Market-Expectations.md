@@ -153,8 +153,8 @@ Shrinkage estimation involves taking a weighted average of a historical estimate
 - Rarely forecasts turning points well
 
 ### Economic Indicators
-- `Leading economic indicator`:
-- `Lagging economic indicator`:
+- `Leading economic indicator`
+- `Lagging economic indicator`
 - `Diffusion Index`: an index that measures how many indicators are pointing up and how many are pointing down.
 - `Look-Ahead Bias`: a study relies on data or information that is not yet available or known during the study
 
@@ -188,7 +188,7 @@ Shrinkage estimation involves taking a weighted average of a historical estimate
 ### Initial Recovery
 - The economy picks up, business confidence rises, an upturn in spending on housing and consumer durables.
 - Stimulative policies are still in place. Transitioning to tightening mode.
-- Ngative output gap is large
+- Negative output gap is large
 - Inflation is typically decelerating
 - Rates are low and bottoming.
 - Yield curve is steep. Shortest yields begin to rise first.

@@ -36,7 +36,6 @@ date: 2022-06-21
    - [Immunization Conditions](#immunization-conditions)   
       - [Single Liabilities](#single-liabilities)   
       - [Multiple Liabilities](#multiple-liabilities)   
-- [Fixed Income Portfolio Construction](#fixed-income-portfolio-construction)   
    - [Derivatives Overlay](#derivatives-overlay)   
       - [Calls and Puts](#calls-and-puts)   
       - [Swap](#swap)   
@@ -54,7 +53,7 @@ date: 2022-06-21
    - [Spread strategies](#spread-strategies)   
    - [Expected Excess Return](#expected-excess-return)   
    - [Leverage Return](#leverage-return)   
-- [Floating Rate Note (FRN)F](#floating-rate-note-frnf)   
+- [Floating Rate Note (FRN)](#floating-rate-note-frn)   
 - [Value at Risk](#value-at-risk)   
 - [Methods to Assess Portfolio Tail Risk](#methods-to-assess-portfolio-tail-risk)   
    - [Parametric Method](#parametric-method)   
@@ -178,14 +177,6 @@ Immunized portfolio convexity = (MacDur^2 + MacDur + Dispersion) / (1 + Cash flo
 - the money duration (or BPV) of the asset and liability to match
 - the immunizing portfolio needs to be greater than the convexity (and dispersion) of the outflow portfolio. But, the convexity of the immunizing portfolio should be minimized in order to minimize dispersion and reduce structural risk.
 
-
-## Fixed Income Portfolio Construction
-
-- Laddered Portfolio
-  - Protection from shifts and twists
-- Barbell Portfolio
-- Bullet Portfolio
-
 ### Derivatives Overlay
 
 Number of futures to sell = (Liability BPV - Asset BPV) / Futures BPV
@@ -195,6 +186,7 @@ If assets > liabilities, we short futures. The short position increase in value 
 
 #### Calls and Puts
 ![callable-bond](/assets/callable-bond.PNG)![putable-bond](/assets/putable-bond.PNG)
+
 #### Swap
 
 Asset BPV + (Notional Amount * Swap BPV / 100) = Liability BPV
@@ -203,6 +195,7 @@ Asset BPV + (Notional Amount * Swap BPV / 100) = Liability BPV
 
 Long a receiver swaption: receive fixed payment and pay float
 Long a payer swaption: receive float and pay fixed
+
 ## Bond Index
 
 Tracking error of 1% means that assuming normally distributed returns, in 68% of time periods, the fund should have a return that is within 1% of the tracked index.
@@ -216,10 +209,11 @@ Tracking error of 1% means that assuming normally distributed returns, in 68% of
 
 ### Butterfly Spread
 - Butterfly spread = - short term yield + 2 * mid-term yield - long-term yield
+- Positive butterfly: A decrease in the butterfly spread due to higher short- and long-term yields-to-maturity and a lower intermediate yield-to-maturity.
+  - Strategy: a long bullet with a short barbell
 - Negative butterfly: An increase in the butterfly spread due to lower short- and long-term yields-to-maturity and a higher intermediate yield-to-maturity.
   - Strategy: a short bullet with a long barbell
-- Positive buttefly: A decrease in the butterfly spread due to higher short- and long-term yields-to-maturity and a lower intermediate yield-to-maturity.
-  - Strategy: a long bullet with a short barbell
+
 
 ### Bull Steepening
 - Short term rate fall more than long term rate
@@ -277,7 +271,7 @@ EXR = OAS - Expected Loss
 
 Leveraged Return = Unlevered return + D/E * (unlevered return - borrow rate)
 
-## Floating Rate Note (FRN)F
+## Floating Rate Note (FRN)
 - Quoted Margin, QM
 - Discounted Margin, DM
 - Zero Discount Margin, Z-DM

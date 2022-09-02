@@ -21,7 +21,6 @@ date: 2022-07-05
       - [VWAP algorithms](#vwap-algorithms)   
       - [TWAP algorithms](#twap-algorithms)   
    - [Opportunistic algorithms (Liquidity-seeking)](#opportunistic-algorithms-liquidity-seeking)   
-   - [Implementation Shortfall algorithm](#implementation-shortfall-algorithm)   
    - [Dark Aggregator](#dark-aggregator)   
    - [Arrival price](#arrival-price)   
 - [Trading Cost](#trading-cost)   
@@ -57,13 +56,6 @@ date: 2022-07-05
    - [Separately Managed Account](#separately-managed-account)   
       - [Advantages](#advantages)   
       - [Disadvantages](#disadvantages)   
-   - [Style Analysis](#style-analysis)   
-      - [Return-based style analysis (RBSA)](#return-based-style-analysis-rbsa)   
-         - [Advantages](#advantages)   
-         - [Disadvantages](#disadvantages)   
-      - [Holdings-based style analysis (HBSA)](#holdings-based-style-analysis-hbsa)   
-         - [Advantages](#advantages)   
-         - [Disadvantages](#disadvantages)   
 - [Portfolio Reporting and Review](#portfolio-reporting-and-review)   
    - [Portfolio Reporting](#portfolio-reporting)   
 - [Fee Structure](#fee-structure)   
@@ -120,9 +112,6 @@ Used by portfolio managers who are buying or selling securities on the basis of 
 ### Opportunistic algorithms (Liquidity-seeking)
 
 - Take advantage of market liquidity across multiple venues by trading faster when liquidity exists at a favorable price.
-
-### Implementation Shortfall algorithm
-- A frontloaded strategy that can be adjusted to aggressively execute an order when the order has a high urgency
 
 ### Dark Aggregator
 
@@ -205,13 +194,28 @@ Thus derivative market is suitable for short-term rebalancing as opposed to real
 #### Three Approaches
 
 ##### Returns-based attribution
+
 - Uses only the total portfolio returns over a period to identify the components of the investment process that have generated the returns.
-- Easiest to implement but least accurate
-- Most appropriate when the underlying portfolio holdings are not readily available with sufficient frequency at the required level of detail (e.g., hedge funds)
+
+Pro:
+- Easiest to implement
+- Does not require potentially difficult to acquire data.
+
+Cons:
+- Not a precise tool
+- If the portfolio contains illiquid securities, stale prices may understate the risk exposure of the strategy.
 
 ##### Holdings-based attribution
 - Calculates the return of portfolio and benchmark components based upon the price and foreign exchange rate changes applied to daily snapshots of portfolio holdings.
+
+Pros
+- It can identify important drivers of return and risk factors and is comparable across managers and through time.
 - Most appropriate for investment strategies with little turnover (e.g., passive strategies)
+
+Cons
+- The computational effort increases with the complexity of the strategy and depends on the timing and degree of the transparency provided by the manager.
+- Window dressing and high turnover can compromise the results because the results are attributed to a snapshot of the portfolio.
+- If the portfolio has illiquid securities, stale pricing may underestimate the risk exposure of the strategy.
 
 ##### Transaction- based attribution
 - Most effective for active stock selection portfolios because it captures both the holdings and the transactions (purchases/sales) completed within the defined period, which would allow the entire excess return to be quantified and explained.
@@ -327,24 +331,6 @@ A = Portfolio - Benchmark
 
 - Investor behavior: Potential micromanagement by the investor. Potential investor behaviors include performance chasing, familiarity bias (being overly averse to unfamiliar holdings), and loss aversion
 
-### Style Analysis
-
-#### Return-based style analysis (RBSA)
-
-##### Advantages
- - Does not require potentially difficult to acquire data.
-##### Disadvantages
- - Not a precise tool
- - If the portfolio contains illiquid securities, stale prices may understate the risk exposure of the strategy.
-
-#### Holdings-based style analysis (HBSA)
-##### Advantages
- - It can identify important drivers of return and risk factors and is comparable across managers and through time.
- -
-##### Disadvantages
- - The computational effort increases with the complexity of the strategy and depends on the timing and degree of the transparency provided by the manager.
- - Window dressing and high turnover can compromise the results because the results are attributed to a snapshot of the portfolio.
- - If the portfolio has illiquid securities, stale pricing may underestimate the risk exposure of the strategy.
 
 ## Portfolio Reporting and Review
 

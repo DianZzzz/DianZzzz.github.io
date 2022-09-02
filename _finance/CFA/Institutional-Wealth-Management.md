@@ -22,7 +22,6 @@ date: 2022-07-01
       - [LDI Model](#ldi-model)   
 - [Insurance](#insurance)   
 - [Banks](#banks)   
-- [Illiquidity Premium](#illiquidity-premium)   
 - [Hedge Fund Strategies](#hedge-fund-strategies)   
    - [Equity Market Neutral Strategies](#equity-market-neutral-strategies)   
    - [Volatility Strategies](#volatility-strategies)   
@@ -68,7 +67,7 @@ The mission of xx University Endowment is to provide scholarships for students a
 
 In order to achieve this mission, the Endowment must maintain the purchasing power of the assets in perpetuity while achieving investment returns sufficient to sustain the level of spending necessary to support the scholarship budget.
 
-herefore, the investment objective of the endowment should be to achieve a total real rate of return (after inflation) of at least 6% with a reasonable level of risk.
+Therefore, the investment objective of the endowment should be to achieve a total real rate of return (after inflation) of at least 6% with a reasonable level of risk.
 
 ### Yale Formula
 
@@ -125,11 +124,6 @@ Change in equity capitalization value = Δy * - modified duration
 
 Variance of change in equity capitalization value = (A/E)^2 * asset variance + (A/E - 1) * liability variance - 2 * (A/E) 8 (A/E - 1) * Asset SD * Liability SD * Correlation
 
-## Illiquidity Premium
-- The illiquidity premium is the expected compensation for the additional risk of tying up capital for a potentially uncertain time period.
-- The size of the discount for illiquidity can be represented by the value of a put option with an exercise price equal to the marketable price of the illiquid asset
-rns representing the illiquidity premium
-
 ## Hedge Fund Strategies
 
 | Hedge Fund Category  | Strategies |
@@ -147,6 +141,7 @@ rns representing the illiquidity premium
 - Typically utilize leverage
 - Typically deliver return profiles that lower but less volatile than those of many other hedge strategy areas.
 - More useful for portfolio allocation during periods of non-trending or declining markets
+
 ### Volatility Strategies
 
 - Through simple exchange-traded options: The maturity of such options typically extends to no more than two years. The longer-dated options will have more absolute exposure to volatility levels than shorter-dated options, but the shorter-dated options will exhibit more delta sensitivity to price changes.

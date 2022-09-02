@@ -46,7 +46,7 @@ date: 2022-06-15
   - `Reprensentativeness`: people tend to classify new information based on past experiences and classifications.
     - `Base-rate neglect`: people rely on stereotypes when making investment decisions without adequately incorporating the base probability of the stereotype occurring.
     - `Sample-size neglect`: people incorrectly assume that small sample sizes are representative of populations
-  - `Illusion Control`: people tend to believe that they can control or influence outcomes when, in fact, they cannot.
+  - `Illusion of Control`: people tend to believe that they can control or influence outcomes when, in fact, they cannot.
   - `Hindsight`: people may see past events as having been predictable and reasonable to expect.
   - `Prudence`: the tendency to temper forecasts so that they do not appear extreme or the tendency to be overly cautious in forecasting.
  <br>
@@ -62,15 +62,15 @@ date: 2022-06-15
     - `resonance`: people are often biased by how closely a situation parallels their own personal situation.
 - `Gamblers’ fallacy`: a misunderstanding of probabilities in which people wrongly project reversal to a long-term mean
 - `Hot hand fallacy`: people wrongly project continuation of a recent trend
-- `Conjunction fallay`: an inappropriate combining of probabilities of independent events to support a belief. In fact, the probability of two independent events occurring in conjunction is never greater than the probability of either event occurring alone;
+- `Conjunction fallacy`: an inappropriate combining of probabilities of independent events to support a belief. In fact, the probability of two independent events occurring in conjunction is never greater than the probability of either event occurring alone;
 
 ### Emotional biases
 
-- `Loss-aversion bias`:people tend to strongly prefer avoiding losses as opposed to achieving gains.
+- `Loss-aversion bias`: people tend to strongly prefer avoiding losses as opposed to achieving gains.
   - `Disposition effect`: the holding (not selling) of investments that have experienced losses (losers) too long, and the selling (not holding) of investments that have experienced gains (winners) too quickly.
   - `Myopic Loss Aversion`: investors presented with annual return data for stocks and bonds tend to adopt more conservative strategies (lower allocation to equities) than those presented with longer-term return data
-- `Overconfidence bias`:people demonstrate unwarranted faith in their own intuitive reasoning, judgments, and/or cognitive abilities.
-   - `Prediction overconfidence`: the confidence intervals that people assign to their investment predictions are too narrow.
+- `Overconfidence bias`: people demonstrate unwarranted faith in their own intuitive reasoning, judgments, and/or cognitive abilities.
+   - `Certainty overconfidence`: the perceived ability of the investors to actually pick the next big stock with absolute certainty.
    - `Prediction overconfidence`: the confidence intervals that people assign to their investment predictions are too narrow.
 - `Self-attribution bias`: success is attributed to the individual’s skill, while failures are attributed to external factors.
 - `Self-Control Bias`: people fail to act in pursuit of their long-term, overarching goals because of a lack of self-discipline
@@ -149,7 +149,7 @@ date: 2022-06-15
   - Foundation: long-time horizon - higher risk tolerance, little financial wealth - lower risk tolerance
   - Accumulation: maximum savings and wealth accumulation - higher  risk tolerance
   - Maintenance: retirement - risk tolerance declining
-  - Distribution: time horizon may extend beyond one's death so time horizon is long - higer risk tolerance
+  - Distribution: time horizon may extend beyond one's death so time horizon is long - higher risk tolerance
 
 ## Investment Policy Statement IPS
 
@@ -199,6 +199,9 @@ Consider a client in a 30% tax bracket with $1,000,000, needing a $30,000 after-
 In Monte Carlo simulation, each of the variables is given a probability distribution to allow for real world uncertainty.
 
 ### Pros
+- Able to incorporate chanegs of variables overtime
+- Able to incorporate statistical properties outside normal distribution such as skewness and kurtosis
+- Able to incorporate alternative assets
 - It considers path dependency, such as the interaction of changing inflation on the portfolio values and on the investor’s withdrawal needs.
 - It can more clearly display tradeoffs of risk and return by ranking the paths from the best to worst
 - Properly modeled tax analysis
