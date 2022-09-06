@@ -11,3 +11,6 @@ date: 2022-09-06
 
 ### Adding a new slide
 
+
+![](assets/2022-09-06-14-54-36.png)
+
