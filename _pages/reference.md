@@ -37,8 +37,11 @@ Crypto Website Gadget: [https://coinmarketcap.com/widget/ticker/](https://coinma
 
 Content Page Reverse Chronological Order: [https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e](https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e)
 
-Code Editor: [atom.io](atom.io)
+Code Editor: [atom.io](atom.io), [vscode](code.visualstudio.com)
 
 Package for preview and drag and drop images: markdown-preview-enhanced
 
 Package for automating table of contents: [https://atom.io/packages/atom-mdtoc](https://atom.io/packages/atom-mdtoc)
+
+
+Package for paste images directly: [https://marketplace.visualstudio.com/itemdetails?itemName=mushan.vscode-paste-image](https://marketplace.visualstudio.com/itemdetails?itemName=mushan.vscode-paste-image)
