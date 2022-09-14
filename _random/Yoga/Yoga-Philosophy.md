@@ -1,0 +1,48 @@
+---
+layout: blog
+topic: Yoga
+title: Yoga Philosophy
+tags: yoga
+comments: false
+---
+
+# Yoga Philosophy
+
+## Eight Limbs of Yoga
+
+![](/assets/2022-09-13-10-44-26.png)
+
+1. Yamas: ethical considerations
+2. Niyamas: self-observation / discipline
+3. Asana: physical poses
+4. Pranayama: breath controls
+5. Pratyaphara: withdrawal of senses
+6. Dharana: concentration
+7. Dhyana: meditation
+8. Samadhi: enlightenment/peace
+
+### Yamas
+
+ - `Ahimsa`: non-harming; maintaining both harmonious relationships in the world and a tranquil inner life
+ - `Satya`: truthfullness; seeing and reporting things as they are rather than the way we would like them to be.
+ - `Asteya`: non-stealing; practice giving, of both tangibles and intangibles such as information and emotions, any chance you get
+ - `Brahmacharya`: moderating the senses; turns the mind inward, balancing and supervising the senses, and leads to freedom from dependencies and cravings.
+ - `Aprigraha`: non-attachment; all the things of the world are yours to use, but not to own
+
+
+### Niyamas
+
+- `Saucha`: cleanliness; cleansing the body as well as the mind
+- `Santosha`: contentment
+- `Tapas`: discipline; focuses energy, creates fervor, and increases strength and confidence. 
+- `Svadhyaya`: self-study; to remember, to contemplate, to meditate on
+- `Ishvara Pranidhana`: self-surrender; giving self to a higher purpose
+
+## Purusharthas: four aims of life
+
+- `Dharma`: duty; truth or right way of living, and one’s true purpose in life.
+- `Artha`: wealth, material comfort
+- `Kama`: pleasure
+- `Moksha`: freedom, self-realization and liberation from the cycle of reincarnation
+
+## Four Noble 

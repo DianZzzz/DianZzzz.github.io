@@ -11,3 +11,5 @@ comments: false
 Screenshot: shift + cmd + 4
 
 Open enhanced preview to the side: cmd+k v
+
+Copy image directly: cmd + option + v

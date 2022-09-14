@@ -10,3 +10,4 @@ comments: false
 
 Screenshot: shift + cmd + 4
 
+Backspace: fn + delete
