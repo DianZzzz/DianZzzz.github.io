@@ -45,4 +45,28 @@ comments: false
 - `Kama`: pleasure
 - `Moksha`: freedom, self-realization and liberation from the cycle of reincarnation
 
-## Four Noble 
+## Four Noble Truths of Buddism
+
+- `Dukkha`: truth of the presence of suffering
+- `Samudaya`: truth of the cause of suffering
+- `Nirodha`: truth of the end of suffering
+- `Magga`: truth of the path to end suffering
+
+## Eight Fold Path of Buddism
+
+- `Samma ditthi`: right understanding
+- `Samma sankappa`: right intention
+- `Samma vaca`: right speech
+- `Samma kammanta`: right action
+- `Samma ajiva`: right livelihood
+- `Samma vayama`: right effort
+- `Samma sati`: right mindfullness
+- `Samma samadhi`: right concentration
+
+## Four Aspects of True Love
+
+- `Maitri`: kindness
+- `Karuna`: compassion
+- `Mudita`: joy
+- `Upeksha`: freedom
+
