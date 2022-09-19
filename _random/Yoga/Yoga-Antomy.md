@@ -125,4 +125,24 @@ Joints, aka articulation, are spaces where two bones meet.
 
 - The force applied to the joint by the bones
 
+## Nervous System
+
+- Central nervous system
+    - Brain
+    - Spinal cord
+- Peripheral nervous system
+    - Cranial nerves
+    - Spinal serves
+
+### Neurons
+
+- Sensory neurons - carry messages received from outside stimuli to the brain
+- Motor neurons - carry messages to the muscles
+- Interneurons - carry messages from one neuron to another
+
+### Autonomic nervous system
+
+- Parasympathetic nervous system: regulates "rest and digest" functions
+- Sympathetic nervous system: controls "fight or flight" responses
+
 
