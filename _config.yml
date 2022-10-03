@@ -66,6 +66,8 @@ collections:
       output: true
    bcg:
       output: true
+   datascience:
+      output: true
 maps:
     google:
       api_key: <YOUR_KEY>

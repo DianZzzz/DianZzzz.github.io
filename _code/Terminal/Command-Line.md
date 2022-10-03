@@ -39,18 +39,20 @@ ls # list directory contents
 
 ```git checkout –b username/feature_description```
 
-3. Add files
+4. ```git push origin username/feature_description```
+
+5. Add files
 ```git add file1.py```
 
-4. Commit 
+6. Commit 
 
 ```git commit –m “some message"```
 
-5. git push
+7. git push
 
-6. git pull
+8. git pull
 
-7. See the changes made
+9. See the changes made
 
 ```git diff```
 
@@ -78,6 +80,7 @@ dependencies:
     - matplotlib
     - seaborn
 ```
+
 2. In the terminal, run ```conda env create -f NAME.yml```
 
 3. In the terminal, run ```conda activate NAME```
@@ -90,5 +93,5 @@ dependencies:
 
 ## Jupyter Notebook
 
-Terminate notebook: control + x c
+Terminate notebook: control + c
 

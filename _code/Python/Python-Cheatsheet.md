@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 from google.colab import drive
 drive.mount('/content/drive')
 
-users = pd.read_csv('users.dat',
+users = pd.read_csv('../users.dat', #../ move up to parent folder
                     nrows = 100000,
                     sep='::',      # use this field separator
                     index_col=0, # set first column as index
@@ -84,6 +84,7 @@ raw['text'].astype(str)
 #convert date column to a datetime object
 df['Date'] = pd.to_datetime(df['Date'])
 crime['Year'] = pd.to_datetime(crime['Year'],format='%Y')
+churn[['date_activ','date_end','date_modif_prod','date_renewal']]=churn[['date_activ','date_end','date_modif_prod','date_renewal']].apply(pd.to_datetime)
 
 #rename columns
 df.rename(columns={'category_gold':'# of ratings'})
