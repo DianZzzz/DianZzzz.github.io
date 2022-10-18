@@ -68,6 +68,8 @@ collections:
       output: true
    datascience:
       output: true
+   devop:
+      output: true
 maps:
     google:
       api_key: <YOUR_KEY>
