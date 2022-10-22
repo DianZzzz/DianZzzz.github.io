@@ -71,5 +71,3 @@ print(f"This is a: {is_bird}.")
 print(f"Probability it's a bird: {probs[0]:.4f}")
 
 ```
-
-<iframe src="https://cloud.datapane.com/reports/n3RK8l7/my-example-report/embed/" width="100%" height="540px" style="border: none;">IFrame not supported</iframe>
