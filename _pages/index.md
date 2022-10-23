@@ -42,31 +42,18 @@ layout: default
 </script>
 
 <div class="list-group">
-      {% assign topics = site.datascience | group_by:"topic" | sort: 'date' | reverse %}
-      {% for topic in topics %}
-        {% assign posts = topic.items | sort: 'date' | reverse %}
-        {% for post in posts %}
-          <a href="{{ post.url | relative_url }}" data-tags="{{ post.tags | join: '' | downcase }}"
-          class="search-list list-group-item list-group-item-action flex-column align-items-start collapse">
-          <div class="d-flex w-100 justify-content-between">
-              <h6 class="mb-1">{{ post.category }}</h6>
-              <small class="text-muted">{{ post.date | date: '%d %B %Y' }}</small>
-          </div>
-          <h2 class="mb-1">{{ post.title }}</h2>
-          <p class="mb-0">{{ post.content | strip_html | truncatewords: 20 }}</p>
-          <small class="text-muted">{{ post.tags | join: ', ' }}</small>
-      </a>
-    {% endfor %}
-
-    {% for post in site.solutions %}
-    <a href="{{ post.url | relative_url }}" data-tags="{{ post.tags | join: '' | downcase }}"
+    {% assign topics = site.datascience | group_by:"topic" | sort: 'date' | reverse %}
+    {% for topic in topics %}
+      {% assign posts = topic.items | sort: 'date' | reverse %}
+      {% for post in posts %}
+        <a href="{{ post.url | relative_url }}" data-tags="{{ post.tags | join: '' | downcase }}"
         class="search-list list-group-item list-group-item-action flex-column align-items-start collapse">
         <div class="d-flex w-100 justify-content-between">
-            <h6 class="mb-1">{{ post.contest_name }}</h6>
+            <h6 class="mb-1">{{ post.category }}</h6>
             <small class="text-muted">{{ post.date | date: '%d %B %Y' }}</small>
         </div>
         <h2 class="mb-1">{{ post.title }}</h2>
-        <p class="mb-0">{{ post.excerpt }}</p>
+        <p class="mb-0">{{ post.content | strip_html | truncatewords: 20 }}</p>
         <small class="text-muted">{{ post.tags | join: ', ' }}</small>
     </a>
     {% endfor %}

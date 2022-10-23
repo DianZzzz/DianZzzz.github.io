@@ -54,13 +54,10 @@
       </div>
       <br>
 
-      {% if page.layout == 'writeup' %}
-      {% include writeup_navlinks.html isSidebar=true %}
+      {% if page.layout == 'blog' %}
+      {% include blog_navlinks.html isSidebar=true %}
       {% endif %}
 
-      {% if page.layout == 'solution' %}
-      {% include solution_navlinks.html isSidebar=true %}
-      {% endif %}
       <div id="bottom-bar">
         {% include social_links.html %}
       </div>
