@@ -42,7 +42,7 @@ layout: default
 </script>
 
 <div class="list-group">
-    {% for post in site.writeups %}
+    {% for post in site.datascience %}
     <a href="{{ post.url | relative_url }}" data-tags="{{ post.tags | join: '' | downcase }}"
         class="search-list list-group-item list-group-item-action flex-column align-items-start collapse">
         <div class="d-flex w-100 justify-content-between">
@@ -68,3 +68,4 @@ layout: default
     </a>
     {% endfor %}
 </div>
+
