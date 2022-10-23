@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: search
 ---
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
