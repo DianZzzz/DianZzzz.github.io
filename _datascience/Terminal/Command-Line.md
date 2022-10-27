@@ -17,6 +17,7 @@ cd downloads # go to downloads folder
 cd .. # go to parent folder
 ls # list directory contents
 touch file.txt # create a new file
+open -t file.txt #open a file 
 ```
 
 ## Git
