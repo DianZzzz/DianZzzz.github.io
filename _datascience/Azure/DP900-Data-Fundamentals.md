@@ -239,6 +239,8 @@ DML affect the information stored in the database. Use these statements to inser
 ## SaaS vs PaaS vs IaaS
 
 ![](/assets/2022-10-24-19-08-16.png)
+
+![](/assets/2022-10-27-00-01-38.png)
 ## Data Storage
 
 ### Data Warehouse
