@@ -2,7 +2,7 @@
 layout: blog
 topic: Azure
 title: DP-900 Data Fundamentals
-tags:  datascience daa
+tags:  datascience data azure
 comments: true
 date: 2022-10-22
 ---

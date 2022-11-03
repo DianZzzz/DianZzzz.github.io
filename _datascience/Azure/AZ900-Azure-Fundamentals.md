@@ -2,7 +2,7 @@
 layout: blog
 topic: Azure
 title: AZ-900 Azure Fundamentals
-tags:  datascience daa
+tags:  datascience data azure
 comments: true
 date: 2022-10-26
 ---
@@ -10,6 +10,41 @@ date: 2022-10-26
 # AZ-900: Azure Fundamentals
 
 - [Cloud Computing](#cloud-computing)
+  - [Dedicated Server](#dedicated-server)
+  - [Virtual Private Server](#virtual-private-server)
+  - [Shared Hosting](#shared-hosting)
+  - [Cloud Hosting](#cloud-hosting)
+- [Dedicated vs VM vs Containers vs Functions](#dedicated-vs-vm-vs-containers-vs-functions)
+  - [Dedicated](#dedicated)
+  - [Virtual Machines](#virtual-machines)
+  - [Containers](#containers)
+  - [Functions](#functions)
+- [SaaS vs PaaS vs IaaS](#saas-vs-paas-vs-iaas)
+- [Azure Deployment mODEL](#azure-deployment-model)
+  - [Public Cloud](#public-cloud)
+  - [Private Cloud](#private-cloud)
+  - [Hybrid](#hybrid)
+  - [Cross-cloud](#cross-cloud)
+- [High Availability (HA)](#high-availability-ha)
+- [High Scalability](#high-scalability)
+- [High Elasticity](#high-elasticity)
+- [High Durability](#high-durability)
+- [Global Infrastructure](#global-infrastructure)
+  - [Region](#region)
+    - [Sovereign Regions](#sovereign-regions)
+  - [Geography](#geography)
+  - [Availability Zones (AZ)](#availability-zones-az)
+  - [Availability Sets](#availability-sets)
+- [Redundancy](#redundancy)
+  - [Redundancy in the primary region](#redundancy-in-the-primary-region)
+    - [Locally redundant storage (LRS)](#locally-redundant-storage-lrs)
+    - [Zone-redundant storage (ZRS)](#zone-redundant-storage-zrs)
+  - [Redundancy in the secondary region](#redundancy-in-the-secondary-region)
+    - [Geo-redundant storage](#geo-redundant-storage)
+    - [Geo-zone-redundant storage](#geo-zone-redundant-storage)
+- [Defense-in-depth](#defense-in-depth)
+- [Scale Sets](#scale-sets)
+- [IoT](#iot)
 
 ## Cloud Computing
 
@@ -190,8 +225,6 @@ China East, China North, and more: These regions are available through a unique 
 ## IoT
 - A network of Internet connected objects able to collect and exchange data
 
-## AI, ML, DL
 
-![](/assets/2022-10-27-17-29-19.png)
 
 
