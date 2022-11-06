@@ -38,3 +38,19 @@ date: 2022-11-02
 
 ![](/assets/2022-11-02-22-36-16.png)
 
+## GPU vs. CPU
+
+### General Processing Unit
+- Designed to quickly render high-resolution images and videos concurrently
+- Have thousands of processor cores
+- Optimized for parallel operations on multiple sets of data 
+
+### Central Processing Unit
+- Designed to handle a wide range of tasks quickly
+- Have on average 4-16 processor cores
+- Optimized for serial operations
+
+## Computer Vision
+- Use neural networks to gain high-level understanding of digital images or videos
+  - Convolutional neutral network (CNN)
+  - Recurrent neural network (RNN)
