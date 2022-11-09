@@ -9,6 +9,25 @@ date: 2022-11-04
 
 # SC-900 Security Compliance
 
+- [Zero-Trust](#zero-trust)
+- [Division of Responsibility](#division-of-responsibility)
+- [CIA Triad](#cia-triad)
+- [Four types of threats](#four-types-of-threats)
+- [Cypher](#cypher)
+- [Cryptopgraphic keys](#cryptopgraphic-keys)
+- [Salting](#salting)
+- [In-Transit vs At-Rest Encryption](#in-transit-vs-at-rest-encryption)
+- [Security Information and Event Management (SIEM)](#security-information-and-event-management-siem)
+- [Security Orchestration Automated Response (SOAR)](#security-orchestration-automated-response-soar)
+- [Extended Detection and Response (XDR)](#extended-detection-and-response-xdr)
+- [Endpoint Detection and Response (EDR)](#endpoint-detection-and-response-edr)
+- [Cloud Access Security Brokers (CASB)](#cloud-access-security-brokers-casb)
+- [Inventory](#inventory)
+- [Attack vectors and attack surfaces](#attack-vectors-and-attack-surfaces)
+- [Ingress vs Egress](#ingress-vs-egress)
+- [STRIDE Methodology](#stride-methodology)
+- [IDS/IPS](#idsips)
+- [MITRE ATT&CK](#mitre-attck)
 ## Zero-Trust
 - "Trust no one, verify everything" principle
 - Verify Explicity: always authenticate and authorize based on all available data points
@@ -111,5 +130,3 @@ Categorizes threats into different categories:
 - A globally accessible knowledge base of adversary tactics and techniques 
 - Used as a foundation for the development of specific threat models and methodologies in the private sector, government and cybersecurity community
 
-
-## 

@@ -9,8 +9,17 @@ date: 2022-11-02
 
 # AI-900: AI Fundamentals
 
+- [AI, ML, DL](#ai-ml-dl)
+- [Types of Learning](#types-of-learning)
+  - [Supervised Learning](#supervised-learning)
+  - [Unsupervised Learning](#unsupervised-learning)
+  - [Reinforcement Learning](#reinforcement-learning)
+- [Neural Network](#neural-network)
+- [GPU vs. CPU](#gpu-vs-cpu)
+  - [General Processing Unit](#general-processing-unit)
+  - [Central Processing Unit](#central-processing-unit)
+- [Computer Vision](#computer-vision)
 ## AI, ML, DL
-
 ![](/assets/2022-10-27-17-29-19.png)
 
 ## Types of Learning
