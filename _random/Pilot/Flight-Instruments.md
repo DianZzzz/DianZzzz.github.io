@@ -9,6 +9,17 @@ date: 2022-11-10
 
 # Flight Instruments
 
+- [Altimeter](#altimeter)
+- [Heading indicator](#heading-indicator)
+- [Turn coordinator](#turn-coordinator)
+- [Attitude indicator](#attitude-indicator)
+- [Vertical speed indicator](#vertical-speed-indicator)
+- [Airspeed indicator](#airspeed-indicator)
+- [Magnetic Compass](#magnetic-compass)
+  - [Magnetic variation](#magnetic-variation)
+  - [Magnetic dip](#magnetic-dip)
+  - [Acceleration and deceleration error](#acceleration-and-deceleration-error)
+  - [Turning Errors](#turning-errors)
 ## Altimeter
 - Reading
   - Tiny white hand - 10,000'
