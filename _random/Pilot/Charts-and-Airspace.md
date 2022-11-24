@@ -9,6 +9,23 @@ date: 2022-11-16
 
 # Charts and Airspace
 
+- [Longitude and latitude](#longitude-and-latitude)
+- [Airspace](#airspace)
+  - [Class A - Altitude](#class-a---altitude)
+  - [Class B - Big](#class-b---big)
+  - [Class C - Crowed](#class-c---crowed)
+  - [Class D - Dialogue](#class-d---dialogue)
+  - [Class E - Elsewhere](#class-e---elsewhere)
+  - [Class G - Go for it](#class-g---go-for-it)
+  - [Special Use Airspace](#special-use-airspace)
+    - [Prohibited Areas](#prohibited-areas)
+    - [Restricted Areas](#restricted-areas)
+    - [Warning Areas](#warning-areas)
+    - [Military Operation Areas (MOAs)](#military-operation-areas-moas)
+    - [Alert Areas](#alert-areas)
+    - [Controlled Firing Areas (CFAs)](#controlled-firing-areas-cfas)
+    - [Temporary Flight Restrictions (TFR)](#temporary-flight-restrictions-tfr)
+  
 ## Longitude and latitude
 
 - Longitude: east and west of the prime meridian
