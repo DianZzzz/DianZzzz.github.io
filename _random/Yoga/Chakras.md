@@ -8,6 +8,14 @@ comments: false
 
 # Chakras
 
+- [Root chakra](#root-chakra)
+- [Sacral chakra](#sacral-chakra)
+- [Solar Plexus chakra](#solar-plexus-chakra)
+- [Heart chakra](#heart-chakra)
+- [Throat chakra](#throat-chakra)
+- [Third eye chakra](#third-eye-chakra)
+- [Crown chakra](#crown-chakra)
+
 ## Root chakra
 
 - Location: the base of the spine

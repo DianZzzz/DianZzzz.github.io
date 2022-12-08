@@ -8,6 +8,26 @@ comments: false
 
 # Yoga Anatomy
 
+- [Useful Terms](#useful-terms)
+- [Motions](#motions)
+- [Muscles](#muscles)
+  - [Four major functions of muscles](#four-major-functions-of-muscles)
+  - [Muscle origins \& insertion](#muscle-origins--insertion)
+  - [Three operating groups of muscle](#three-operating-groups-of-muscle)
+  - [Three types of muscle contractions](#three-types-of-muscle-contractions)
+  - [Connective tissue](#connective-tissue)
+- [Skeletal](#skeletal)
+  - [Spine](#spine)
+  - [Skeleton](#skeleton)
+    - [Categorizations of skeleton bones](#categorizations-of-skeleton-bones)
+- [Special Bones](#special-bones)
+- [Joints](#joints)
+  - [Categorization of joints](#categorization-of-joints)
+  - [Torque](#torque)
+- [Nervous System](#nervous-system)
+  - [Neurons](#neurons)
+  - [Autonomic nervous system](#autonomic-nervous-system)
+
 ## Useful Terms
 
 - `Superior & Inferior`: higher & lower

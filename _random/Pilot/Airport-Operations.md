@@ -9,6 +9,17 @@ date: 2022-11-19
 
 # Airport Operation
 
+- [Runway Number](#runway-number)
+- [Wind direction indicators](#wind-direction-indicators)
+- [Segmented Circle](#segmented-circle)
+- [Visual Glide Slope Indicator](#visual-glide-slope-indicator)
+  - [Visual Approach Slope Indicator (VASI)](#visual-approach-slope-indicator-vasi)
+  - [Precision Approach Path Indicator (PAPI)](#precision-approach-path-indicator-papi)
+  - [Trip-color](#trip-color)
+  - [Pulsating VASI](#pulsating-vasi)
+  - [Alignment of Elements](#alignment-of-elements)
+- [LAHSO Procedure](#lahso-procedure)
+- [ATC Light Signal](#atc-light-signal)
 ## Runway Number
 
 - Magnetic Heading of Approach or Take-Off Direction, round to nearest 10

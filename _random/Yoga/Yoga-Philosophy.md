@@ -8,6 +8,14 @@ comments: false
 
 # Yoga Philosophy
 
+- [Eight Limbs of Yoga](#eight-limbs-of-yoga)
+  - [Yamas](#yamas)
+  - [Niyamas](#niyamas)
+- [Purusharthas: four aims of life](#purusharthas-four-aims-of-life)
+- [Four Noble Truths of Buddism](#four-noble-truths-of-buddism)
+- [Eight Fold Path of Buddism](#eight-fold-path-of-buddism)
+- [Four Aspects of True Love](#four-aspects-of-true-love)
+
 ## Eight Limbs of Yoga
 
 ![](/assets/2022-09-13-10-44-26.png)
