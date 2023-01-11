@@ -1,3 +1,0 @@
----
-layout: notes_toplevel
----
