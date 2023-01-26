@@ -1,13 +1,13 @@
 ---
 layout: blog
 topic: Terminal
-title: Command Line
+title: Virtual Environment
 tags: 
 comments: true
 date: 2022-09-24
 ---
 
-# Command Line
+# Virtual Environment
 
 ## General
 
@@ -21,50 +21,22 @@ open -t file.txt #open a file
 ls -la #see hidden file and permission
 ping ip_address #test connection
 ```
+## Create a Local Virtual Environment
 
-## Git
+```shell
 
-![](/assets/2022-09-28-01-45-43.png)
+python3 -m venv bane
 
-### Git workflow
+source bane/bin/activate
 
-1. Clone the repo
+pip3 install -r requirements.txt
+```
+To create the same environment on jupyter notebook, activate the environment and run the following in the terminal
 
-```git clone https://github.com/someorg/reponame.git```
-
-2. a. Go into the repository directory
-```cd reponame```
-
-2. b. Pull from master
-```git checkout master```
-```git pull```
-
-3. Create a branch
-
-```git checkout –b username/feature_description```
-
-4. ```git push origin username/feature_description```
-
-5. Add files
-```git add file1.py```
-
-6. Commit 
-
-```git commit –m “some message"```
-
-7. git push
-
-8. git pull
-
-9. See the changes made
-
-```git diff```
-
-
-
-
-
-### Conda Environment
+```shell
+ipython kernel install --user --name=jarvis
+```
+## Create a Conda Environment
 
 1. Create a conda environment file .yml
 
@@ -95,7 +67,5 @@ dependencies:
 
 6. To save environment configuration, in the terminal, run ```conda env export > NAME.yml```
 
-## Jupyter Notebook
 
-Terminate notebook: control + c
 

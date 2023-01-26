@@ -42,3 +42,11 @@ docker-compose up
 docker container prune - remove any orphan container instances.
 docker image prune - remove unused images.
 docker network prune - remove orphan network objects.
+
+```
+
+## Processes
+
+1. Clone the Repo
+2. In the terminal, run `docker-compose up`
+3. Run `devcontainer up`
