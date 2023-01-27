@@ -4,6 +4,7 @@ topic: Yoga
 title: Chakras
 tags: yoga
 comments: false
+date: 2022-12-06
 ---
 
 # Chakras

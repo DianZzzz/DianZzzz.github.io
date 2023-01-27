@@ -4,6 +4,7 @@ topic: Yoga
 title: Yoga Philosophy
 tags: yoga
 comments: false
+date: 2022-10-07
 ---
 
 # Yoga Philosophy

@@ -4,6 +4,7 @@ topic: Yoga
 title: Yoga Anatomy
 tags: yoga
 comments: false
+date: 2022-11-07
 ---
 
 # Yoga Anatomy
@@ -164,5 +165,4 @@ Joints, aka articulation, are spaces where two bones meet.
 
 - Parasympathetic nervous system: regulates "rest and digest" functions
 - Sympathetic nervous system: controls "fight or flight" responses
-
 
