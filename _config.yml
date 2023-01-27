@@ -58,17 +58,13 @@ collections:
       output: true
    tech:
       output: true
-   notes:
-      output: true
    code:
       output: true
    random:
       output: true
-   bcg:
-      output: true
    datascience:
       output: true
-   devop:
+   hobbies:
       output: true
 maps:
     google:
