@@ -1,6 +1,6 @@
 ---
 layout: blog
-topic: Best Practic
+topic: Best Practice
 title: Data Bias
 tags:  datascience daa
 comments: true
