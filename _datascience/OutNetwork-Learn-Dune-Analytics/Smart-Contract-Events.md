@@ -1,6 +1,6 @@
 ---
 layout: blog
-course: OutNetwork-Learn-Dune-Analytics
+topic: OutNetwork-Learn-Dune-Analytics
 title: Smart Contract Events
 tags: ethereum data dune sql token smartcontract
 comments: true

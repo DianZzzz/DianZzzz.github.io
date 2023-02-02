@@ -9,25 +9,14 @@ date: 2022-09-24
 
 # Virtual Environment
 
-## General
 
-```shell
-pwd # current working directory
-cd downloads # go to downloads folder
-cd .. # go to parent folder
-ls # list directory contents
-touch file.txt # create a new file
-open -t file.txt #open a file 
-ls -la #see hidden file and permission
-ping ip_address #test connection
-```
 ## Create a Local Virtual Environment
 
 ```shell
 
-python3 -m venv bane
+python3 -m venv ~/.virtualenvs/bane
 
-source bane/bin/activate
+source ~/.virtualenvs/bane/bin/activate
 
 pip3 install -r requirements.txt
 ```

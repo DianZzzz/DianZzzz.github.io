@@ -1,9 +1,9 @@
 ---
 layout: blog
-course: OutNetwork-Learn-Dune-Analytics
+topic: OutNetwork-Learn-Dune-Analytics
 title: DEX
 tags: ethereum data dune sql dex
-comments: true
+comments: ttorue
 date: 2022-04-10
 ---
 

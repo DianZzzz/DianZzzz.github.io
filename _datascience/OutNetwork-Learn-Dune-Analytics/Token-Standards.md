@@ -1,6 +1,6 @@
 ---
 layout: blog
-course: OutNetwork-Learn-Dune-Analytics
+topic: OutNetwork-Learn-Dune-Analytics
 title: Token Standards
 tags: ethereum data dune sql token
 comments: true

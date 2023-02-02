@@ -8,7 +8,19 @@ date: 2023-01-23
 ---
 
 # Terminal Cheatsheet
+## General
 
+```shell
+pwd # current working directory
+cd downloads # go to downloads folder
+cd .. # go to parent folder
+ls # list directory contents
+touch file.txt # create a new file
+open -t file.txt #open a file 
+ls -la #see hidden file and permission
+ping ip_address #test connection
+```
+## Jupyter Notebook
 Terminate notebook: `control` + `c`
 
 ## Airflow

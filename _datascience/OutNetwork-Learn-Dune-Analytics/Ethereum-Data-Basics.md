@@ -1,6 +1,6 @@
 ---
 layout: blog
-course: OutNetwork-Learn-Dune-Analytics
+topic: OutNetwork-Learn-Dune-Analytics
 title: Ethereum Data Basics
 tags: ethereum data dune sql
 comments: true
