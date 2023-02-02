@@ -1,7 +1,7 @@
 ---
 layout: blog
-course: Blockchain-and-Money
-topic: Public Policy
+topic: Blockchain-and-Money
+title: Public Policy
 tags: blockchain governance publicpolicy
 comments: true
 date: 2022-02-19

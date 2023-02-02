@@ -1,6 +1,6 @@
 ---
 layout: blog
-topic: CFA
+topic: CFA Level III
 title: Institutional Portfolio Management
 tags: cfa finance equity
 comments: true
@@ -9,28 +9,28 @@ date: 2022-07-01
 # Institutional Portfolio Management
 <!-- MDTOC maxdepth:6 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
-- [Investment Strategies](#investment-strategies)   
-- [Defined Benefit Plans](#defined-benefit-plans)   
-   - [DB Plan Calculation](#db-plan-calculation)   
-- [Foundations and Endowments](#foundations-and-endowments)   
-   - [Example IPS](#example-ips)   
-   - [Yale Formula](#yale-formula)   
-   - [Investment Approaches](#investment-approaches)   
-      - [Norway Model](#norway-model)   
-      - [Endowment Model](#endowment-model)   
-      - [Canada Model](#canada-model)   
-      - [LDI Model](#ldi-model)   
-- [Insurance](#insurance)   
-- [Banks](#banks)   
-- [Hedge Fund Strategies](#hedge-fund-strategies)   
-   - [Equity Market Neutral Strategies](#equity-market-neutral-strategies)   
-   - [Volatility Strategies](#volatility-strategies)   
-- [Mutual Fund](#mutual-fund)   
-- [Alternative Assets Allocation](#alternative-assets-allocation)   
-   - [Traditional approaches](#traditional-approaches)   
-   - [Risk-based approaches](#risk-based-approaches)   
-- [FOF vs. Multi-strategies](#fof-vs-multi-strategies)   
-- [Alternative Investment Risks](#alternative-investment-risks)   
+- [Investment Strategies](#investment-strategies)
+- [Defined Benefit Plans](#defined-benefit-plans)
+  - [DB Plan Calculation](#db-plan-calculation)
+- [Foundations and Endowments](#foundations-and-endowments)
+  - [Example IPS](#example-ips)
+  - [Yale Formula](#yale-formula)
+  - [Investment Approaches](#investment-approaches)
+    - [Norway Model](#norway-model)
+    - [Endowment Model](#endowment-model)
+    - [Canada Model](#canada-model)
+    - [LDI Model](#ldi-model)
+- [Insurance](#insurance)
+- [Banks](#banks)
+- [Hedge Fund Strategies](#hedge-fund-strategies)
+  - [Equity Market Neutral Strategies](#equity-market-neutral-strategies)
+  - [Volatility Strategies](#volatility-strategies)
+- [Mutual Fund](#mutual-fund)
+- [Alternative Assets Allocation](#alternative-assets-allocation)
+  - [Traditional approaches](#traditional-approaches)
+  - [Risk-based approaches](#risk-based-approaches)
+- [FOF vs. Multi-strategies](#fof-vs-multi-strategies)
+- [Alternative Investment Risks](#alternative-investment-risks)
 
 <!-- /MDTOC -->
 ## Investment Strategies
