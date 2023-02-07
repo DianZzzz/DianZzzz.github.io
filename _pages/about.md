@@ -5,10 +5,10 @@ layout: default
 
 ## My Life Story as a Cardi B Rap Song Written by GPT3
 
-Why they be hatin' on me? 
-I'm the girl who loves to roam free 
-I'm the one with a pedigree 
-Born in China then to Singapore 
+Why they be hatin' on me?\
+I'm the girl who loves to roam free\
+I'm the one with a pedigree\
+Born in China then to Singapore\ 
 Now I'm here working in the US 
 
 Started my life in China, filled up with possibilities 
