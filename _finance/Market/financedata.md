@@ -1,5 +1,9 @@
 ---
-layout: default
+layout: blog
+topic: Market
+title:  My Watch List
+tags: investment
+comments: true
 ---
 
 <!-- TradingView Widget BEGIN -->
