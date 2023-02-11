@@ -20,6 +20,14 @@ open -t file.txt #open a file
 ls -la #see hidden file and permission
 ping ip_address #test connection
 ```
+## Python
+
+```shell
+python --version # check python version
+exit() ## exit python environment
+
+```
+
 ## Jupyter Notebook
 Terminate notebook: `control` + `c`
 

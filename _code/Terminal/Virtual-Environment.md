@@ -13,12 +13,19 @@ date: 2022-09-24
 ## Create a Local Virtual Environment
 
 ```shell
-
+# On MacOS
 python3 -m venv ~/.virtualenvs/bane
 
 source ~/.virtualenvs/bane/bin/activate
 
 pip3 install -r requirements.txt
+
+# On Windows
+python -m venv venv/bane
+venv/bane/scripts/activate
+
+## On Windows, may need to reset execution policy. Run Powershell as administrator and run the following code
+Set-ExecutionPolicy Unrestricted -Force
 ```
 To create the same environment on jupyter notebook, activate the environment and run the following in the terminal
 

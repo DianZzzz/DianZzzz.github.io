@@ -1,7 +1,7 @@
 ---
 layout: blog
 topic: Terminal
-title: Command Line
+title: Git
 tags: 
 comments: true
 date: 2022-09-24
@@ -30,16 +30,16 @@ date: 2022-09-24
 
 4. ```git push origin username/feature_description```
 
-5. Add files
-```git add file1.py```
+5. Update files
+```git add .```
 
 6. Commit 
 
 ```git commit –m “some message"```
 
-7. git push
+7. ```git push```
 
-8. git pull
+8. ```git pull```
 
 9. See the changes made
 
