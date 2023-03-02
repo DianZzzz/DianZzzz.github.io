@@ -8,43 +8,22 @@
         <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
-        {% include navbar.html %}
       </div>
       <br>
 
-      {% if page.layout == 'writeup' %}
-      {% include writeup_navlinks.html isSidebar=true %}
-      {% endif %}
-
-      {% if page.layout == 'solution' %}
-      {% include solution_navlinks.html isSidebar=true %}
-      {% endif %}
+      
       <div id="bottom-bar">
         {% include social_links.html %}
       </div>
     </div>
   </div>
 
-  <div id="content" class="container">
-    <section id="main_content">
-      {% include anchor_headings.html anchorClass='anchor' h_max=2 html=content anchorBody="<i class='fa fa-link' aria-hidden='true'></i>" %}
-    </section>
-  </div>
 
-  <div id="comments" class="container">
-    <section id="disqus_container">
-      {% if page.comments and site.disqus_forum_shortname %}
-      <hr>
-      {% include disqus.html %}
-      {% endif %}
-    </section>
-  </div>
 
   <footer>
     {% include social_links.html %}
   </footer>
 
-  <script src="{{ "/assets/js/prism.js" | absolute_url }}"></script>
   <button onclick="topFunction()" class="fa fa-arrow-up" id="top" title="Go to top"></button>
   <script>
     topScroll = document.getElementById("top");
