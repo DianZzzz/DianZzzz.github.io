@@ -1,29 +1,25 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting to https://dianzzzz.github.io/about/</title>
-<meta http-equiv="refresh" content="0; URL=https://dianzzzz.github.io/about">
-<link rel="canonical" href="https://dianzzzz.github.io/about">
+{% include head.html %}
 
 <body>
 
-    <div id="header">
-      <div class="container">
-        <div class="title-container">
-          <a id="a-title" href="{{ '/' | relative_url }}">
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          </a>
-          {% include navbar.html %}
-        </div>
-        <br>
-  
-        <div id="bottom-bar">
-          {% include social_links.html %}
-        </div>
+  <div id="header">
+    <div class="container">
+      <div class="title-container">
+        <a id="a-title" href="{{ '/' | relative_url }}">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        </a>
+        {% include navbar.html %}
+      </div>
+      <br>
+
+      <div id="bottom-bar">
+        {% include social_links.html %}
       </div>
     </div>
-  
-    <div id="content" class="container">
-      <section id="main_content">
-        {% include anchor_headings.html anchorClass='anchor' h_max=2 html=content anchorBody="<i class='fa fa-link' aria-hidden='true'></i>" %}
-      </section>
-    </div>
+  </div>
+
+  <div id="content" class="container">
+    <section id="main_content">
+      {% include anchor_headings.html anchorClass='anchor' h_max=2 html=content anchorBody="<i class='fa fa-link' aria-hidden='true'></i>" %}
+    </section>
+  </div>
